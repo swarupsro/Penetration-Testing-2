@@ -1,0 +1,12 @@
+Networking
+
+Tools used for solving Networking challenges
+
+    Masscan - Mass IP port scanner, TCP port scanner.
+    Monit - A linux tool to check a host on the network (and other non-network activities).
+    Nipe - Nipe is a script to make Tor Network your default gateway.
+    Nmap - An open source utility for network discovery and security auditing.
+    Wireshark - Analyze the network dumps.
+        apt-get install wireshark
+    Zeek - An open-source network security monitor.
+    Zmap - An open-source network scanner.
