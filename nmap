@@ -44,12 +44,12 @@ Nmap
     nmap -sn --traceroute google.com - traceroute
    
     Extarcting Informations from Windows Systems
-    nmap -sU -p137 --script nbstat 172.16.1.1 - NetBIOS name and MAC address
-    nmap -p139,445 --script smb-os-discovery 172.16.1.1 - SMB discovery
-    nmap -p137,139,445 --script smb-security-mode 172.16.1.1 - SMB signing
-    nmap -p139,445 --script smb-enum-users 172.16.1.1 - User accounts Enumeration
-    nmap -p445 --script smb-enum-sessions 172.16.1.1 - Enumerating SMB sessions
-    nmap -p389 -sV 172.16.1.1 - Domain controllers
+    nmap -sU -p137 --script nbstat 192.168.10.15 - NetBIOS name and MAC address
+    nmap -p139,445 --script smb-os-discovery 192.168.10.15 - SMB discovery
+    nmap -p137,139,445 --script smb-security-mode 192.168.10.15 - SMB signing
+    nmap -p139,445 --script smb-enum-users 192.168.10.15 - User accounts Enumeration
+    nmap -p445 --script smb-enum-sessions 192.168.10.15 - Enumerating SMB sessions
+    nmap -p389 -sV 192.168.10.15 - Domain controllers
     
     Port scanning
     nmap 192.168.10.15 - listing open ports
