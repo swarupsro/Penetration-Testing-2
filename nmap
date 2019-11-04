@@ -8,6 +8,18 @@ Nmap
  - Bruteforce attack
  - Exloitaion
     
+    Basic Scanning Techniques
+    namp 192.168.10.15               - Scan a single target   
+    namp 192.168.10.15,192.168.10.16 - Scan multiple targets
+    nmap -iL /root/Desktop/list.txt  - Scan a list of targets
+    nmap 192.168.10.15-30            - Scan a range of hosts
+    nmap 192.168.10.1/24             - Scan an entire subnet
+    nmap -iR 10                      - Scan random hosts
+    nmap 192.168.10.15-40 -exclude 192.168.10.18,192.168.10.20 - Excluding targets from a scan
+    nmap 192.168.10.15-49 -excludefile /root/Desktop/Excludedlist.txt - Excluding targets using a list
+    nmap 192.168.10.15 -A            - Perform an aggressive scan 
+    nmap -6 [target]                 - scan an IPv6 target
+    
     Host detection (ping)
     nmap -sn 172.16.1.1/24 - live hosts in n/w
     nmap -T4 -sn 192.168.10.15 -v - ping (firewall evation)
