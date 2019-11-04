@@ -19,13 +19,21 @@ Nmap
     nmap -sn -P0 --packet-trace 172.16.1.1/24 - IP protocol ping scan(live hosts)
     nmap -sn -P01,2,17 172.16.1.1/24 - Particular IP protocol ping scan (1 is ICMP 2 is IGMP 17 is UDP others TCP-6,IP-in-IP-4,SCTP-132)(live hosts)
     nmap -sn -PR 172.16.1.1/24 - ARP ping scan(live hosts)
-    nmap --send-ip -sn -PS21,22,23,25,80,445,443,3389,8080 -PA80,443,8080 -P01,2,4,6 -PU631,161,137,123 172.16.1.1/24 - Advanced ping scan
-    
+    nmap --send-ip -sn -PS21,22,23,25,80,445,443,3389,8080 -PA80,443,8080 -P01,2,4,6 -PU631,161,137,123 172.16.1.1/24 - Advanced ping scan    
+
     Reconnaissance
     nmap -sn --script whois-* wsj.com - whois info
     nmap --tracerute --script traceroute-geolocation nmap.org - Traceroute Geolocation
     nmap -sn -Pn -n --script shodan-api --script-args shodan-api.apikey=<ShodanAPI KEY> google.com - Shodan API
     nmap -sn --traceroute google.com - traceroute
+   
+    Extarcting Informations from Windows Systems
+    nmap -sU -p137 --script nbstat 172.16.1.1 - NetBIOS name and MAC address
+    nmap -p139,445 --script smb-os-discovery 172.16.1.1 - SMB discovery
+    nmap -p137,139,445 --script smb-security-mode 172.16.1.1 - SMB signing
+    nmap -p139,445 --script smb-enum-users 172.16.1.1 - User accounts Enumeration
+    nmap -p445 --script smb-enum-sessions 172.16.1.1 - Enumerating SMB sessions
+    nmap -p389 -sV 172.16.1.1 - Domain controllers
     
     Port scanning
     nmap 192.168.10.15 - listing open ports
