@@ -42,6 +42,10 @@ Nmap
     nmap 192.168.10.15 -p- - scan all ports
     nmap -e eth0 192.168.10.15 - scan specific interface
 
+    Output file
+    nmap -oN result.txt 192.168.10.15 - dumping results in text file
+    nmap -T4 -F -oX results.xml 192.168.10.15 - dumping results in xml file
+    xsltproc results.xml -o results.htlm - convert xml to html
 
 
 
