@@ -19,12 +19,16 @@ Nmap
     nmap 192.168.10.15-49 -excludefile /root/Desktop/Excludedlist.txt - Excluding targets using a list
     nmap 192.168.10.15 -A            - Perform an aggressive scan 
     nmap -6 [target]                 - scan an IPv6 target
-    
+
     Host detection (ping)
+    nmap -sP 192.168.10.15 - a ping scan only
+    nmap -PN 192.168.10.15 - Dont ping
     nmap -sn 172.16.1.1/24 - live hosts in n/w
     nmap -T4 -sn 192.168.10.15 -v - ping (firewall evation)
     nmap -sn -PS 172.16.1.1/24 - TCP SYN ping scan(live hosts)
     nmap -sn -PA 172.16.1.1/24 - TCP ACK ping scan(live hosts)
+    nmap -sn -PP 172.16.1.1/24 - ICMP Timestamp ping
+    nmap -sn -PM 172.16.1.1/24 - ICMP address mask ping
     nmap -sn -PU 172.16.1.1/24 - UDP ping scan(live hosts)
     nmap -sn -PE 172.16.1.1/24 - ICMP ping scan(live hosts)
     nmap -sn -PY 172.16.1.1/24 - SCTP INIT ping scan(live hosts)
@@ -54,9 +58,17 @@ Nmap
     nmap 192.168.10.15 -p- - scan all ports
     nmap -e eth0 192.168.10.15 - scan specific interface
 
+    Version Detection
+    nmap -O 192.168.10.15 - OS detection
+    nmap -O -osscan-guess 192.168.10.15 - Attempt to guess an unknown
+    nmap -sv 192.168.10.15 - service version
+    nmap -sv -version-trace 192.168.10.15 - Troubleshooting version scans
+    nmap -sR 192.168.10.15 - Perfrom a RPC scan
+
     Output file
-    nmap -oN result.txt 192.168.10.15 - dumping results in text file
-    nmap -T4 -F -oX results.xml 192.168.10.15 - dumping results in xml file
+    nmap -oN result.txt 192.168.10.15 - save output to text file
+    nmap -T4 -F -oX results.xml 192.168.10.15 - save output to xml file
+    nmap -oG result.txt 192.168.10.15 - Grepable output
     xsltproc results.xml -o results.htlm - convert xml to html
 
 
