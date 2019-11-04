@@ -1,2 +1,48 @@
+Nmap
+ - Host detection
+ - Port scanning
+ - Service and version detection
+ - Operating system detection
+ - Firewall detection
+ - Vulnerability assessment
+ - Bruteforce attack
+ - Exloitaion
+    
+    Host detection (ping)
+    nmap -sn 172.16.1.1/24 - live hosts in n/w
+    nmap -T4 -sn 192.168.10.15 -v - ping (firewall evation)
+    nmap -sn -PS 172.16.1.1/24 - TCP SYN ping scan(live hosts)
+    nmap -sn -PA 172.16.1.1/24 - TCP ACK ping scan(live hosts)
+    nmap -sn -PU 172.16.1.1/24 - UDP ping scan(live hosts)
+    nmap -sn -PE 172.16.1.1/24 - ICMP ping scan(live hosts)
+    nmap -sn -PY 172.16.1.1/24 - SCTP INIT ping scan(live hosts)
+    nmap -sn -P0 --packet-trace 172.16.1.1/24 - IP protocol ping scan(live hosts)
+    nmap -sn -P01,2,17 172.16.1.1/24 - Particular IP protocol ping scan (1 is ICMP 2 is IGMP 17 is UDP others TCP-6,IP-in-IP-4,SCTP-132)(live hosts)
+    nmap -sn -PR 172.16.1.1/24 - ARP ping scan(live hosts)
+    nmap --send-ip -sn -PS21,22,23,25,80,445,443,3389,8080 -PA80,443,8080 -P01,2,4,6 -PU631,161,137,123 172.16.1.1/24 - Advanced ping scan
+    
+    Reconnaissance
+    nmap -sn --script whois-* wsj.com - whois info
+    nmap --tracerute --script traceroute-geolocation nmap.org - Traceroute Geolocation
+    nmap -sn --traceroute google.com - traceroute
+    
+    Port scanning
+    nmap 192.168.10.15 - listing open ports
+    nmap 192.168.10.15 -p80,443 - scan particular ports
+    nmap 192.168.10.15 -p1-100 - scan range of ports
+    nmap 192.168.10.15 -p- - scan all ports
+    nmap -e eth0 192.168.10.15 - scan specific interface
+
+
+
+
+
+
+
+
+
+
+
+
 nmap -T4 -v -PN -n -sS --top-ports 100 --max-parallelism 10 -oA nmapSYN 192.168.10.10
 nmap -T5 -PN -v -A -oA nmapComplete 192.168.10.10
