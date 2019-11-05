@@ -1,3 +1,9 @@
+
+
+
+
+
+
 Enabling monitor mode
 ----------------------
 iwconfig
@@ -7,6 +13,9 @@ airodump-ng wlan1mon
 
 Pre-connection Attacks
 -----------------------
+ 1.Mac address changing
+ 2.Deauthenticating All Clients From Protected WiFi Network
+ 3.Deauthenticating a Client From Protected WiFi Networks
     mac changing
     ............
     ifconfig wlan0 down
@@ -25,26 +34,39 @@ Pre-connection Attacks
 
 Gaining Access
 ---------------
-Discovering Names of Hidden Networks
-airodump-ng --bssid 44:55:tt:ee:ee:bb --channel 6 wlan0
-airoplay-ng --deauth 4 -a 44:55:tt:ee:ee:bb -c 22:dd:33:44:55:66 wlan0
+1.Find SSID of hidden networks
+2.Bypass mac filtering
+3.To gain access to
+  - Captive portals
+  - WEP
+  - WPA
+  - WPA 2
+  - WPA/WPA2 Enterpise
+4.Fake Access Point
 
-Bypassing Mac Filtering (Blacklists & Whitelists)
-ifconfig wlan0 down
-macchanger -m 22:dd:33:44:55:66 wlan0
+  Discovering Names of Hidden Networks
+  .....................................
+    airodump-ng --bssid 44:55:tt:ee:ee:bb --channel 6 wlan0
+    airoplay-ng --deauth 4 -a 44:55:tt:ee:ee:bb -c 22:dd:33:44:55:66 wlan0
 
-Bypassing Captive portals
-1.Change mac address to one of a connencted client.
-2.Sniff logins in monitor mode.
-    - Since captive portals are OPEN.
-    - IE: they do not use encryption.
-    - We can sniff data sent to/from it using airodump-ng
-    - Then use WIRESHARK to read this data including passwords.
-3.Create a fake AP, ask users to login.
-4.Connect and sniff logins after running an arp spoofing attack.
-    - Since captive portal are open.
-    - Therefore we can connect to the target without a password.
-    - We can then run a normal arp spoofing attack.
+  Bypassing Mac Filtering (Blacklists & Whitelists)
+  ..................................................
+    ifconfig wlan0 down
+    macchanger -m 22:dd:33:44:55:66 wlan0
+
+  Bypassing Captive portals
+  ..........................
+     1.Change mac address to one of a connencted client.
+     2.Sniff logins in monitor mode.
+       - Since captive portals are OPEN.
+       - IE: they do not use encryption.
+       - We can sniff data sent to/from it using airodump-ng
+       - Then use WIRESHARK to read this data including passwords.
+     3.Create a fake AP, ask users to login.
+     4.Connect and sniff logins after running an arp spoofing attack.
+       - Since captive portal are open.
+       - Therefore we can connect to the target without a password.
+       - We can then run a normal arp spoofing attack.
        = clients will autoatically lose their connection and will be asked to login again.
        = Dta sent to/from router including passwords will be directed to us.
 mitmf --arp --spoof -i wlan0 --gateway 192.168.10.1
