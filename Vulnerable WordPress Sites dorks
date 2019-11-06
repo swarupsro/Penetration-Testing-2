@@ -5,6 +5,10 @@
 inurl:”wordpress readme.html”
 inurl:”wp readme.html”
 
+wp-content/themes/CherryFramework/admin/data_management/download_backup.php
+
+inurl:/wp-content/themes/CherryFramework
+
 filetype:ini “wordfence”
 
 intext:DB_PASSWORD || intext:”MySQL hostname” ext:txt
