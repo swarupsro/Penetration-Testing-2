@@ -83,3 +83,38 @@ https://www.shodan.io/ Shodan - The search engine for find vulnerable servers
 https://github.com/WangYihang/Webshell-Sniper A webshell manager via terminal
 
 
+
+
+
+payloads
+
+
+    fuzzdb - https://github.com/fuzzdb-project/fuzzdb
+    SecLists - https://github.com/danielmiessler/SecLists
+    xsuperbug - https://github.com/xsuperbug/payloads
+    NickSanzotta - https://github.com/NickSanzotta/BurpIntruder
+    7ioSecurity - https://github.com/7ioSecurity/XSS-Payloads
+    shadsidd - https://github.com/shadsidd
+    shikari1337 - https://www.shikari1337.com/list-of-xss-payloads-for-cross-site-scripting/
+    xmendez - https://github.com/xmendez/wfuzz
+    minimaxir - https://github.com/minimaxir/big-list-of-naughty-strings
+    xsscx - https://github.com/xsscx/Commodity-Injection-Signatures
+    TheRook - https://github.com/TheRook/subbrute
+    danielmiessler - https://github.com/danielmiessler/RobotsDisallowed
+    FireFart - https://github.com/FireFart/HashCollision-DOS-POC
+    HybrisDisaster - https://github.com/HybrisDisaster/aspHashDoS
+    swisskyrepo - https://github.com/swisskyrepo/PayloadsAllTheThings
+    1N3 - https://github.com/1N3/IntruderPayloads
+    cujanovic - https://github.com/cujanovic/Open-Redirect-Payloads
+    cujanovic - https://github.com/cujanovic/Content-Bruteforcing-Wordlist
+    cujanovic - https://github.com/cujanovic/subdomain-bruteforce-list
+    cujanovic - https://github.com/cujanovic/CRLF-Injection-Payloads
+    cujanovic - https://github.com/cujanovic/Virtual-host-wordlist
+    cujanovic - https://github.com/cujanovic/dirsearch-wordlist
+    lavalamp- - https://github.com/lavalamp-/password-lists
+    arnaudsoullie - https://github.com/arnaudsoullie/ics-default-passwords
+    scadastrangelove - https://github.com/scadastrangelove/SCADAPASS
+    jeanphorn - https://github.com/jeanphorn/wordlist
+    j3ers3 - https://github.com/j3ers3/PassList
+    nyxxxie - https://github.com/nyxxxie/awesome-default-passwords
+    foospidy - https://github.com/foospidy/web-cve-tests
