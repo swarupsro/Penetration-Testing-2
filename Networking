@@ -7,6 +7,30 @@
 
 
 Networking
+Internal Network
+Windows commands
+
+route print
+arp -a
+ipcinfig
+ipconfig /all |more - dhcp check
+
+Linux commands
+
+route -n
+iptables -L
+route
+cat /var/log/syslog | grep DHCP - dhcp check
+ip a show eth0
+
+Mac commands
+
+route -n get default
+
+Default router ip address
+https://www.techspot.com/guides/287-default-router-ip-addresses/
+Default router passsowrds
+https://www.routerpasswords.com/
 
 Tools used for solving Networking challenges
 
