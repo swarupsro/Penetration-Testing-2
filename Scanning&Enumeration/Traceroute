@@ -1,0 +1,2 @@
+traceroute 192.168.10.10
+nmap -v --traceroute 192.168.10.10
