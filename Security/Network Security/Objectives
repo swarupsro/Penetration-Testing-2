@@ -1,8 +1,11 @@
 Home router security
 Network hacking techniques
 Port and vulnerablity scanning
+    - Internal Vulnerability Scanning - MBSA Nmap Nessus Fing  Superscan  OpenVAS
+    - External Vulnerability Scanning - Shodan Qualys  Nmap
 Secure network architectures
 Custom router firmware
+    - Open Source Custom Router Firmware
 Firewalls - virtual, host, network
     - Firewalls  Host-based network-based and virtual
     - Windows - Host Based Firewalls - Windows Firewall
