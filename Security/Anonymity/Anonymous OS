@@ -1,2 +1,20 @@
 Tail OS
+
+ ● The Amnesic Incognito Live System
+ ● Operating system designed to protect anonymity and privacy. 
+ ● Routes all trafﬁc through the TOR network → No leaks. 
+ ● Live OS → it boots from a USB or a DVD. 
+ ● Amnesic - leaves no traces of usage. ○ Only uses RAM. ○ Never touches other storage space. 
+ ● Comes with a number of encryption & privacy tool
+ 
+Tails - Installation Options
+1. As a virtual machine - Loses lots of its beneﬁts: 
+   ● Not fully live. 
+   ● Will leave traces. 
+   ● Not as secure as live. 
+   ● Host OS can still leake info. 
+2. Burn on DVD - None persistent. 
+3. On USB stick - Supports persistence.
+
+
 Qubes OS
