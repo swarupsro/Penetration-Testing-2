@@ -1,0 +1,19 @@
+DNS
+
+Find DNS server:
+   •  nslookup thinc.local 10.11.1.221
+   • dig @10.11.1.221 thinc.local
+
+
+Forward Lookup Brute Force:
+   •  dnsrecon -d example.com -D /usr/share/wordlists/dnsmap.txt -t std --xml dnsrecon.xml
+
+
+Reverse Lookup Brute Force:
+   •  dnsrecon -d demo.com -t rvl
+
+
+DNS Zone Transfers:
+   • host -l domain $ip
+   • dnsrecon -d megacorpone.com -t axfr
+   • dnsenum zonetransfer.me
