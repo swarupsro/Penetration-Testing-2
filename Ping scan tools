@@ -1,3 +1,0 @@
-ping   - ping 192.168.10.10
-nmap   - nmap -T4 -sn 192.168.10.15 -v
-hping3 - hping3 -S 192.168.10.15 -p 80 -c 3
