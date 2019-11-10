@@ -1,0 +1,28 @@
+
+
+        Tools:
+                dirsearch : A Web path scanner
+                brut3k1t : security-oriented bruteforce framework
+                gobuster : DNS and VHost busting tool written in Go
+                Enyx : an SNMP IPv6 Enumeration Tool
+                Goohak : Launchs Google Hacking Queries Against A Target Domain
+                Nasnum : The NAS Enumerator
+                Sublist3r : Fast subdomains enumeration tool for penetration testers
+                wafw00f : identify and fingerprint Web Application Firewall
+                Photon : ncredibly fast crawler designed for OSINT.
+                Raccoon : offensive security tool for reconnaissance and vulnerability scanning
+                DnsRecon : DNS Enumeration Script
+                Nmap : The famous security Scanner, Port Scanner, & Network Exploration Tool
+                sherlock : Find usernames across social networks
+                snmpwn : An SNMPv3 User Enumerator and Attack tool
+                Striker : an offensive information and vulnerability scanner.
+                theHarvester : E-mails, subdomains and names Harvester
+                URLextractor : Information gathering & website reconnaissance
+                denumerator.py : Enumerates list of subdomains
+                other : other Information gathering,recon and Enumeration scripts I collected somewhere.
+
+        Frameworks:
+                ReconDog : Reconnaissance Swiss Army Knife
+                RED_HAWK : All in one tool for Information Gathering, Vulnerability Scanning and Crawling
+                Dracnmap : Info Gathering Framework
+
