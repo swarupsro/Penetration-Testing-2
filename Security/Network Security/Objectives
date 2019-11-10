@@ -1,9 +1,32 @@
 Home router security
 Network hacking techniques
 Port and vulnerablity scanning
-Secure network architecures
-Custom router firmwire
+Secure network architectures
+Custom router firmware
 Firewalls - virtual, host, network
+    - Firewalls  Host-based network-based and virtual
+    - Windows - Host Based Firewalls - Windows Firewall
+    - Windows - Host Based Firewalls - Windows Firewall Control WFC
+    - Windows - Host Based Firewalls - Third Party
+    - Linux - Host Based Firewalls - iptables
+    - Linux - Host Based Firewalls - UFW gufw  nftables
+    - Mac - Host based Firewalls - Application Firewall  PF
+    - Mac - Host based Firewalls - pflist Icefloor  Murus
+    - Mac - Host based Firewalls - Little Snitch
+    - Network based firewalls - Routers - DD-WRT
+    - Network based firewalls - Hardware
+    - Network based firewalls - pfSense Smoothwall and Vyos
 Wifi and wireless network security
+    - Weaknesses - WEP
+    - Weaknesses - WPA WPA2 TKIP and CCMP
+    - Weaknesses - Wi-Fi Protected Setup WPS Evil Twin and Rouge AP
+    - Security Testing
+    - Secure Configuration and Network Isolation
+    - RF Isolation and Reduction
+    - Who is on my Wi-Fi Network
 Network attacks
 Network monitoring - finding hackers and malware
+    - Syslog
+    - Network Monitoring - Wireshark tcpdump tshark iptables
+    - Wireshark - Finding malware and hackers
+    - Network Monitoring - Wincap NST Netminer and NetWorx
