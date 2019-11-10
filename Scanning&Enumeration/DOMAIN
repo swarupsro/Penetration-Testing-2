@@ -1,0 +1,2 @@
+Nmap:
+   •  nmap -p 53 --script=*dns* -vv -oN dns $ip
