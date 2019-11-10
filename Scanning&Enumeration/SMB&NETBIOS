@@ -1,0 +1,27 @@
+Over All scan
+   •  enum4linux -a $ip
+
+Vulnerability Scanning
+   •  nmap --script="+*smb* and not brute and not dos and not fuzzer"  -p 139,445 -oN smb-vuln $ip
+
+Enumerate Hostnames
+   •  nmblookup -A $ip
+
+List Shares with no creds and guest account
+   •  smbmap -H [ip/hostname]
+   • nmap --script smb-enum-shares -p 139,445 $ip
+
+List Shares with creds
+   • smbmap -H [ip] -d [domain] -u [user] -p [password]   -r --depth 5 -R
+
+Connect to share
+   •  smbclient \\\\[ip]\\[share name]
+
+Netbios Information Scanning
+   •  nbtscan -r $ip/24
+
+Nmap find exposed Netbios servers
+   •  nmap -sU --script nbstat.nse -p 137 $ip
+
+Mount smb share:
+   • mount -t cifs //<server ip>/<share> <local dir> -o username=”guest”,password=””
