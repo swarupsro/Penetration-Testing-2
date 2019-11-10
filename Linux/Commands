@@ -1,1 +1,20 @@
+Find file by name:
+   •  find /home/username/ -name "*.err"
 
+Find writable directories:
+   • find / -perm -o+w 
+   • find . -perm -o+w -exec chmod +t {} +
+   • find / -writable
+   •  find / -type d \( -perm -g+w -or -perm -o+w \) -exec ls -adl {} \; | grep drwxrwsr 
+
+pipe to clipboard
+   •  ls | xclip -selection c
+
+tar
+   •  create
+         ▪  tar -cvf linux_priv_esc.tar.gz /root/Desktop
+   •  unzip
+         ▪ tar xvzf linux_priv_esc.tar.gz
+
+kerbros auth
+   •  xfreerdp /u:alice /v:10.11.1.50
