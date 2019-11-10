@@ -1,0 +1,19 @@
+Passive
+  - Wiretapping
+  - Port Scan
+  - Idle Scan
+  - Encryption
+  - Traffic Analysis
+  - Information Gathering
+ 
+Active
+  - Malware Attacks
+  - Eavesdropping
+  - Data Modification
+  - DoS/DDoS Attack
+  - DNS Spoofing
+  - Man in the Middle
+  - ARP Poisoning
+  - VLAN Hopping
+
+
