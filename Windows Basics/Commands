@@ -1,3 +1,7 @@
+Checking your Windows version using CMD
+   • systeminfo
+      OR
+   • Run > winver
 Find log files in directory
    •  dir /s *log* 
 
