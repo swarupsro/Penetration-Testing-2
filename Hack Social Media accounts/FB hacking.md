@@ -1,4 +1,4 @@
-# Facebook hack methods
+# Facebook hacking methods
 
     1.Stealers
     2.Session hijacking 
