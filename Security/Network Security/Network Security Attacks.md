@@ -7,7 +7,7 @@
   - Traffic Analysis
   - Information Gathering
  
-Active
+## Active
   - Malware Attacks
   - Eavesdropping
   - Data Modification
@@ -17,7 +17,7 @@ Active
   - ARP Poisoning
   - VLAN Hopping
   
- Password Based Attacks
+ ## Password Based Attacks
   * Non-Technical Password Attacks -
      - Dumpster Diving
      - Social Engineering
@@ -28,7 +28,7 @@ Active
      - Brute Force Attack
      - Key Logger Attack
      
-Common Network Security Vulnerabilities
+## Common Network Security Vulnerabilities
   - Missing Patches
   - Weak or Default Passwords
   - Misconfigured Firewall Rulebases
