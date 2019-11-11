@@ -1,6 +1,6 @@
 # Anti-virus Evasion Tools
 
-    - AntiVirus Evasion Tool (AVET) - Post-process exploits containing executable files targeted for Windows machines to avoid being recognized by antivirus software. - https://github.com/govolution/avet
+   - AntiVirus Evasion Tool (AVET) - Post-process exploits containing executable files targeted for Windows machines to avoid being recognized by antivirus software. - https://github.com/govolution/avet
     - CarbonCopy - Tool that creates a spoofed certificate of any online website and signs an Executable for AV evasion. - https://github.com/paranoidninja/CarbonCopy
     - Hyperion - Runtime encryptor for 32-bit portable executables ("PE .exes"). - http://nullsecurity.net/tools/binary.html
     - Shellter - Dynamic shellcode injection tool, and the first truly dynamic PE infector ever created. - https://www.shellterproject.com/
@@ -11,6 +11,6 @@
      -  shellsploit - Generates custom shellcode, backdoors, injectors, optionally obfuscates every byte via encoders. -       https://github.com/Exploit-install/shellsploit-framework
     
     https://null-byte.wonderhowto.com/how-to/evading-av-software/
-     - Hyperion - http://nullsecurity.net/tools/binary.html
-     - Veil-Evasion - https://www.veil-framework.com
-     -  peCloak - http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/
+   - Hyperion - http://nullsecurity.net/tools/binary.html
+   - Veil-Evasion - https://www.veil-framework.com
+   -  peCloak - http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/
