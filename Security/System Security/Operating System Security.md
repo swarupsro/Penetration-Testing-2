@@ -3,17 +3,17 @@
 
 ## A.Prevention  
   
-	* OS updates & Patch management
-	* Remove unnessary services,a/p,protocols,ports   
-	* Configure user,groups,authentication 
-	* Virtulization  
-	* Install additional security controls:Antivirus,Host based firewall,IDS or IPS s/w,A/P whitelisting
+	1 OS updates & Patch management
+	2 Remove unnessary services,a/p,protocols,ports   
+	3 Configure user,groups,authentication 
+	4 Virtulization  
+	5 Install additional security controls:Antivirus,Host based firewall,IDS or IPS S/W,A/P whitelisting
 	
 ## B.Detection  
   
-	* Loging & Auditing
-	* Test system security   
-	* Monitoring & Scanning 
+	6 Loging & Auditing
+	7 Test system security   
+	8 Monitoring & Scanning 
 	  - Ports
 	  - Proccess
 	  - Register entries
