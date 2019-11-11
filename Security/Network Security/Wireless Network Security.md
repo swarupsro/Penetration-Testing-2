@@ -1,13 +1,14 @@
 # Objectives
---------------------------------------------------
-Wireless Network
-Wireless Network Standards
-Wi-Fi Threats & Vulnerabilities
-Wireless Network Security Standards
-Wi-Fi Security Testing 
-Wireless Secure Configuration and Network Isolation
 
-Wireless Threats & Vulnerabilities
+    Wireless Network
+    Wireless Network Standards
+    Wi-Fi Threats & Vulnerabilities
+    Wireless Network Security Standards
+    Wi-Fi Security Testing 
+    Wireless Secure Configuration and Network Isolation
+    Security Settings for a Router
+
+## Wireless Threats & Vulnerabilities
  - Rogue Access Points/Ad-Hoc Networks
  - Denial of Service & Distributed Denial of Service
  - Configuration Problems (Mis-Configurations/Incomplete Configurations)
@@ -44,7 +45,7 @@ Wireless Secure Configuration and Network Isolation (For businesses, the crucial
  - Regularly reviewing device logs and monitoring results for any suspicious activity. 
  - Using authentication tools, such as two-factor authentication
 
-Best Security Settings for a Router 2019
+Security Settings for a Router 
 ----------------------------------------
 
 Turn off WPS (WiFi Protected Setup)
