@@ -1,3 +1,14 @@
+        
+    CyberChef - Web app for analysing and decoding data.
+    FeatherDuster - An automated, modular cryptanalysis tool.
+    Hash Extender - A utility tool for performing hash length extension attacks.
+    padding-oracle-attacker - A CLI tool to execute padding oracle attacks.
+    PkCrack - A tool for Breaking PkZip-encryption.
+    RSACTFTool - A tool for recovering RSA private key with various attack.
+    RSATool - Generate private key with knowledge of p and q.
+    XORTool - A tool to analyze multi-byte xor cipher.
+
+        
         aeppro   - http://www.aeppro.com/
         hashcalc  - https://hashcalc.soft112.com/
         MD5 Calculator - https://www.bullzip.com/products/md5/info.php
