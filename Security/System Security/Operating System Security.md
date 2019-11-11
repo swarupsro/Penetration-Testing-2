@@ -7,7 +7,11 @@
 	2 Remove unnessary services,a/p,protocols,ports   
 	3 Configure user,groups,authentication 
 	4 Virtulization  
-	5 Install additional security controls:Antivirus,Host based firewall,IDS or IPS S/W,A/P whitelisting
+	5 Install additional security controls:
+	   - Antivirus
+	   - Host based firewall
+	   - IDS or IPS software
+	   - Application whitelisting
 	
 ## B.Detection  
   
