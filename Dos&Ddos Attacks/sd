@@ -1,1 +1,82 @@
+Common DDoS Attacks Types
+_________________________
 
+Some of the most commonly used DDoS attack types include:
+
+UDP Flood
+
+A UDP flood, by definition, is any DDoS attack that floods a target with User Datagram Protocol (UDP) packets. The goal of the attack is to flood random ports on a remote host. This causes the host to repeatedly check for the application listening at that port, and (when no application is found) reply with an ICMP ‘Destination Unreachable’ packet. This process saps host resources, which can ultimately lead to inaccessibility.
+
+
+ICMP (Ping) Flood
+
+Similar in principle to the UDP flood attack, an ICMP flood overwhelms the target resource with ICMP Echo Request (ping) packets, generally sending packets as fast as possible without waiting for replies. This type of attack can consume both outgoing and incoming bandwidth, since the victim’s servers will often attempt to respond with ICMP Echo Reply packets, resulting a significant overall system slowdown.
+
+
+SYN Flood
+
+A SYN flood DDoS attack exploits a known weakness in the TCP connection sequence (the “three-way handshake”), wherein a SYN request to initiate a TCP connection with a host must be answered by a SYN-ACK response from that host, and then confirmed by an ACK response from the requester. In a SYN flood scenario, the requester sends multiple SYN requests, but either does not respond to the host’s SYN-ACK response, or sends the SYN requests from a spoofed IP address. Either way, the host system continues to wait for acknowledgement for each of the requests, binding resources until no new connections can be made, and ultimately resulting in denial of service.
+
+
+Ping of Death
+
+A ping of death (“POD”) attack involves the attacker sending multiple malformed or malicious pings to a computer. The maximum packet length of an IP packet (including header) is 65,535 bytes. However, the Data Link Layer usually poses limits to the maximum frame size – for example 1500 bytes over an Ethernet network. In this case, a large IP packet is split across multiple IP packets (known as fragments), and the recipient host reassembles the IP fragments into the complete packet. In a Ping of Death scenario, following malicious manipulation of fragment content, the recipient ends up with an IP packet which is larger than 65,535 bytes when reassembled. This can overflow memory buffers allocated for the packet, causing denial of service for legitimate packets.
+
+
+Slowloris
+
+Slowloris is a highly-targeted attack, enabling one web server to take down another server, without affecting other services or ports on the target network. Slowloris does this by holding as many connections to the target web server open for as long as possible. It accomplishes this by creating connections to the target server, but sending only a partial request. Slowloris constantly sends more HTTP headers, but never completes a request. The targeted server keeps each of these false connections open. This eventually overflows the maximum concurrent connection pool, and leads to denial of additional connections from legitimate clients.
+
+
+NTP Amplification
+
+In NTP amplification attacks, the perpetrator exploits publically-accessible Network Time Protocol (NTP) servers to overwhelm a targeted server with UDP traffic. The attack is defined as an amplification assault because the query-to-response ratio in such scenarios is anywhere between 1:20 and 1:200 or more. This means that any attacker that obtains a list of open NTP servers (e.g., by a using tool like Metasploit or data from the Open NTP Project) can easily generate a devastating high-bandwidth, high-volume DDoS attack.
+
+
+HTTP Flood
+
+In an HTTP flood DDoS attack, the attacker exploits seemingly-legitimate HTTP GET or POST requests to attack a web server or application. HTTP floods do not use malformed packets, spoofing or reflection techniques, and require less bandwidth than other attacks to bring down the targeted site or server. The attack is most effective when it forces the server or application to allocate the maximum resources possible in response to each single request. 
+
+
+Zero-day DDoS Attacks
+
+The “Zero-day” definition encompasses all unknown or new attacks, exploiting vulnerabilities for which no patch has yet been released. The term is well-known amongst the members of the hacker community, where the practice of trading zero-day vulnerabilities has become a popular activity.
+
+1.MDK3(for wifi)
+https://www.youtube.com/watch?v=zMaOR9lL2Sw (how to works)
+https://www.youtube.com/watch?v=vP9LDGAxhGE
+https://null-byte.wonderhowto.com/how-to/use-mdk3-for-advanced-wi-fi-jamming-0185832/
+https://kalilinuxtutorials.com/mdk3/
+how to install&use 
+
+Syntax : mdk3 <interface> <testmode> <test-options>
+////apt-get install mdk3
+
+
+2.LOIC
+3.HULK
+4.DDOSIM
+5.Ufonet
+6.Hping3
+7.Xerxes
+8.Hammer
+9.Slowloris
+10.Websploit
+11.GoldenEye
+12.Metasploit
+13.Aireplay-ng
+14.Slowhttptest
+
+
+#DDoS
+1.Nuke
+2.Botnet
+3.Zero Day
+4.Slowloris
+5.SYN Flood
+6.Reflected
+7.Multi Vector
+8.Peer to Peer
+9.Ping of Death
+10.Protocol Flood
+11.Application Level
