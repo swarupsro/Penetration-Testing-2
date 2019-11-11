@@ -1,6 +1,4 @@
-# android-security-awesome ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) <a href="https://travis-ci.org/ashishb/android-security-awesome"><img src="https://img.shields.io/travis/ashishb/android-security-awesome/master.svg?label=URL%20Check" alt="URL Check"></a>
-
-A collection of android security related resources.
+# A collection of android security related resources.
 
 1. [Tools](#tools)
 2. [Academic/Research/Publications/Books](#academic)
@@ -234,6 +232,4 @@ A collection of android security related resources.
 1. [Android - reporting security issues](https://source.android.com/security/overview/updates-resources.html#report-issues)
 2. [Android Reports and Resources](https://github.com/B3nac/Android-Reports-and-Resources) - List of Android Hackerone disclosed reports and other resources
 
-## Contributing
 
-Your contributions are always welcome!
