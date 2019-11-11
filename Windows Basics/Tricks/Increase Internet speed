@@ -1,0 +1,68 @@
+1.  Close the Peer to Peer Update Process on Your Computer
+
+ Step 1:  To start off, Click Start and then go ahead type Settings to open it.
+ Step 2:  Next select Update and Security
+ Step 3:  Now click on Advanced Options
+ Step 4:  You’re almost there! Click on Choose How Updates are Delivered.
+ Step 5:  Finally, go ahead and turn off the On button.
+ 
+2.  Quit your background apps
+
+ Step 1:  Start off by right-clicking the Windows Taskbar. Open Task Manager. (You can also search on your computer or ask cortana on Windows 10)
+ Step 2: Once you’re in your Task Manager’s menu, click on the Performance tab.
+ Step 3:  Now click on Open Resource Monitor from the bottom part of the window.
+ Step 4:  Lastly, click on the Network tab and check for all your apps or services that have a high number of send and receive requests.
+          The way it works is, the higher the number, then it shows that these apps or services are taking a chunk  of your internet bandwidth.
+Quitting your Apps
+
+ Step 1:  Click on Start and then select your Settings
+ Step 2:  Next click on Privacy, and then Background apps. Here’s where you can turn Off for the apps and services that feed off your internet.
+ 
+ 3.  Disable Windows Update
+  Step 1:  Go to Start, look for your Control Panel
+  Step 2:  Head over to your Administrative Tools
+  Step 3:  Here’s where you can find and get to your Services. Once you’re in your Services window, scroll down to Windows Update and turn it off.
+  Step 4:  To turn it off, all you have to do is just right click on it, and then select Properties.
+  Step 5:  Now Disable it from inside your Properties, and Voila! You’ve just disabled your Windows Updates (Don’t worry 🙂  just follow these 5 simple steps and you can re-enable it back whenever you want to)
+  
+ 4.  Use CCleaner
+  
+ 5.  Uninstall OneNote
+  Step 1:  First, go to your Start and then look for PowerShell.
+  Step 2:  Next, right click on the app and then choose to Run as administrator.
+  Step 3:  You will now have a new PowerShell window. Trust me it’s pretty simple 🙂 all you have to do is just copy-paste this command and hit enter.
+          Remove OneNote with a PowerShell command
+          Get-AppxPackage *OneNote* | Remove-AppxPackage
+          
+ 6.  Disable Windows Auto-Tuning feature
+  
+  Step 1:  Go ahead and press on your keyboard Windows key + X and then select Command Prompt (Admin).
+  Step 2:  Next, type the command netsh interface tcp show global in the window.
+  Step 3:  Now you are going to check for Receive Window Auto-Tuning Level and if you find that it is set to normal, then you will need to disable it.
+  Step 4:  Finally, again type another command netsh int tcp set global autotuninglevel=disabled to disable it.
+  
+ 7.  Disable Firewall
+  Step 1:  Just go ahead onto your Start and type firewall in your search to see if you have any other firewall programs on your computer turned on.
+  
+ 8.  Disabling Large Send Offload (LSO)
+ 
+  Step 1:  Go ahead and open Start and then right-click on your Computer
+  Step 2:  Next, select Properties
+  Step 3:  Now from your Control Panel, click on Device Manager
+  Step 4:  Here you will be able to see all your devices listed, but for now you will only need to expand your Network Adapters.
+  Step 5:  Next, look for your Network Card and then double click on that.
+  Step 6:  You’re almost there! Now select the Advanced tab and then go ahead and select Large Send Offload V2 (IPv4).
+           All you have to do here is set the value to Disabled.
+  Step 7:  Do the exact same that you just did for Large Send Offload V2 (IPv6) (that is if, it is available).
+  Step 8:  Click OK and you’re done! 
+  
+ 9.  Update Your Network Drivers
+  
+ 10.  Adjust the Internet Bandwidth Settings
+ 
+  Step 1:  Go ahead and get the Run window up by clicking on Windows key+R key on your keyboard. (You can also search for it on your computer)
+  Step 2:  Type gpedit.msc in the search box and then press OK.
+  Step 3:  Alright! Now you will find that the Group Policy window will come up, so what you have to do here is just click on Computer Configuration
+  Step 4:  Next go to Administrative Templates, then Network, and lastly QoS Packet Scheduler. Once you’re here click on Limit reservable bandwidth
+  Step 5:  Now in the new window that comes up, all you have to do is just two things. First choose Enabled and then change the Bandwidth limit (%) from 100 to 0. 
+  Step 6:  Make sure that you Apply these new changes that you just made and then click on OK. 
