@@ -1,4 +1,4 @@
-Network Security
+## Network Security
 A set of rules and configurations designed to protect the integrity, confidentiality and accessibility of computer networks and data using both software and hardware technologies.
 Network security typically consists of three different controls: 
  - Physical
