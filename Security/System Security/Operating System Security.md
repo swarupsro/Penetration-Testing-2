@@ -3,7 +3,7 @@
 
 ## A.Prevention  
   
-	1 OS updates & Patch management
+	1 OS updates, Patch management & Vulnerability management
 	2 Remove unnessary services,a/p,protocols,ports   
 	3 Configure user,groups,authentication 
 	4 Virtulization  
