@@ -1,0 +1,57 @@
+METHODS OF HACKING WEBSITE:
+1. SQL INJECTION
+2. CROSS SITE SCRIPTING
+3. REMOTE FILE INCLUSION
+4. LOCAL FILE INCLUSION
+5. DDOS ATTACK
+6. EXPLOITING VULNERABILITY
+ 
+1. SQL INJECTION
+First of all, what is SQL injection? SQL injection is a type of security exploit or loophole in which an attacker “injects” SQL code through a web form or manipulates the URLs based on SQL parameters. It exploits web applications that use client-supplied SQL queries.
+The primary form of SQL injection consists of code being directly inserted into user-input variables that are concatenated with SQL commands and executed. A less direct attack injects malicious code into strings that are destined for storage in a table or as metadata. When the stored strings are subsequently concatenated into a dynamic SQL command then the malicious code is executed.
+
+ 
+2. CROSS SITE SCRIPTING
+
+Cross site scripting (XSS) occurs when a user inputs malicious data into a website, which causes the application to do something it wasn’t intended to do. XSS attacks are very popular and some of the biggest websites have been affected by them, including the FBI, CNN, eBay, Apple, Microsoft, and AOL.
+Some website features commonly vulnerable to XSS attacks are:
+• Search Engines
+• Login Forms
+• Comment Fields
+
+Cross-site scripting holes are web application vulnerabilities that allow attackers to bypass client-side security mechanisms normally imposed on web content by modern browsers. By finding ways of injecting malicious scripts into web pages, an attacker can gain elevated access privileges to sensitive page content, session cookies, and a variety of other information maintained by the browser on behalf of the user. Cross-site scripting attacks are therefore a special case of code injection.
+
+I will explain this in detail in later hacking classes, so keep reading.
+
+3. REMOTE FILE INCLUSION
+Remote file inclusion is the vulnerability most often found on websites.
+Remote File Inclusion (RFI) occurs when a remote file, usually a shell (a graphical interface for browsing remote files and running your own code on a server), is included on a website which allows the hacker to execute server side commands as the current logged on user, and have access to files on the server. With this power the hacker can continue on to use local
+exploits to escalate his privileges and take over the whole system.
+RFI can lead to the following serious things on website:
+
+    Code execution on the web server
+    Code execution on the client-side, such as Javascript, which can lead to other attacks such as cross site scripting (XSS)
+    Denial of Service (DoS)
+    Data Theft/Manipulation
+
+ 
+
+4. LOCAL FILE INCLUSION
+Local File Inclusion (LFI) is when you have the ability to browse through the server by means of directory transversal. One of the most common uses of LFI is to discover the /etc/passwd file. This file contains the user information of a Linux system. Hackers find sites vulnerable to LFI the same way I discussed for RFIs.
+Let’s say a hacker found a vulnerable site, like www.target-site.com/index.php?p=about, by means of directory transversal he would then try to browse to the /etc/passwd file:
+
+    www.target-site.com/index.php?p= ../../../../../../../etc/passwd 
+
+ 
+
+I will explain it in detail with practical website examples in latter sequential classes on website hacking.
+
+ 
+5. DDOS ATTACK
+
+This is simply called distributed denial of service attack. A denial-of-service attack (DoS attack) or distributed denial-of-service attack (DDoS attack) is an attempt to make a computer resource unavailable to its intended users. Although the means to carry it out, the motives for, and the targets of a DoS attack may vary, it generally consists of the concerted efforts of a person or people to prevent an internet site or service from functioning efficiently or at all, temporarily or indefinitely. In DDOS attacks we consume the bandwidth and resources of any website and make them unavailable to its legitimate users.
+
+ 
+6. EXPLOITING VULNERABILITY
+
+This category is not new, it is merely comprised of the five categories above, but I mentioned it separately because there are several exploits which cannot be covered in the aforementioned categories. I will explain them individually with examples. The basic idea behind this is to find the vulnerability in the website and exploit it to get the admin or moderator privileges so that you can manipulate things easily.
