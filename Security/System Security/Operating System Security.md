@@ -9,13 +9,13 @@
 	* Virtulization  
 	* Install additional security controls:Antivirus,Host based firewall,IDS or IPS s/w,A/P whitelisting
 	
-## A.Prevention  
+## B.Detection  
   
-	* OS updates & Patch management
-	* Remove unnessary services,a/p,protocols,ports   
-	* Configure user,groups,authentication 
-	* Virtulization  
-	* Install additional security controls:Antivirus,Host based firewall,IDS or IPS s/w,A/P whitelisting
+	* Loging & Auditing
+	* Test system security   
+	* Monitoring & Scanning 
+	  - Ports
+
 
 
 
