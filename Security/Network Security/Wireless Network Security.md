@@ -1,4 +1,4 @@
-Objectives
+# Objectives
 --------------------------------------------------
 Wireless Network
 Wireless Network Standards
@@ -44,6 +44,18 @@ Wireless Secure Configuration and Network Isolation (For businesses, the crucial
  - Regularly reviewing device logs and monitoring results for any suspicious activity. 
  - Using authentication tools, such as two-factor authentication
 
+Best Security Settings for a Router 2019
+----------------------------------------
+
+Turn off WPS (WiFi Protected Setup)
+Disable 2.4 GHz Frequency if possible
+Only connect to a router with a device (smartphone, tablet, laptop) that is an 802.11ac device.
+Enable WPA2 / WPA3 encryption and put in a long password.
+Weaken the WiFi signal if possible.
+Never input passwords or usernames into a pop-up. Always go directly to a router admin-page to enter usernames and passwords.
+Change the routers default admin-page log-in username/password.
+Update the firmware of the router
+Change the SSID broadcast name.
 
 
 
