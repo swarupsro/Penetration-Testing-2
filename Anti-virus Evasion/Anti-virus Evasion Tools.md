@@ -8,9 +8,9 @@
     Veil - Generate metasploit payloads that bypass common anti-virus solutions. - https://www.veil-framework.com/
     peCloak.py - Automates the process of hiding a malicious Windows executable from antivirus (AV) detection. - https://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/
     peCloakCapstone - Multi-platform fork of the peCloak.py automated malware antivirus evasion tool. - https://github.com/v-p-b/peCloakCapstone
-    shellsploit - Generates custom shellcode, backdoors, injectors, optionally obfuscates every byte via encoders. - https://github.com/Exploit-install/shellsploit-framework
+    shellsploit - Generates custom shellcode, backdoors, injectors, optionally obfuscates every byte via encoders. -       https://github.com/Exploit-install/shellsploit-framework
     
     https://null-byte.wonderhowto.com/how-to/evading-av-software/
-Hyperion - http://nullsecurity.net/tools/binary.html
-Veil-Evasion - https://www.veil-framework.com
-peCloak - http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/
+    Hyperion - http://nullsecurity.net/tools/binary.html
+    Veil-Evasion - https://www.veil-framework.com
+    peCloak - http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/
