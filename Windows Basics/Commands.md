@@ -4,7 +4,7 @@ start>run>cmd.exe
 >color /?
 ## dir creation
 ```sh
-$ >mkdir c:\temp
+$ mkdir c:\temp
 $ >echo hey > cmd.exe
 >del cmd.exe
 >notepad file.txt
