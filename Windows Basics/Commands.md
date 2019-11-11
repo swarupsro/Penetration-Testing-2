@@ -2,11 +2,13 @@ start>run>cmd.exe
 >start cmd.exe
 >start cmd.exe /t:0a
 >color /?
-dir creation
+## dir creation
+```sh
 >mkdir c:\temp
 >echo hey > cmd.exe
 >del cmd.exe
 >notepad file.txt
+```
 clear the screen
 >cls
 current working directory
