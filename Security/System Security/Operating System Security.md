@@ -15,6 +15,13 @@
 	* Test system security   
 	* Monitoring & Scanning 
 	  - Ports
+	  - Proccess
+	  - Register entries
+	  - Device drivers
+	  - Services
+	  - Startup apps
+	  - Files & Folders
+	  - Networking activities
 
 
 
