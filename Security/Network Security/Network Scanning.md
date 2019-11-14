@@ -85,3 +85,25 @@ Flow of procedures used in Network Vulnerability Scanning
 Uses of performing a Network Vulnerability Scan 
 Complexity of performing network scans 
 How to devise a mitigation plan and respond
+
+
+
+Scope of the scan 
+If we are required to perform a vulnerability assessment for a specific application's infrastructure, it is very important to identify the data transmission sources and the components involved in the end-to-end communication. This will allow the penetration tester to perform the vulnerability scan on this scope and identify vulnerabilities specific to this application. Instead, if we choose to scan the subnets or a broader range of IP addresses, we might end up highlighting unnecessary vulnerabilities, which most of the time leads to confusion during the remediation phase. For example, if we are looking to audit a web-based application, we might be looking to include a web application, application server, web server, and database server as part of the audit scope.
+
+Network architecture 
+It is always important to understand the placement of the IP address or the component on which we are performing vulnerability scanning. This will help us to customize our approach and to reduce false positives. For example, if Alice is trying to scan a web application hosted behind a web application firewall, she needs to customize the payloads or the scripts used to identify vulnerabilities using techniques such as encoding, to ensure that the payloads are not blocked by the web application firewall.
+
+Network access 
+When tasked to perform Network Vulnerability Scans on a huge network, it is very important to know whether proper access has been provided to your appliance or host to perform the scanning activity. A network vulnerability scan performed without proper network access will yield incomplete results. It is always recommended to have the scanner appliance or host IP address to be whitelisted across the network devices to obtain full access to the scope of the scan.
+
+
+Response 
+Once a Network Vulnerability Scan report is obtained, it is important to devise a mitigation plan to mitigate all the vulnerabilities highlighted as part of the report. The following are a few solutions that can be part of the Network Security Scan report: 
+
+ - Close unwanted ports and disable unwanted services 
+ - Use strong and uncommon passwords 
+ - Always apply latest patches and updates 
+ - Uninstall or update older versions of software 
+ - Disable legacy and old protocols in use 
+ - Use strong algorithms and authentication mechanism 
