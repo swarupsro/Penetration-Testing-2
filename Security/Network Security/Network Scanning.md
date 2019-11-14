@@ -1,12 +1,12 @@
-Introduction to Network Vulnerability Scanning
+# Introduction to Network Vulnerability Scanning
 -------------------------------------------------
-1.Basic networks and their components 
+ ### 1.Basic networks and their components 
 A basic corporate network typically consists of endpoints such as desktops/laptops, servers, security devices such as Firewall,
 proxy, intrusion detection and prevention systems, and network devices such as hubs, switches, and routers.
 These components can be attacked by a hacker using publicly available exploits or a zero-day vulnerability to gain access 
 to the device/machine with a possibility of gaining access to a different device/machine in the network or whole network itself
 
-2.Network Vulnerability Scanning (Internal and External)
+ ### 2.Network Vulnerability Scanning (Internal and External)
 A vulnerability is a weakness present in a system or device that is exposed to a possibility of being attacked. 
 Network Vulnerability Scanning is a process of looking into identifying and detecting vulnerabilities in the network 
 components such as clients, servers, network devices, and endpoints, using various automated or manual tools and techniques. 
@@ -21,7 +21,7 @@ The activity of a Network Vulnerability Scan can be divided into three phases:
  - Port scanning 
  - Vulnerability scanning
 
-Discovery 
+## Discovery 
 Discovery, also known as , is a process to enumerate live hosts and is a very Host Discovery important component 
 of the reconnaissance phase of a security testing activity. 
 This will help you to eliminate the unwanted hosts from the list of targets, 
@@ -29,7 +29,7 @@ thus it will allow you to use these enumerated hosts to perform targeted scans a
 Some of the tools that can be used to perform Network Discovery are Nmap, Nessus, OpenVas, and Wireshark. 
 eg:-\\nmap -Pn 192.168.10.34 (ping scan)
 
-Port scanning 
+## Port scanning 
 In this phase, we will perform detection of the ports open for a specific host based on the communication 
 between the host on that port to your machine. This technique helps to determine whether a particular 
 port is open or closed. This technique differs from protocol to protocol. For example, for TCP, 
@@ -37,7 +37,7 @@ the communication and the pattern to conclude a port to be open is different whe
 Some of the tools that can be used to perform port scanning are Nmap, Nessus, OpenVas, and Wireshark. 
 eg:-\\nmap -sS -p80 192.168.10.34
 
-Vulnerability scanning 
+## Vulnerability scanning 
 Once the open ports are identified on the discovered live hosts, we can perform vulnerability scanning. 
 A vulnerability scan detects and identifies known issues of the software and tools installed on a host 
 such as older version of software in use, vulnerable protocols enabled, and default passwords. 
@@ -67,7 +67,7 @@ organization's perspective, such as the following:
 - Preventing financial loss in critical infrastructures 
 - Prioritizing the vulnerabilities that require escalated patching versus delayed patching
 
-Complexity
+## Complexity
 Today's network environments have a complex structure consisting of firewalls, DMZ, and network devices such as switches and routers. 
 These devices consist of complex access lists and virtual network configurations, which makes it difficult to generalize any activity. 
 A shift in any of the preceding configurations could result in a change of the architecture of the whole network.
@@ -88,17 +88,17 @@ How to devise a mitigation plan and respond
 
 
 
-Scope of the scan 
+## Scope of the scan 
 If we are required to perform a vulnerability assessment for a specific application's infrastructure, it is very important to identify the data transmission sources and the components involved in the end-to-end communication. This will allow the penetration tester to perform the vulnerability scan on this scope and identify vulnerabilities specific to this application. Instead, if we choose to scan the subnets or a broader range of IP addresses, we might end up highlighting unnecessary vulnerabilities, which most of the time leads to confusion during the remediation phase. For example, if we are looking to audit a web-based application, we might be looking to include a web application, application server, web server, and database server as part of the audit scope.
 
-Network architecture 
+## Network architecture 
 It is always important to understand the placement of the IP address or the component on which we are performing vulnerability scanning. This will help us to customize our approach and to reduce false positives. For example, if Alice is trying to scan a web application hosted behind a web application firewall, she needs to customize the payloads or the scripts used to identify vulnerabilities using techniques such as encoding, to ensure that the payloads are not blocked by the web application firewall.
 
-Network access 
+## Network access 
 When tasked to perform Network Vulnerability Scans on a huge network, it is very important to know whether proper access has been provided to your appliance or host to perform the scanning activity. A network vulnerability scan performed without proper network access will yield incomplete results. It is always recommended to have the scanner appliance or host IP address to be whitelisted across the network devices to obtain full access to the scope of the scan.
 
 
-Response 
+## Response 
 Once a Network Vulnerability Scan report is obtained, it is important to devise a mitigation plan to mitigate all the vulnerabilities highlighted as part of the report. The following are a few solutions that can be part of the Network Security Scan report: 
 
  - Close unwanted ports and disable unwanted services 
