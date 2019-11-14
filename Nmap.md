@@ -10,9 +10,9 @@
  - Exloitaion
     
    ## Basic Scanning Techniques
-   > namp 192.168.10.15               - Scan a single target   
-   > namp 192.168.10.15,192.168.10.16 - Scan multiple targets
-   > nmap -iL /root/Desktop/list.txt  - Scan a list of targets
+     > namp 192.168.10.15               - Scan a single target   
+     > namp 192.168.10.15,192.168.10.16 - Scan multiple targets
+     > nmap -iL /root/Desktop/list.txt  - Scan a list of targets
     nmap 192.168.10.15-30            - Scan a range of hosts
     nmap 192.168.10.1/24             - Scan an entire subnet
     nmap -iR 10                      - Scan random hosts
