@@ -12,13 +12,13 @@
          namp 192.168.10.15               - Scan a single target   
          namp 192.168.10.15,192.168.10.16 - Scan multiple targets
          nmap -iL /root/Desktop/list.txt  - Scan a list of targets
-	     nmap 192.168.10.15-30            - Scan a range of hosts
+	 nmap 192.168.10.15-30            - Scan a range of hosts
          nmap 192.168.10.1/24             - Scan an entire subnet
          nmap -iR 10                      - Scan random hosts
-         nmap 192.168.10.15-40 -exclude 192.168.10.18,192.168.10.20 Excluding targets from a scan
+         nmap 192.168.10.15-40 -exclude 192.168.10.18,192.168.10.20 - Excluding targets from a scan
          nmap 192.168.10.15-49 -excludefile /root/Desktop/Excludedlist.txt - Excluding targets using a list
          nmap 192.168.10.15 -A            - Perform an aggressive scan 
-          nmap -6 [target]                 - scan an IPv6 target
+         nmap -6 [target]                 - scan an IPv6 target
 
     Host detection (ping)
     nmap -sP 192.168.10.15 - a ping scan only
