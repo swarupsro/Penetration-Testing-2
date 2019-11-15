@@ -21,7 +21,8 @@
 |hping3 --scan 0-500 -S 172.16.1.2   |port scan (SYN)   |
 |hping3 --scan 0-500 -X 172.16.1.2   |port scan (Xmas)   |
 
--  --flood: sent packets as fast as possible. Don't show replies.
+
+-     --flood: sent packets as fast as possible. Don't show replies.
 -     --rand-dest: random destionation address mode. see the man.
 -     -V <-- Verbose
 -     -c --count: packet count
