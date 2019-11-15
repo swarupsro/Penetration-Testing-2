@@ -1,0 +1,42 @@
+Protocols
+
+    ARCnet　Attached Resource Computer NETwork
+    ARP Address Resolution Protocol
+    ATM Asynchronous Transfer Mode
+    CHAP Challenge Handshake Authentication Protocol
+    CDP Cisco Discovery Protocol
+    DCAP Data Link Switching Client Access Protocol
+    Distributed Multi-Link Trunking
+    Distributed Split Multi-Link Trunking
+    DTP Dynamic Trunking Protocol
+    Econet
+    Ethernet
+    FDDI Fiber Distributed Data Interface
+    Frame Relay
+    ITU-T G.hn Data Link Layer
+    HDLC High-Level Data Link Control
+    IEEE 802.11 WiFi
+    IEEE 802.16 WiMAX
+    LACP Link Aggregation Control Protocol
+    LattisNet
+    LocalTalk
+    L2F Layer 2 Forwarding Protocol
+    L2TP Layer 2 Tunneling Protocol
+    LLDP Link Layer Discovery Protocol
+    LLDP-MED Link Layer Discovery Protocol - Media Endpoint Discovery
+    MAC Media Access Control
+    Q.710 Simplified Message Transfer Part
+    Multi-link trunking Protocol
+    NDP Neighbor Discovery Protocol
+    PAgP - Cisco Systems proprietary link aggregation protocol
+    PPP Point-to-Point Protocol
+    PPTP Point-to-Point Tunneling Protocol
+    PAP Password Authentication Protocol
+    RPR IEEE 802.17 Resilient Packet Ring
+    SLIP Serial Line Internet Protocol (obsolete)
+    StarLAN
+    STP Spanning Tree Protocol
+    Split multi-link trunking Protocol
+    Token ring a protocol developed by IBM; the name can also be used to describe the token passing ring logical topology that it popularized.
+    VTP VLAN Trunking Protocol
+    VLAN Virtual Local Area Network
