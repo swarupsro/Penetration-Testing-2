@@ -1,4 +1,5 @@
 # 1.Planning and Scoping 
 # 2.Information Gathering
-# 3.Vulnerability Identification 
-# 4.Attacks and Exploits 
+# 3.Scanning
+# 4.Vulnerability Identification 
+# 5.Attacks and Exploits 
