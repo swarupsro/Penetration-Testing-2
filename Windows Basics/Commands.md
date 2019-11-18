@@ -433,7 +433,7 @@ vcxvxcv
 76. Power Configuration – powercfg.cpl
 
 
-77. Printers and Faxes – control printers
+77. Printers and Faxes – rc
 
 
 78. Printers Folder – printers
