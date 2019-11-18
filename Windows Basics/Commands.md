@@ -1,3 +1,59 @@
+Post Exploitation Using WMIC 
+Get System Roles, User Name, and Manufacturer
+wmic computersystem get Name, domain, Manufacturer, Model, Username, Roles /format:list
+Get the SIDs
+wmic group get Caption, InstallDate, LocalAccount, Domain, SID, Status
+Create a process
+wmic process call create "taskmgr.exe"
+Change Priority of a Process
+wmic process where name="explorer.exe" call setpriority 64
+Terminate a process 
+wmic process where name="explorer.exe" call terminate
+Get a list of Executable Files
+wmic PROCESS WHERE "NOT ExecutablePath LIKE ‘%Windows%’" GET ExecutablePath
+Get Folder Properties
+wmic FSDIR where "drive='c:' and filename='test" get /format:list
+Get File Properties
+wmic datafile where name='c:\\windows\\system32\\demo\\demo.txt' get /format:list
+Locate System Files
+wmic environment get Description, VariableValue
+Get a list of Installed Applications 
+wmic product get name
+Get a list of Running Services
+wmic service where (state="running") get caption, name, startmode, state
+Get Startup Services
+wmic startup get Caption, Command
+Get System Driver Details
+wmic sysdriver get Caption, Name, PathName, ServiceType, State, Status /format:list
+Get OS Details
+wmic os get CurrentTimeZone, FreePhysicalMemory, FreeVirtualMemory, LastBootUpdate, NumberofProcesses, NumberofUsers, Organization, Registereduser, Status /format:list
+Get the Motherboard Details
+wmic baseboard get Manufacturer, Product, SerialNumber, Version
+Get BIOS Serial Number
+wmic bios, get serialNumber
+Get Hard Disk Details
+wmic diskdrive get Name, Manufacturer, Model, InterfaceType, MediaLoaded, MediaType /format:list
+Get Hard Disk Partitions Details
+wmic logicaldisk where drivetype=3 get Name, Compressed, Description, FileSystem, FreeSpace, SupportsDiskQuotas, VolumeDirty, VolumeName
+Get Memory Cache Details
+wmic memcache get Name, BlockSize, Purpose, MaxCacheSize, Status
+Get Memory Chip Details
+wmic MEMORYCHIP get PartNumber, SerialNumber
+Detect If victim system is a host OS or installed via VMware
+wmic onboarddevice get Desciption, DeviceType, Enabled, Status /format:list
+Lock a User Account
+wmic useraccount where name='demo' set disabled=false
+Remove Password requirement for logging
+wmic useraccount where name='demo' set PasswordRequired=false
+Rename a user account
+wmic useraccount where name='demo' rename hacker
+Restrict user from changing a password
+wmic useraccount where name='hacker' set passwordchangeable=false
+Get Antivirus Details
+wmic /namespace:\\root\securitycenter2 path antivirusproduct GET displayName, productState, pathToSignedProductExe
+Clear System Logs
+wmic nteventlog where filename='system' call cleareventlog
+
 start>run>cmd.exe
 >start cmd.exe
 >start cmd.exe /t:0a
