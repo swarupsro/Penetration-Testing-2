@@ -1,0 +1,16 @@
+Network Tools
+
+    nmap – Free Security Scanner For Network Exploration & Security Audits
+    pig – A Linux packet crafting tool
+    tcpdump/libpcap – A common packet analyzer that runs under the command line
+    Wireshark – A network protocol analyzer for Unix and Windows
+    Network Tools – Different network tools: ping, lookup, whois, etc
+    netsniff-ng – A Swiss army knife for for network sniffing
+    Intercepter-NG – a multifunctional network toolkit
+    SPARTA – Network Infrastructure Penetration Testing Tool
+    DNSDumpster – Online DNS recond and search service
+    Mass Scan – TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
+    Zarp – Zarp is a network attack tool centered around the exploitation of local networks
+    mitmproxy – An interactive SSL-capable intercepting HTTP proxy for penetration testers and software developers
+    mallory – HTTP/HTTPS proxy over SSH
+    DET – DET is a proof of concept to perform Data Exfiltration using either single or multiple channel(s) at the same time
