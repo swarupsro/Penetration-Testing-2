@@ -38,6 +38,12 @@ HTTP Flood
 In an HTTP flood DDoS attack, the attacker exploits seemingly-legitimate HTTP GET or POST requests to attack a web server or application. HTTP floods do not use malformed packets, spoofing or reflection techniques, and require less bandwidth than other attacks to bring down the targeted site or server. The attack is most effective when it forces the server or application to allocate the maximum resources possible in response to each single request. 
 
 
+
+    LOIC – An open source network stress tool for Windows
+    JS LOIC – JavaScript in-browser version of LOIC
+    T50 – The more fast network stress tool
+
+
 Zero-day DDoS Attacks
 
 The “Zero-day” definition encompasses all unknown or new attacks, exploiting vulnerabilities for which no patch has yet been released. The term is well-known amongst the members of the hacker community, where the practice of trading zero-day vulnerabilities has become a popular activity.
