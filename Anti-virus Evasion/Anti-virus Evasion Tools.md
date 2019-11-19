@@ -14,3 +14,6 @@
    - Hyperion - http://nullsecurity.net/tools/binary.html
    - Veil-Evasion - https://www.veil-framework.com
    -  peCloak - http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/http://www.securitysift.com/pecloak-py-an-experiment-in-av-evasion/
+   
+   Phantom-Evasion - https://github.com/oddcod3/Phantom-Evasion
+
