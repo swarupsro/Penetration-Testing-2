@@ -23,3 +23,11 @@
         hashcatch
 
 
+    BruteForce Wallet - Find the password of an encrypted wallet file (i.e. wallet.dat). - https://github.com/glv2/bruteforce-wallet
+    CeWL - Generates custom wordlists by spidering a target's website and collecting unique words. - https://digi.ninja/projects/cewl.php
+    Hashcat - The more fast hash cracker. - https://hashcat.net/hashcat/
+    hate_crack - Tool for automating cracking methodologies through Hashcat. - https://github.com/trustedsec/hate_crack
+    JWT Cracker - Simple HS256 JSON Web Token (JWT) token brute force cracker. - https://github.com/lmammino/jwt-cracker
+    John the Ripper - Fast password cracker. - https://www.openwall.com/john/
+    Rar Crack - RAR bruteforce cracker. - http://rarcrack.sourceforge.net/
+    StegCracker - Steganography brute-force utility to uncover hidden data inside files. - https://github.com/Paradoxis/StegCracker
