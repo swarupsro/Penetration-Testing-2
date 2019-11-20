@@ -1,0 +1,4 @@
+WIRESHARK FILTERS
+
+http.request.method == "POST"
+http.request.method == "GET"
