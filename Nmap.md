@@ -133,8 +133,8 @@
 |nmap –script-updatedb    |Update the script database   |
 |   |   |
 
-|Script categories   |
-| ------------ |
+|Script categories   |Use   |
+| ------------ | ------------ |
 |all   | 
 |auth   |Utilize credentials or bypass authentication on target hosts  |
 |default   |Scripts run automatically when -sC or -A are used   |
