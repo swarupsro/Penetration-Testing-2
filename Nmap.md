@@ -136,14 +136,20 @@
 |Script categories   |
 | ------------ |
 |all   | 
-|auth   |
-|default   |
-|discovery   |
-|external   |
+|auth   |Utilize credentials or bypass authentication on target hosts  |
+|default   |Scripts run automatically when -sC or -A are used   |
+|broadcas   | Discover hosts not included on command line by broadcasting on local network   |
+|brute   | Attempt to guess passwords on target systems, for a variety of protocols, including http, SNMP, IAX, MySQL, VNC, etc   |
+|dos   | May cause denial of service conditions in target hosts   |
+|exploit   | Attempt to exploit target systems   |
+|discovery   |Try to learn more information about target hosts through public sources of information, SNMP, directory services, and more   |
+|external   |Interact with third-party systems not included in target list    |
 |intrusive   |
-|malware   |
-|safe   |
-|vuln   |
+|malware   | Look for signs of malware infection on the target hosts    |
+|safe   |Designed not to impact target in a negative fashion   |
+|vuln   | Measure whether target systems have a known vulnerability   |
+|version   |Measure the version of software or protocol spoken by target hosts   |
+|fuzzer   |Send unexpected input in network protocol fields   |
 
 
 
