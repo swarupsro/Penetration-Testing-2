@@ -144,7 +144,7 @@
 |exploit   | Attempt to exploit target systems   |
 |discovery   |Try to learn more information about target hosts through public sources of information, SNMP, directory services, and more   |
 |external   |Interact with third-party systems not included in target list    |
-|intrusive   |
+|intrusive   |May crash target, consume excessive resources, or otherwise impact target machines in a malicious fashion   |
 |malware   | Look for signs of malware infection on the target hosts    |
 |safe   |Designed not to impact target in a negative fashion   |
 |vuln   | Measure whether target systems have a known vulnerability   |
