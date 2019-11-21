@@ -82,6 +82,21 @@
 |nmap -e eth0 192.168.10.15   |scan specific interface   |
 
 
+### Firewall Evasion Techniques
+
+| Command   | Use   |
+| ------------ | ------------ |
+|nmap -f 192.168.10.15   |Fragment packets   |
+|nmap -mtu [MTU] 192.168.10.15   |Specify specific MTU   |
+|nmap -D RND: [number] 192.168.10.15   |Use a decoy   |
+|nmap -sI [zombie] 192.168.10.15   |Idle zombie scan   |
+|nmap -source-port [port] 192.168.10.15   |Manually specify a source port   |
+|nmap -data-length [size] 192.168.10.15   |Append random data   |
+|nmap -randomize-hosts [size] 192.168.10.15   |Randamize target scan order  |
+|nmap -sppof-mac [mac|0|vendor] 192.168.10.15   |Spoof MAC Address   |
+|nmap -badsum 192.168.10.15   |Send bad checksums   |
+
+
 ### Version Detection
 
 | Command   | Use   |
