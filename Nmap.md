@@ -51,6 +51,10 @@
 |nmap --tracerute --script traceroute-geolocation nmap.org   |Traceroute Geolocation   |
 | nmap -sn -Pn -n --script shodan-api --script-args shodan-api.apikey=<ShodanAPI KEY> google.com  |Shodan API   |
 | nmap -sn --traceroute google.com   |traceroute   |
+|nmap -R 192.168.10.15   |Force reverse DNS resolution   |
+|nmap -n 192.168.10.15   |Disable reverse DNS resolution   |
+|nmap -system-dns [servers] 192.168.10.15   |Alternative DNS lookup   |
+|nmap -sL 192.168.10.15   |Create a host list   |
 
 
 ### Extarcting Informations from Windows Systems
