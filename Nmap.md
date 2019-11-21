@@ -122,6 +122,30 @@
 |xsltproc results.xml -o results.htlm   |convert xml to html   |
 
 
+### Nmap Scripting Engine 
+|Command   |Use   |
+| ------------ | ------------ |
+|nmap –script [script.nse] 192.168.10.15   |Execute individual scripts   |
+|nmap –script [expression] 192.168.10.15   |Execute multiple scripts   |
+|nmap –script [cat] 192.168.10.15 |Execute scripts by category   |
+|nmap –script [cat1,cat2, etc] 192.168.10.15   |Execute multiple scripts categories   |
+|nmap –script [script] –script-trace 192.168.10.15   |Troubleshoot scripts   |
+|nmap –script-updatedb    |Update the script database   |
+|   |   |
+
+|Script categories   |
+| ------------ |
+|all   | 
+|auth   |
+|default   |
+|discovery   |
+|external   |
+|intrusive   |
+|malware   |
+|safe   |
+|vuln   |
+
+
 
 
 
