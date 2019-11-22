@@ -81,28 +81,28 @@
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-    Method 2 - ARP Replay Attack
+  Method 2 - ARP Replay Attack
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-    Method 3 - Chop Chop Attack
+  Method 3 - Chop Chop Attack
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-    Method 4 - Fragmentation Attack
+  Method 4 - Fragmentation Attack
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-    Method 5 - SKA (Shared Key Authentication) Type Cracking
+  Method 5 - SKA (Shared Key Authentication) Type Cracking
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
