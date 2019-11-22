@@ -42,7 +42,7 @@
     ### MAC address changing
 	```Bash
   > ifconfig wlan0 down
-  > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55
+  > ifconfig wlan0 hw ether [MAC]
   > ifconfig wlan0 up 
   > ifconfig wlan0
   ```
