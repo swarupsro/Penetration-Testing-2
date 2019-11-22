@@ -4,7 +4,7 @@
 * [Enabling Monitor mode](#enabling-monitor-mode)
 * [Attack/PenTesting](#attackpentesting)
   * [Pre-connection Attacks](#denial-of-service)
-    * [MAC address changing](#wepwpawpa2)
+    * [MAC address changing](#MAC-address-changing)
     * [Deauthenticating All Clients From Protected WiFi Network](#wps)
     * [Deauthenticating a Client From Protected WiFi Networks](#others)
   * [Gaining Access](#encryption-attack)
@@ -37,4 +37,12 @@
   > airodump-ng wlan1mon 
     OR
   > airodump-ng --band a wlan1mon (show all type of wifi networks 5 Ghz or 2.4 Ghz)
+  ```
+## Pre-connection Attacks
+    ### MAC address changing
+	```Bash
+  > ifconfig wlan0 down
+  > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55
+  > ifconfig wlan0 up 
+  > ifconfig wlan0
   ```
