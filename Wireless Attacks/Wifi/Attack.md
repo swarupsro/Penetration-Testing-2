@@ -10,7 +10,7 @@
   * [Gaining Access](#Gaining-Access)
     * [Discovering Names of Hidden Networks](#Discovering-Names-of-Hidden-Networks)
     * [Bypassing Mac Filtering (Blacklists & Whitelists)](#Bypassing-Mac-Filtering-(Blacklists-&-Whitelists))
-    * [Captive portals](#others)
+    * [Bypassing Captive portals](#Bypassing-Captive-portals)
 	* [WEP ](#others)
 	* [WPA ](#others)
 	* [WPA 2](#others)
@@ -65,4 +65,11 @@
 ```Bash
   > ifconfig wlan0 down
   > macchanger -m 22:dd:33:44:55:66 wlan0  
+  ```
+  ### Bypassing Captive portals
+```Bash
+  > ifconfig wlan0 down
+  > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
+  > ifconfig wlan0 up 
+  > ifconfig wlan0 
   ```
