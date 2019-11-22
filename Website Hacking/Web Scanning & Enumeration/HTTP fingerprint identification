@@ -1,0 +1,5 @@
+
+HTTP fingerprint identification
+wget http://www.net-square.com/_assets/httprint_linux_301.zip && unzip httprint_linux_301.zip
+cd httprint_301/linux/
+./httprint -h http://IP -s signatures.txt
