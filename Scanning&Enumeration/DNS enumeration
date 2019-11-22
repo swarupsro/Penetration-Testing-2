@@ -1,19 +1,36 @@
-DNS
 
-Find DNS server:
-   •  nslookup thinc.local 10.11.1.221
+Tools: nslookup,whois,dig,host,DNSenum,DNSdict,DNSrecon,DNSmapping,dnstracer(dnstracer -r 3 -v google.com)
+
+Find DNS server
+----------------
+   • nslookup thinc.local 10.11.1.221
    • dig @10.11.1.221 thinc.local
+   • whois
+   • host
 
 
-Forward Lookup Brute Force:
+Forward Lookup Brute Force
+---------------------------
    •  dnsrecon -d example.com -D /usr/share/wordlists/dnsmap.txt -t std --xml dnsrecon.xml
 
 
-Reverse Lookup Brute Force:
+Reverse Lookup Brute Force
+---------------------------
    •  dnsrecon -d demo.com -t rvl
 
 
-DNS Zone Transfers:
-   • host -l domain $ip
+DNS Zone Transfers
+-------------------
+   • host -l domain $ip / host -t ns google.com/ host -t mx google.com
    • dnsrecon -d megacorpone.com -t axfr
    • dnsenum zonetransfer.me
+   
+DNS Attacks
+------------
+Domain Transfer
+Zone Transfer
+Zone Posioning
+cache posioning
+Reflection Dos,
+Dos
+Information Leakage(Internal DNS info) 
