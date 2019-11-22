@@ -3,7 +3,7 @@
 * [General WiFi Information](#general-wifi-information)
 * [Enabling Monitor mode](#enabling-monitor-mode)
 * [Attack/PenTesting](#attackpentesting)
-  * [Pre-connection Attacks](#denial-of-service)
+  * [Pre-connection Attacks](#Pre-connection-Attacks)
     * [MAC address changing](#MAC-address-changing)
     * [Deauthenticating All Clients From Protected WiFi Network](#wps)
     * [Deauthenticating a Client From Protected WiFi Networks](#others)
