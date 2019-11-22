@@ -9,7 +9,7 @@
     * [Deauthenticating a Client From Protected WiFi Networks](#Deauthenticating-a-Client-From-Protected-WiFi-Networks)
   * [Gaining Access](#Gaining-Access)
     * [Discovering Names of Hidden Networks](#Discovering-Names-of-Hidden-Networks)
-    * [Bypassing Mac Filtering (Blacklists & Whitelists)](#Bypassing Mac Filtering (Blacklists & Whitelists))
+    * [Bypassing Mac Filtering (Blacklists & Whitelists)](#Bypassing-Mac-Filtering-(Blacklists-&-Whitelists))
     * [Captive portals](#others)
 	* [WEP ](#others)
 	* [WPA ](#others)
