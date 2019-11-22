@@ -4,7 +4,7 @@
 * [Enabling Monitor mode](#enabling-monitor-mode)
 * [Attack/PenTesting](#attackpentesting)
   * [Pre-connection Attacks](#denial-of-service)
-    * [Mac address changing](#wepwpawpa2)
+    * [MAC address changing](#wepwpawpa2)
     * [Deauthenticating All Clients From Protected WiFi Network](#wps)
     * [Deauthenticating a Client From Protected WiFi Networks](#others)
   * [Gaining Access](#encryption-attack)
