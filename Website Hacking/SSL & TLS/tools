@@ -3,3 +3,4 @@ SSL Analysis Tools
     SSLyze – SSL configuration scanner - https://github.com/nabla-c0d3/sslyze
     sslstrip – a demonstration of the HTTPS stripping attacks - https://moxie.org/software/sslstrip/
     sslstrip2 – SSLStrip version to defeat HSTS - https://github.com/LeonardoNve/sslstrip2
+    sslscan
