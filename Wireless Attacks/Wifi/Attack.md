@@ -5,7 +5,7 @@
 * [Attack/PenTesting](#attackpentesting)
   * [Pre-connection Attacks](#Pre-connection-Attacks)
     * [MAC address changing](#MAC-address-changing)
-    * [Deauthenticating All Clients From Protected WiFi Network](#Deauthenticating-All-Clients-From-Protected-WiFi Network)
+    * [Deauthenticating All Clients From Protected WiFi Network](#deauthenticating-All-Clients-From-Protected-WiFi Network)
     * [Deauthenticating a Client From Protected WiFi Networks](#others)
   * [Gaining Access](#encryption-attack)
     * [Find SSID of hidden networks](#wepwpawpa2)
