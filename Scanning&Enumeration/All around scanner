@@ -1,3 +1,0 @@
-   • python3 autorecon.py $ip -v
-   • netdiscover
-   • masscan
