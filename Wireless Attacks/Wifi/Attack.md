@@ -35,5 +35,5 @@
   > airmon-ng check kill  
   > airmon-ng start wlan1 
   > airodump-ng wlan1mon 
-  > airodump-ng --band a wlan1mon (show all type of wifi networks)
+  > airodump-ng --band a wlan1mon (show all type of wifi networks 5 Ghz or 2.4 Ghz)
   ```
