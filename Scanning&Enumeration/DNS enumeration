@@ -7,7 +7,7 @@ Find DNS server
    • dig @10.11.1.221 thinc.local
    • whois
    • host
-
+   • nmap -p 53 --script=*dns* -vv -oN dns $ip
 
 Forward Lookup Brute Force
 ---------------------------
