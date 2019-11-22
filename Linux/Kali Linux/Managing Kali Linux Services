@@ -6,3 +6,35 @@ service ssh start
 netstat -tunap | grep sshd
 service ssh stop
 netstat -tunap | grep sshd
+
+
+HTTP Service
+-------------
+Port 80
+
+service apache2 start
+
+Default Apache document root is at /var/www/html
+
+To change the index page, echo "Kali Linux rocks" > /var/www/html/index.html
+
+service apache2 stop
+
+
+Service Management
+-------------------
+service is a wrapper around existing system init scripts located in /etc/init.d/ directory. Another way of managing the service, you can directly use the init scripts.
+
+    /etc/init.d/ssh start
+    /etc/init.d/ssh stop
+
+
+
+Service Boot Persistence
+------------------------
+Services will be started at boot time.
+
+    update-rc.d ssh enable or systemctl enable ssh
+    update-rc.d ssh disable or systemctl disable ssh
+
+For more granular control of these services, use rcconf or sysv-rc-conf, both to help simplify and manage the boot persistence of these services.
