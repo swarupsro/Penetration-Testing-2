@@ -41,10 +41,8 @@
   ## Pre-connection Attacks
 ### MAC address changing
 ```Bash
-  > iwconfig
-  > airmon-ng check kill  
-  > airmon-ng start wlan1 
-  > airodump-ng wlan1mon 
-    OR
-  > airodump-ng --band a wlan1mon (show all type of wifi networks 5 Ghz or 2.4 Ghz)
+  > ifconfig wlan0 down
+  > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
+  > ifconfig wlan0 up 
+  > ifconfig wlan0 
   ```
