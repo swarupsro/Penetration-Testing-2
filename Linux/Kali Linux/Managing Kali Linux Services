@@ -1,0 +1,8 @@
+SSH Service
+
+Port 22
+
+service ssh start
+netstat -tunap | grep sshd
+service ssh stop
+netstat -tunap | grep sshd
