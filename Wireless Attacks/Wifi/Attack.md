@@ -29,3 +29,11 @@
 	* [Sniffing Cookies](#others)
 	* [Session Hijacking](#others)
 	* [Other Attacks](#others)
+## Enabling monitor mode
+```Bash
+  > iwconfig
+  > airmon-ng check kill  
+  > airmon-ng start wlan1 
+  > airodump-ng wlan1mon 
+  > airodump-ng --band a wlan1mon (show all type of wifi networks)
+  ```
