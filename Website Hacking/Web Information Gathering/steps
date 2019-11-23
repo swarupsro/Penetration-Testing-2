@@ -1,9 +1,20 @@
+ What informations are needed
  ● IP address. 
  ● Domain name info. 
  ● Technologies used. 
  ● Other websites on the same server. 
  ● DNS records. 
  ● Unlisted files, sub-domains, directories.
+ 
+ ● Analysing HTTP headers
+ ● Port & Services
+ ● SS/TLS info
+ ● Application Directory structure
+ ● Accessing Admin interface
+ ● Minimum info principle
+ ● Backup file & Forgotten files
+ ● Known Vulnerabilities
+ 
  
  1. Whois Lookup  - Find info about the owner of the target. 
     → http://whois.domaintools.com/
