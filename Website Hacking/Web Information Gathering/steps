@@ -7,14 +7,24 @@
  ● Unlisted files, sub-domains, directories.
  
  ● Analysing HTTP headers
+   - Server header & Technology used
+   - Session Info
+   - URL Info
+   - HTTP Methods
  ● Port & Services
  ● SS/TLS info
+   - Versions
+   - Algorithms
  ● Application Directory structure
  ● Accessing Admin interface
  ● Minimum info principle
+   - Help pages & Error pages
+   - HTML comment line
+   - User & email address gathering
  ● Backup file & Forgotten files
  ● Known Vulnerabilities
- 
+   - Google hacking
+   - ExploitDB
  
  1. Whois Lookup  - Find info about the owner of the target. 
     → http://whois.domaintools.com/
