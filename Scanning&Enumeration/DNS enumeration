@@ -4,9 +4,15 @@ Tools: nslookup,whois,dig,host,DNSenum,DNSdict,DNSrecon,DNSmapping,dnstracer(dns
 Find DNS server
 ----------------
    • nslookup thinc.local 10.11.1.221
-   • dig @10.11.1.221 thinc.local
+   • nslookup google.com
+   • dig google.com
+   • dig google.com -t mx
+   • dig google.com CNAME
+   • dig google.com -t ns +short
    • whois
-   • host
+   • host google.com
+   • host -t ns google.com
+   • host -t mx google.com
    • nmap -p 53 --script=*dns* -vv -oN dns $ip
 
 Forward Lookup Brute Force
