@@ -1,0 +1,24 @@
+ ● IP address. 
+ ● Domain name info. 
+ ● Technologies used. 
+ ● Other websites on the same server. 
+ ● DNS records. 
+ ● Unlisted files, sub-domains, directories.
+ 
+ 1. Whois Lookup  - Find info about the owner of the target. 
+    → http://whois.domaintools.com/
+    
+ 2. Netcraft Site Report - Shows technologies used on the target. 
+    → http://toolbar.netcraft.com/site_report?url= 
+  
+ 3. Robtex DNS lookup - Shows comprehensive info about the target website. 
+    → https://www.robtex.com
+    
+  Websites on the same server
+  
+  ● One server can serve a number of websites. 
+  ● Gaining access to one can help gaining access to others.
+
+To find websites on the same server: 
+1. Use Robtex DNS lookup under “names pointing to same IP”. 
+2. Using bing.com, search for ip: [target ip]
