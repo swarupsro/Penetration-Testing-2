@@ -35,3 +35,7 @@ Network Scanning
 Let’s start by scanning the network for targets using Netdiscover.
 
 [![ssd](https://1.bp.blogspot.com/-DcAk3IHGRXA/Xc7b0rtZRJI/AAAAAAAAhSQ/bhoJZrb8R6c-oXljraSdlURjJdHmArEAwCLcBGAsYHQ/s1600/1.png "ssd")](https://1.bp.blogspot.com/-DcAk3IHGRXA/Xc7b0rtZRJI/AAAAAAAAhSQ/bhoJZrb8R6c-oXljraSdlURjJdHmArEAwCLcBGAsYHQ/s1600/1.png "ssd")
+
+We found the target IP Address 192.168.1.184. Let’s begin with basic port scanning with NMAP.
+
+[![sd](https://1.bp.blogspot.com/-hdst_cAleL4/Xc7b4SUd7UI/AAAAAAAAhS0/yXZceLS5dQQiAHX1TYDte9CWmVoRNrUbQCLcBGAsYHQ/s1600/2.png "sd")](dsd "sd")
