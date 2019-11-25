@@ -1,40 +1,5 @@
 # Steganography Toolkit
 
-This project is a Docker image useful for solving Steganography challenges as those you can find at CTF platforms like [hackthebox.eu](https://www.hackthebox.eu/).
-The image comes pre-installed with many popular tools (see list [below](#tools)) and several screening scripts you can use check simple things (for instance, run `check_jpg.sh image.jpg` to get a report for a JPG file).
-
-[![Docker build status](https://img.shields.io/docker/build/mariobehling/loklak.svg)](https://hub.docker.com/r/dominicbreuker/stego-toolkit/)
-
-[![Hack The Box](https://www.hackthebox.eu/badge/image/6255)](https://www.hackthebox.eu/profile/6255)
-
-## Usage
-
-First make sure you have Docker installed ([how to](https://docs.docker.com/engine/installation/)).
-Then you can use the shell scripts `bin/buid.sh` and `bin/run.sh` in this repo to build the image and run the container.
-You will be dropped into a bash shell inside the container.
-It will have the `data` folder mounted, into which you can put the files to analyze.
-
-If you don't use the scripts, follow these steps:
-1. Build image (`docker build -t <image_name> .`) or pull from Docker hub (`docker pull dominicbreuker/stego-toolkit`)
-2. Start a container with your files mounted to the folder `/data` (`docker run -it <image_name> -v /local/folder/with/data:/data /bin/bash`)
-3. Use CLI tools and screening scripts on your files: e.g., run `check_jpg.sh image.jpg` to create a quick report, or run `brute_jpg.sh image.jpg wordlist.txt` to try extracting hidden data with various tools and passwords
-4. If you want to run GUI tools use one of these two ways:
-  - Run `start_ssh.sh` and connect to your container with X11 forwarding
-  - Run `start_vnc.sh` and connect to the container's Desktop through your browser
-
-Check out the following sections for more information:
-- What tools are installed? Go [here](#tools)
-- What scripts can I run to quickly screen files automatically or brute force them? Go [here](#screening-scripts)
-- How can I play with different Steganography examples to see if I can break them? Go [here](#steganography-examples)
-- How can I run GUI tools inside the container? go [here](#gui-and-containers)
-
-## Demo
-
-Start with `docker run -it --rm -v $(pwd)/data:/data dominicbreuker/stego-toolkit /bin/bash`.
-You will be dropped into a container shell in work dir `/data`.
-Your host folder `$(pwd)/data` will be mounted and the images inside will be accessible.
-
-![animated demo gif](https://i.imgur.com/UW8CKFV.gif)
 
 ## Tools
 
