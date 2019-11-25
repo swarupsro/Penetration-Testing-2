@@ -29,8 +29,8 @@ Privilege Escalation
     Adding  User to /tmp file
     Reading Final Flag
 
-Walkthrough
-Network Scanning
+### Walkthrough
+##### Network Scanning
 
 Let’s start by scanning the network for targets using Netdiscover.
 
