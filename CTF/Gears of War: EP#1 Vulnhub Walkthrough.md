@@ -2,7 +2,7 @@ Gears of War: EP#1 VM is made by eDu809. This VM is a purposely built vulnerable
 
 Level: Intermediate
 
-Since these labs are available on the Vulnhub Website. We will be downloading the lab file from this link.
+Since these labs are available on the Vulnhub Website. We will be downloading the lab file from this [link](https://www.vulnhub.com/entry/gears-of-war-ep1,382/).
 Penetration Testing Methodology
 
 Network Scanning
