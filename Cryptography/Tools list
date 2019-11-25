@@ -7,6 +7,12 @@
     RSACTFTool - A tool for recovering RSA private key with various attack.
     RSATool - Generate private key with knowledge of p and q.
     XORTool - A tool to analyze multi-byte xor cipher.
+    
+    Cryptool - https://www.cryptool.org/
+hashpump - https://github.com/bwall/HashPump
+Sage - http://www.sagemath.org/
+John the Ripper - http://www.openwall.com/john/
+xortool - https://github.com/hellman/xortool
 
         
         aeppro   - http://www.aeppro.com/
