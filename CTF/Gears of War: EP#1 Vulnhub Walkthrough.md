@@ -63,3 +63,11 @@ We thought of reading the contents of SOS.txt file and it was a success. It sure
 It’s time to FIRE UP!! Crunch and generate a wordlist as per the combination of the password we have fetched from the SOS.txt file.
 
 [![sd](https://1.bp.blogspot.com/-urR3hwnlwMU/Xc7b6FH5UUI/AAAAAAAAhTI/C_xhBS2aUgE6e1RQg9aMZsg6mvy_bRRUwCLcBGAsYHQ/s1600/7.png"sd")](dsd "sd")
+
+Once the wordlist is all set up, we have used FCRACK TOOL to crack the password for the ZIP file as shown below.
+frackzip -D -u -v -p wordlist msg_horda.zip
+1
+	
+frackzip -D -u -v -p wordlist msg_horda.zip
+
+The password for the ZIP file is r44M. We also found a key.txt file inside the ZIP file.
