@@ -31,4 +31,21 @@
         yara : a tool aimed at helping malware researchers toidentify and classify malware samples
         Spike : a protocol fuzzer creation kit + audits
         other : other scripts collected somewhere
+        - GDB
+- IDA Pro
+- Immunity Debugger
+- OllyDbg
+- Radare2
+- nm
+- objdump
+- strace
+- ILSPy(.NET)
+- JD-GUI(Java)
+- FFDec(Flash)
+- dex2jar(Android)
+- uncomplye2(Python)
+- Any hex editor
+- Exe unpackers
+- Resource unpackers
+- Compilers
 
