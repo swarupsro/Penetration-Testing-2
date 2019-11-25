@@ -2,11 +2,11 @@
 
 - [EVM: 1 Vulnhub Walkthrough](https://www.hackingarticles.in/evm-1-vulnhub-walkthrough/)
 
-Mumbai:1 Vulnhub Walkthrough
+- [Mumbai:1 Vulnhub Walkthrough](https://www.hackingarticles.in/mumbai1-vulnhub-walkthrough/)
 
-Gears of War: EP#1 Vulnhub Walkthrough
+- [Gears of War: EP#1 Vulnhub Walkthrough](https://www.hackingarticles.in/gears-of-war-ep1-vulnhub-walkthrough/)
 
-HA: Chakravyuh Vulnhub Walkthrough
+- [HA: Chakravyuh Vulnhub Walkthrough]()
 
 HA Rudra: Vulnhub Walkthrough
 
