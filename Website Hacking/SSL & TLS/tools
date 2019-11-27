@@ -4,3 +4,4 @@ SSL Analysis Tools
     sslstrip – a demonstration of the HTTPS stripping attacks - https://moxie.org/software/sslstrip/
     sslstrip2 – SSLStrip version to defeat HSTS - https://github.com/LeonardoNve/sslstrip2
     sslscan
+    testssl - https://github.com/drwetter/testssl.sh
