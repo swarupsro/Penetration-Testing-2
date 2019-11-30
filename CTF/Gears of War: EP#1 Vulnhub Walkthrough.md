@@ -34,10 +34,12 @@ Privilege Escalation
 ##### Network Scanning
 
 Let’s start by scanning the network for targets using Netdiscover.
+netdiscover
 
 [![ssd](https://1.bp.blogspot.com/-DcAk3IHGRXA/Xc7b0rtZRJI/AAAAAAAAhSQ/bhoJZrb8R6c-oXljraSdlURjJdHmArEAwCLcBGAsYHQ/s1600/1.png "ssd")](https://1.bp.blogspot.com/-DcAk3IHGRXA/Xc7b0rtZRJI/AAAAAAAAhSQ/bhoJZrb8R6c-oXljraSdlURjJdHmArEAwCLcBGAsYHQ/s1600/1.png "ssd")
 
 We found the target IP Address 192.168.1.184. Let’s begin with basic port scanning with NMAP.
+nmap -A -p- 192.168.1.184
 
 [![sd](https://1.bp.blogspot.com/-hdst_cAleL4/Xc7b4SUd7UI/AAAAAAAAhS0/yXZceLS5dQQiAHX1TYDte9CWmVoRNrUbQCLcBGAsYHQ/s1600/2.png "sd")](dsd "sd")
 
@@ -48,6 +50,12 @@ For more details, we will need to start enumeration against the host machine. Th
 [![sd](https://1.bp.blogspot.com/-tWvJslaFjsQ/Xc7b5eDeoYI/AAAAAAAAhS8/FSbB4GRc9xkZ73iIZ83Cj9Bog2xupYiJQCLcBGAsYHQ/s1600/3.png "sd")](dsd "sd")
 
 Since HTTP service was not much of a help. On the other hand, we can clearly note from the nmap scan that we have the SMB service running, and we don’t have any credentials for the ssh so we went directly on with SMB. We logged in using the command mentioned. There is a list of shared directories. We tried accessing LOCUS_LAN$ directory and enumerated it. We find a notes.txt file and msg_horda.zip file. Let’s transfer these files on our machine to read their contents.
+
+smbclient -L 192.168.1.184
+smbclient //192.168.1.184/LOCUS_LAN$
+get msg_horda.zip
+get SOS.txt
+ls
 
 [![sd](https://1.bp.blogspot.com/-OlJOMed9xTA/Xc7b4_swmVI/AAAAAAAAhS4/dbZTrs4hnqEW5b8yFy-xGBEmkGlEjsEwQCLcBGAsYHQ/s1600/4.png "sd")](dsd "sd")
 
@@ -62,11 +70,11 @@ We thought of reading the contents of SOS.txt file and it was a success. It sure
 #### Exploiting
 It’s time to FIRE UP!! Crunch and generate a wordlist as per the combination of the password we have fetched from the SOS.txt file.
 
+crunch 4 4 -t @%%, -o wordlist
+
 [![sd](https://1.bp.blogspot.com/-urR3hwnlwMU/Xc7b6FH5UUI/AAAAAAAAhTI/C_xhBS2aUgE6e1RQg9aMZsg6mvy_bRRUwCLcBGAsYHQ/s1600/7.png"sd")](dsd "sd")
 
 Once the wordlist is all set up, we have used FCRACK TOOL to crack the password for the ZIP file as shown below.
-frackzip -D -u -v -p wordlist msg_horda.zip
-1
 	
 frackzip -D -u -v -p wordlist msg_horda.zip
 
