@@ -1,0 +1,48 @@
+--[ 3 - Stay safe out there ]---------------------------------------------------
+
+Unfortunately, our world is backwards. You get rich by doing bad things and go
+to jail for doing good. Fortunately, thanks to the hard work of people like
+the Tor project [1], you can avoid going to jail by taking a few simple
+precautions:
+
+1) Encrypt your hard disk [2]
+
+   I guess when the police arrive to seize your computer, it means you've
+   already made a lot of mistakes, but it's better to be safe.
+
+2) Use a virtual machine with all traffic routed through Tor
+
+   This accomplishes two things. First, all your traffic is anonymized through
+   Tor. Second, keeping your personal life and your hacking on separate
+   computers helps you not to mix them by accident.
+
+   You can use projects like Whonix [3], Tails [4], Qubes TorVM [5], or
+   something custom [6]. Here's [7] a detailed comparison.
+
+3) (Optional) Don't connect directly to Tor
+   
+   Tor isn't a panacea. They can correlate the times you're connected to Tor
+   with the times your hacker handle is active. Also, there have been
+   successful attacks against Tor [8]. You can connect to Tor using other
+   peoples' wifi. Wifislax [9] is a linux distro with a lot of tools for
+   cracking wifi. Another option is to connect to a VPN or a bridge node [10]
+   before Tor, but that's less secure because they can still correlate the
+   hacker's activity with your house's internet activity (this was used as
+   evidence against Jeremy Hammond [11]).
+
+   The reality is that while Tor isn't perfect, it works quite well. When I
+   was young and reckless, I did plenty of stuff without any protection (I'm
+   referring to hacking) apart from Tor, that the police tried their hardest
+   to investigate, and I've never had any problems.
+
+[1] https://www.torproject.org/
+[2] https://info.securityinabox.org/es/chapter-4
+[3] https://www.whonix.org/
+[4] https://tails.boum.org/
+[5] https://www.qubes-os.org/doc/privacy/torvm/
+[6] https://trac.torproject.org/projects/tor/wiki/doc/TransparentProxy
+[7] https://www.whonix.org/wiki/Comparison_with_Others
+[8] https://blog.torproject.org/blog/tor-security-advisory-relay-early-traffic-confirmation-attack/
+[9] http://www.wifislax.com/
+[10] https://www.torproject.org/docs/bridges.html.en
+[11] http://www.documentcloud.org/documents/1342115-timeline-correlation-jeremy-hammond-and-anarchaos.html
