@@ -1,0 +1,28 @@
+
+Network Penetration Testing Process (known vulnerabilities)
+-----------------------------------------------------------
+
+
+1. Ping Sweep:
+The purpose of this step is to identify live hosts
+
+	nmap -sP <ip-address/ip-range>
+
+
+2. Port Scan
+Identify running services. We use the running services to map the network topology.
+
+	nmap -sS <ip-address/ip-range>
+
+
+3. Bannergrab
+Identify the version of version of software running on each port
+
+	nmap -sV <ip-address/ip-range>
+	
+
+
+4. Vulnerability Research
+Use the software version number to research and determine if it is out of date (vulnerable).
+
+	exploit-db.com/search
