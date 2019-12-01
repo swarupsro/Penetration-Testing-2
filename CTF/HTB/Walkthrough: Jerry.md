@@ -1,3 +1,4 @@
+[![sd](https://miro.medium.com/max/527/0*60Coa2PkVezUtKGU.png "sd")](dsd "sd")
 ### Getting ROOT/Exploiting
 
 Weak Credentials: S3crets are no fun! Using credentials that are vendor set, or easily guessable.
