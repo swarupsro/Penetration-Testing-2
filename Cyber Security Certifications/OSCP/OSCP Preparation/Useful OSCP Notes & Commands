@@ -1,0 +1,12 @@
+https://medium.com/@falconspy/useful-oscp-notes-commands-d71b5eda7b02
+
+Buffer Overflow
+
+Finding your EIP Offset
+If you know how long your buffer is before the exploit crashes (e.g 4000 characters) you can use the pattern_create script with the -l (lowercase L) flag to create a unique pattern.
+
+Using the above example
+
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 4000
+
+Once you’ve inserted the above output into your skeleton script, copy down the output of what appears in EIP. Then give pattern_offset a run
