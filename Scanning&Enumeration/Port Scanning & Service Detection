@@ -1,3 +1,7 @@
+nmap - https://nmap.org
+masscan - https://github.com/robertdavidgraham/masscan
+unicornscan - https://github.com/dneufeld/unicornscan
+
 Port Scanning & Service Detection
     • unicornscan -mT -I 10.11.1.252:a -v 
     • unicornscan -mU -I 10.11.1.252:p -v 
