@@ -1,5 +1,21 @@
 
 Tools: nslookup,whois,dig,host,DNSenum,DNSdict,DNSrecon,DNSmapping,dnstracer(dnstracer -r 3 -v google.com)
+Sublist3r
+https://github.com/aboul3la/Sublist3r
+enumall
+https://github.com/jhaddix/domain/
+massdns
+https://github.com/blechschmidt/massdns
+altdns
+https://github.com/infosec-au/altdns
+brutesubs
+https://github.com/anshumanbh/brutesubs
+dns-parallel-prober
+https://github.com/lorenzog/dns-parallel-prober
+dnscan
+https://github.com/rbsec/dnscan
+Knockpy
+https://github.com/guelfoweb/knock
 
 Find DNS server
 ----------------
