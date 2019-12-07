@@ -1,0 +1,47 @@
+<p>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.offensive-security.com/"><b>Offensive Security</b></a> - true performance-based penetration testing training for over a decade.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.hackthebox.eu/"><b>Hack The Box</b></a> - online platform allowing you to test your penetration testing skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.hacking-lab.com/index.html"><b>Hacking-Lab</b></a> - online ethical hacking, computer network and security challenge platform.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="http://pwnable.kr/index.php"><b>pwnable.kr</b></a> - non-commercial wargame site which provides various pwn challenges regarding system exploitation.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://pwnable.tw/"><b>Pwnable.tw</b></a> - is a wargame site for hackers to test and expand their binary exploiting skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://picoctf.com/"><b>picoCTF</b></a> - is a free computer security game targeted at middle and high school students.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://ctflearn.com/"><b>CTFlearn</b></a> - is an online platform built to help ethical hackers learn and practice their cybersecurity knowledge and skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://ctftime.org/"><b>ctftime</b></a> - CTF archive and a place, where you can get some another CTF-related info.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://silesiasecuritylab.com/"><b>Silesia Security Lab</b></a> - high quality security testing services.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://practicalpentestlabs.com/"><b>Practical Pentest Labs</b></a> - pentest lab, take your Hacking skills to the next level.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.root-me.org/?lang=en"><b>Root Me</b></a> - the fast, easy, and affordable way to train your hacking skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://rozwal.to/login"><b>rozwal.to</b></a> - a great platform to train your pentesting skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://tryhackme.com/"><b>TryHackMe</b></a> - learning Cyber Security made easy.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://hackxor.net/"><b>hackxor</b></a> - is a realistic web application hacking game, designed to help players of all abilities develop their skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="http://hack-yourself-first.com/"><b>Hack Yourself First</b></a> - it's full of nasty app sec holes.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="http://overthewire.org/wargames/"><b>OverTheWire</b></a> - can help you to learn and practice security concepts in the form of fun-filled games.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://labs.wizard-security.net/"><b>Wizard Labs</b></a> - is an online Penetration Testing Lab.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://pentesterlab.com/"><b>PentesterLab</b></a> - provides vulnerable systems that can be used to test and understand vulnerabilities.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://ringzer0ctf.com/"><b>RingZer0</b></a> - tons of challenges designed to test and improve your hacking skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="http://www.try2hack.nl/"><b>try2hack</b></a> - several security-oriented challenges for your entertainment.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.ubeeri.com/preconfig-labs"><b>Ubeeri</b></a> - preconfigured lab environments.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://lab.pentestit.ru/"><b>Pentestit</b></a> - emulate IT infrastructures of real companies for legal pen testing and improving penetration testing skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://microcorruption.com/login"><b>Microcorruption</b></a> - reversal challenges done in the web interface.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://crackmes.one/"><b>Crackmes</b></a> - download crackmes to help improve your reverse engineering skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://domgo.at/cxss/intro"><b>DomGoat</b></a> - DOM XSS security learning and practicing platform.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://chall.stypr.com"><b>Stereotyped Challenges</b></a> - upgrade your web hacking techniques today!<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="http://overthewire.org/wargames/"><b>OverTheWire</b></a> - can help you to learn and practice security concepts in the form of fun-filled games.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.vulnhub.com/"><b>Vulnhub</b></a> - allows anyone to gain practical 'hands-on' experience in digital security.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://w3challs.com/"><b>W3Challs</b></a> - is a penetration testing training platform, which offers various computer challenges.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://ringzer0ctf.com/challenges"><b>RingZer0 CTF</b></a> - offers you tons of challenges designed to test and improve your hacking skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://hack.me/"><b>Hack.me</b></a> - a platform where you can build, host and share vulnerable web apps for educational and research purposes.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.hackthis.co.uk/levels/"><b>HackThis!</b></a> - discover how hacks, dumps and defacements are performed and secure your website against hackers.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.enigmagroup.org/#"><b>Enigma Group WebApp Training</b></a> - these challenges cover the exploits listed in the OWASP Top 10 Project.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://challenges.re/"><b>Reverse Engineering Challenges</b></a> - challenges, exercises, problems and tasks - by level, by type, and more.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://0x00sec.org/"><b>0x00sec</b></a> - the home of the Hacker - Malware, Reverse Engineering, and Computer Science.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.wechall.net/challs"><b>We Chall</b></a> - there are exist a lots of different challenge types.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.hackergateway.com/"><b>Hacker Gateway</b></a> - is the go-to place for hackers who want to test their skills.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.hacker101.com/"><b>Hacker101</b></a> - is a free class for web security.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://contained.af/"><b>contained.af</b></a> - a stupid game for learning about containers, capabilities, and syscalls.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="http://flaws.cloud/"><b>flAWS challenge!</b></a> - a series of levels you'll learn about common mistakes and gotchas when using AWS.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://cybersecurity.wtf"><b>CyberSec WTF</b></a> - provides web hacking challenges derived from bounty write-ups.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://ctfchallenge.co.uk/login"><b>CTF Challenge</b></a> - CTF Web App challenges.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://capturetheflag.withgoogle.com"><b>gCTF</b></a> - most of the challenges used in the Google CTF 2017.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.hackthissite.org/pages/index/index.php"><b>Hack This Site</b></a> - is a free, safe and legal training ground for hackers.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://attackdefense.com"><b>Attack & Defense</b></a> - is a browser-based cloud labs.<br>
+</p>
