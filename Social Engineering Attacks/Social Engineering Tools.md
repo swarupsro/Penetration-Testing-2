@@ -15,3 +15,6 @@
 * [phishery](https://github.com/ryhanson/phishery) - TLS/SSL enabled Basic Auth credential harvester.
 * [wifiphisher](https://github.com/sophron/wifiphisher) - Automated phishing attacks against WiFi networks.
 
+* [CredSniper
+](https://github.com/ustayready/CredSniper) - CredSniper is a phishing framework written with the Python micro-framework Flask and Jinja2 templating which supports capturing 2FA tokens. .
+* [wifiphisher](https://github.com/sophron/wifiphisher) - Automated phishing attacks against WiFi networks.
