@@ -9,6 +9,9 @@ smbmap -H 192.168.10.1
 smbmap -R [shared dir] -H 192.168.10.1 = list contents
 smbmap -R [shared dir] -H 192.168.10.1 -A [filename.xml] -q = download content 
 
+smbmap -d active.htb -u svc_tgs -p [PASSWORD] -H 192.168.10.1
+smbmap -d active.htb -u svc_tgs -p [PASSWORD] -H 192.168.10.1 -R [Users] = download all contents in a filename Users
+
 smbclient
 ---------
 smbclient -L //192.168.10.1
