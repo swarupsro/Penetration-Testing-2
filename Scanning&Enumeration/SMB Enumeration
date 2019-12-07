@@ -1,3 +1,24 @@
+SMB Enumeration
+nmap --script smb-enum-services -p 445 192.168.10.1 -d
+
+enum4linux 192.168.10.1
+
+smbmap
+-------
+smbmap -H 192.168.10.1
+smbmap -R [shared dir] -H 192.168.10.1 = list contents
+smbmap -R [shared dir] -H 192.168.10.1 -A [filename.xml] -q = download content 
+
+smbclient
+---------
+smbclient -L //192.168.10.1
+
+download all contents in a filename folder[ ! password required]
+smbclient //192.168.10.1/filename
+>recurse ON
+>prompt OFF
+>mget *
+
 1. NBTSCAN
 
 root@bt:~# nbtscan -r 10.0.2.0/24
