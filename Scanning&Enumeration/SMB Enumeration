@@ -1,7 +1,7 @@
 SMB Enumeration
 nmap --script smb-enum-services -p 445 192.168.10.1 -d
 
-enum4linux 192.168.10.1
+enum4linux -S 192.168.10.1
 
 smbmap
 -------
@@ -9,12 +9,13 @@ smbmap -H 192.168.10.1
 smbmap -R [shared dir] -H 192.168.10.1 = list contents
 smbmap -R [shared dir] -H 192.168.10.1 -A [filename.xml] -q = download content 
 
-smbmap -d active.htb -u svc_tgs -p [PASSWORD] -H 192.168.10.1
-smbmap -d active.htb -u svc_tgs -p [PASSWORD] -H 192.168.10.1 -R [Users] = download all contents in a filename Users
+smbmap -d active.htb -u [USER NAME] -p [PASSWORD] -H 192.168.10.1
+smbmap -d active.htb -u [USER NAME] -p [PASSWORD] -H 192.168.10.1 -R [Users] = download all contents in a filename Users
 
-smbclient
+smbclient ( -L list shares, -N anonymous logon,)
 ---------
 smbclient -L //192.168.10.1
+smbclient -L //10.10.10.100 -N
 
 download all contents in a filename folder[ ! password required]
 smbclient //192.168.10.1/filename
