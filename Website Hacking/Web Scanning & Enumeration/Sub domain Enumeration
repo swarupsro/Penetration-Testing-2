@@ -9,6 +9,7 @@ Tools
 - massdns - https://github.com/blechschmidt/massdns
 - altdns - https://github.com/infosec-au/altdns
 - subfinder - https://github.com/subfinder/subfinder
+- DNS-Discovery - https://github.com/m0nad/DNS-Discovery
 
 Subdomains wordlist:
 https://github.com/danielmiessler/SecLists
