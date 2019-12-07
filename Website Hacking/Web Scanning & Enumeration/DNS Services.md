@@ -1,4 +1,4 @@
-##### DNS
+## DNS
 
 <p>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://viewdns.info/"><b>ViewDNS</b></a> - one source for free DNS related tools and information.<br>
