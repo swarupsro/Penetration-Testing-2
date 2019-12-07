@@ -17,4 +17,6 @@
 
 * [CredSniper
 ](https://github.com/ustayready/CredSniper) - CredSniper is a phishing framework written with the Python micro-framework Flask and Jinja2 templating which supports capturing 2FA tokens. .
-* [wifiphisher](https://github.com/sophron/wifiphisher) - Automated phishing attacks against WiFi networks.
+* [PwnAuth](https://github.com/fireeye/PwnAuth) - web application framework for launching and managing OAuth abuse campaigns. 
+* [Phishing Frenzy](https://github.com/pentestgeek/phishing-frenzy) - Ruby on Rails Phishing Framework.
+* [Phishing Pretexts](https://github.com/L4bF0x/PhishingPretexts) - a library of pretexts to use on offensive phishing engagements.
