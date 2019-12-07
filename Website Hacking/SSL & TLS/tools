@@ -5,3 +5,5 @@ SSL Analysis Tools
     sslstrip2 – SSLStrip version to defeat HSTS - https://github.com/LeonardoNve/sslstrip2
     sslscan
     testssl - https://github.com/drwetter/testssl.sh
+    tls_prober - https://github.com/WestpointLtd/tls_prober
+
