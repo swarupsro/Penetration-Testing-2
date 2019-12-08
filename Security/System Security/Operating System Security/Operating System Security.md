@@ -5,7 +5,7 @@
   
 	1 OS updates, Patch management & Vulnerability management
 	2 Remove unnessary services,a/p,protocols,ports   
-	3 Configure user,groups,authentication 
+	3 Configure user,groups,authentication,BIOS password 
 	4 Use strong passwords for User accounts
 	5 Disable unnessary accounts
 	6.File and File System Encryption
