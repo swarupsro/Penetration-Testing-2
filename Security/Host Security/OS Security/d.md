@@ -15,7 +15,7 @@ OS play a vital role in host security as the built-in-security features in opera
 ## A.Prevention  
   
 	1 OS updates, Patch management & Vulnerability management
-	2 Remove unnessary services,a/p,protocols,ports   
+	2 Remove unnessary services,applications,protocols,ports   
 	3 Configure user,groups,authentication 
 	4 Use strong passwords for User accounts
 	5 Disable unnessary accounts
@@ -32,9 +32,9 @@ OS play a vital role in host security as the built-in-security features in opera
 	
 ## B.Detection  
   
-	6 Loging & Auditing
-	7 Test system security   
-	8 Monitoring & Scanning 
+	1 Loging & Auditing
+	2 Test system security   
+	3 Monitoring & Scanning 
 	  - Ports
 	  - Proccess
 	  - Register entries
