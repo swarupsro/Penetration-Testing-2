@@ -43,3 +43,25 @@ OS play a vital role in host security as the built-in-security features in opera
 	  - Startup apps
 	  - Files & Folders
 	  - Networking activities
+
+
+### Windows Security
+
+- OS installation(
+   Dedicate a single partition on HDD,
+   Format disk using NTFS file system)
+   
+- Fixing OS vulnerabilties(
+  Download and install latest patches,
+  Turn on Windows Automatic Updates checking)
+  
+- Configure Windows Firewall
+
+- Install Antivirus Software
+
+- Turn off unneccessory services
+
+- Application Installation(
+  Centrally assign applications using group policies)
+  
+- Fixing applications automatic update checking
