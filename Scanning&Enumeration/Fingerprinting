@@ -1,0 +1,18 @@
+o Fingerprinting 
+ ▪ Identification of the operating system, service, software versions being used by a host
+ 
+o Banner Grabbing
+ ▪ Manual enumeration and fingerprinting 
+ ▪ Use telnet or Netcat to connect to target host 
+ ▪ Commonly used for FTP, SSH, Telnet, & HTTP  
+ 
+o Packet Crafting 
+ ▪ Also known as packet manipulation 
+ ▪ Sending modified packet headers to gather information from a system or host 
+ ▪ Tools: 
+  ● Nmap 
+  ● Netcat (nc) 
+  ● Ncat (ncat) 
+  ● Hping 
+o Packet Inspection 
+ ▪ Manual enumeration performed by analyzing the captured packets to determine information 
