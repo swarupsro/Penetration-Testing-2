@@ -35,13 +35,13 @@
 
 ### Windows Security
 
-- OS installation
-   Dedicate a single partition on HDD
-   Format disk using NTFS file system
+- OS installation(
+   Dedicate a single partition on HDD,
+   Format disk using NTFS file system)
    
-- Fixing OS vulnerabilties
-  Download and install latest patches
-  Turn on Windows Automatic Updates checking
+- Fixing OS vulnerabilties(
+  Download and install latest patches,
+  Turn on Windows Automatic Updates checking)
   
 - Configure Windows Firewall
 
@@ -49,8 +49,8 @@
 
 - Turn off unneccessory services
 
-- Application Installation
-  Centrally assign applications using group policies
+- Application Installation(
+  Centrally assign applications using group policies)
   
 - Fixing applications automatic update checking
 
