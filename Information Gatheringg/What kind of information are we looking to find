@@ -27,3 +27,9 @@ Putting It All Together
 ▪ Use the emails to draft potential spearphishing emails to be more realistic 
 ● Use target’s PDF, Word, Excel, and PowerPoint files to embed malware 
 ● Use real employee names, positions, and writing styles to mimic real email traffic 
+
+Taking It Further… 
+▪ Use domain name squatting 
+● Targeting titancipher.com by using titancypher.com 
+● Make the site look as close to the original as possible but host malware there 
+▪ Identify any subdomains (developer sites, mail servers, etc.) for exploitation
