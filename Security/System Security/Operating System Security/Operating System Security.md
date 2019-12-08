@@ -6,12 +6,18 @@
 	1 OS updates, Patch management & Vulnerability management
 	2 Remove unnessary services,a/p,protocols,ports   
 	3 Configure user,groups,authentication 
-	4 Virtulization  
-	5 Install additional security controls:
+	4 Use strong passwords for User accounts
+	5 Disable unnessary accounts
+	6.File and File System Encryption
+	7.Enable Logging
+	8.Disable any unnessary file sharing
+	9 Virtulization  
+	10 Install additional security controls:
 	   - Antivirus
 	   - Host based firewall
 	   - IDS or IPS software
 	   - Application whitelisting
+	   - Use of Access Control Lists and file permission for File and Directory Protection
 	
 ## B.Detection  
   
@@ -27,6 +33,25 @@
 	  - Files & Folders
 	  - Networking activities
 
+### Windows Security
 
+- OS installation
+   Dedicate a single partition on HDD
+   Format disk using NTFS file system
+   
+- Fixing OS vulnerabilties
+  Download and install latest patches
+  Turn on Windows Automatic Updates checking
+  
+- Configure Windows Firewall
+
+- Install Antivirus Software
+
+- Turn off unneccessory services
+
+- Application Installation
+  Centrally assign applications using group policies
+  
+- Fixing applications automatic update checking
 
 
