@@ -1,3 +1,4 @@
+What kind of information are we looking to find?
 - Phone numbers
 - Contact numbers
 - Email addresses
@@ -7,8 +8,8 @@
 - Resumes
 
 
-Tools
-------
+Reconnaissance Tools
+--------------------
 Nslookup
 Traceroute
 Ping
@@ -19,3 +20,10 @@ Google
 Social Networking
 Discover.sh
 Maltego
+
+Putting It All Together
+------------------------
+▪ You’ve collected examples of emails, names, phone numbers, servers’ addresses, documents, presentations, and more 
+▪ Use the emails to draft potential spearphishing emails to be more realistic 
+● Use target’s PDF, Word, Excel, and PowerPoint files to embed malware 
+● Use real employee names, positions, and writing styles to mimic real email traffic 
