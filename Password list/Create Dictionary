@@ -1,0 +1,15 @@
+Crunch
+Cewl
+Cupp
+Pydictor
+Dymerge
+
+crunch 3 4 ignite –o /root/Desktop/dict.txt
+cewl www.ignitetechnologies.in -d 2 -w /root/Desktop/dict.txt
+git clone https://github.com/Mebus/cupp.git
+./cupp.py -i
+git clone https://github.com/LandGrey/pydictor.git
+./pydictor.py --len 5 5 --base d –o /root/Desktop/dict.txt
+ 	
+git clone https://github.com/k4m4/dymerge.git
+python dymerge.py /root/Desktop/digit.txt /root/Desktop/words.txt –s –o /root/Desktop/dict.txt
