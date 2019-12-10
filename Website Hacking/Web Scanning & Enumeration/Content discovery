@@ -3,6 +3,8 @@
 - dir buster
 - nikto
 - Aquatone
+- Wfuzz
+- Metasploit
 - burp intruder
 - subBrute
 - metagoofile
