@@ -2,6 +2,8 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Inject
 
 https://github.com/payloadbox/command-injection-payload-list
 
+https://github.com/PortSwigger/command-injection-attacker
+
 https://medium.com/bugbountywriteup/command-injection-poc-72cc3743f10d
 
 https://medium.com/hackernoon/nodejs-security-issue-javascript-node-example-tutorial-vulnerabilities-hack-line-url-command-injection-412011924d1b
