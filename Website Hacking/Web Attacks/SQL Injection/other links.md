@@ -1,5 +1,9 @@
 https://medium.com/bugbountywriteup/sqlmaps-os-shell-backdooring-website-with-weevely-8cb6dcf17fa4?
 
+https://medium.com/@drag0n/sqlmap-tamper-scripts-sql-injection-and-waf-bypass-c5a3f5764cb3?
+
+https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/
+
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 
 https://medium.com/@chiragartani6/more-than-50-govt-websites-are-possible-to-hack-using-sql-injection-caacbb03520a
