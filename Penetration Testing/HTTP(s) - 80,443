@@ -1,0 +1,4 @@
+Web Enumeration (80/443):
+
+    dirbuster (GUI)
+    nikto –h 10.0.0.1
