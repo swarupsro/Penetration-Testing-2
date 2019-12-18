@@ -1,5 +1,7 @@
 https://medium.com/bugbountywriteup/sqlmaps-os-shell-backdooring-website-with-weevely-8cb6dcf17fa4?
 
+https://medium.com/@valeriyshevchenko/burpsuit-sqlmap-one-love-64451eb7b1e8?
+
 https://medium.com/@drag0n/sqlmap-tamper-scripts-sql-injection-and-waf-bypass-c5a3f5764cb3?
 
 https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/
