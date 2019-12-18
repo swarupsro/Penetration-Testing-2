@@ -1,5 +1,7 @@
 https://medium.com/bugbountywriteup/xss-reflected-xss-bypass-filter-de41d35239a3?
 
+https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html
+
 https://medium.com/@int0x33/day-35-xss-payloads-217ab6c6ead7?
 
 https://medium.com/@04sabsas/xss-will-never-die-eb3584081a5f
