@@ -1,3 +1,5 @@
+https://medium.com/bugbountywriteup/sqlmaps-os-shell-backdooring-website-with-weevely-8cb6dcf17fa4?
+
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 
 https://medium.com/@chiragartani6/more-than-50-govt-websites-are-possible-to-hack-using-sql-injection-caacbb03520a
