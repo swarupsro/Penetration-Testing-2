@@ -1,0 +1,5 @@
+
+    nmap -vv -Pn -A -sC -sS -T 4 -p- 10.0.0.1 
+    nmap -v -sS -A -T4 x.x.x.x //  Verbose, SYN Stealth, Version info, and scripts against services.
+    nmap -v -p 445 --script=smb-check-vulns --script-args=unsafe=1 192.168.1.X // Nmap script to scan for vulnerable SMB servers – WARNING: unsafe=1 may cause knockover
+    netdiscover -r 192.168.1.0/24
