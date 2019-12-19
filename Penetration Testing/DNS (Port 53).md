@@ -1,6 +1,12 @@
-**Other Websites**: 
-< [hackingarticles](https://www.hackingarticles.in/4-ways-dns-enumeration/) >
 
+# Links
+
+1. https://en.wikipedia.org/wiki/List_of_DNS_record_types
+2. https://www.exploit-db.com/docs/12389.pdf
+3. https://pentestlab.blog/tag/dns-enumeration/
+4. http://tools.kali.org/information-gathering/dnsrecon
+5. https://github.com/nixawk/ig/
+6. https://www.hackingarticles.in/4-ways-dns-enumeration/
 ----
 
 # How to gather dns information ?
@@ -114,13 +120,7 @@ You must have knowledge about DNS records. The list of DNS record provides an ov
 |msf > use auxiliary/gather/enum_dns|gather dns records information(A, AAAA, CNAME, ZoneTransfer, SRV, TLD, RVL, ...)|
 
 
-# Links
 
-1. https://en.wikipedia.org/wiki/List_of_DNS_record_types
-2. https://www.exploit-db.com/docs/12389.pdf
-3. https://pentestlab.blog/tag/dns-enumeration/
-4. http://tools.kali.org/information-gathering/dnsrecon
-5. https://github.com/nixawk/ig/
 
 
 
