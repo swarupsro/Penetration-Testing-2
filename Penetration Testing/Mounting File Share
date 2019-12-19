@@ -1,0 +1,6 @@
+
+    showmount -e IPADDR
+    mount 192.168.1.1:/vol/share /mnt/nfs  -nolock //  mounts the share to /mnt/nfs without locking it
+    mount -t cifs -o username=user,password=pass,domain=xxx //192.168.1.X/share-name /mnt/cifs// Mount Windows CIFS / SMB share on Linux at /mnt/cifs if you remove password it will prompt on the CLI (more secure as it wont end up in bash_history)
+    net use Z: \\win-server\share password  /user:domain\janedoe /savecred /p:no //  Mount a Windows share on Windows from the command line
+    apt-get install smb4k –y //  Install smb4k on Kali, useful Linux GUI for browsing SMB shares
