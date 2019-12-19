@@ -1,7 +1,3 @@
-**Authors**: < [nixawk](https://github.com/nixawk) >
-
-----
-
 # Ports
 
 |**Port Number**|**Protocol**|**Service & Application**|**Commands**|
