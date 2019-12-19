@@ -1,1 +1,13 @@
+Pop3 (110):
 
+    telnet INSERTIPADDRESS 110
+
+USER anounys@INSERTIPADDRESS
+
+PASS admin
+
+or:
+
+USER anounys
+
+PASS admin
