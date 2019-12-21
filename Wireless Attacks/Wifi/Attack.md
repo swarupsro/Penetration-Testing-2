@@ -12,7 +12,7 @@
     * [Bypassing Mac Filtering (Blacklists & Whitelists)](#Bypassing-Mac-Filtering-(Blacklists-&-Whitelists))
     * [Bypassing Captive portals](#Bypassing-Captive-portals)
 	* [WEP ](#others)
-	* [WPA/WPA 2 ](#WPA/WPA 2)
+	* [WPA/WPA 2 ](#WPA/WPA-2)
             * [Exploiting WPS ](#others)
 	    * [Wordlist Attack ](#others)
 	    * [Evil Twin Attack ](#others)
