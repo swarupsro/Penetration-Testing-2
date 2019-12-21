@@ -12,7 +12,7 @@
     * [Bypassing Mac Filtering (Blacklists & Whitelists)](#Bypassing-Mac-Filtering-(Blacklists-&-Whitelists))
     * [Bypassing Captive portals](#Bypassing-Captive-portals)
 	* [WEP ](#others)
-	* [WPA/WPA 2 ](#WPA/WPA2)
+	* [WPA/WPA 2 ](###WPA/WPA2)
               .
 	    * [Exploiting WPS ](#others)
 	    * [Wordlist Attack ](#others)
@@ -113,7 +113,7 @@
   > ifconfig wlan0 
   ```
   
-   ### WPA/WPA2 
+   ### WPA/WPA2
    #### Capture Handshake File
    
   Method 1 - Fake Authentication Attack
