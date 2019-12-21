@@ -111,6 +111,7 @@
   
    ### WPA/WPA 2 
    ####Capture Handshake File
+   
   Method 1 - Fake Authentication Attack
 ```Bash
   > airodump-ng --bssid AP:MA:C0:EE:VV --channel 11 --write handshakefilename mon0
