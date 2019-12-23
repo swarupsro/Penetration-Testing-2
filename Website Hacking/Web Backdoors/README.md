@@ -5,3 +5,5 @@
    ### 4.Remote code execution
    ### 5.Exposed administration interfaces
    ### 6.Cross-site scripting
+   ### 7.Vulnerabilities in applications/services  (e.g., WordPress or other CMS applications)
+   ### 8.File processing vulnerabilities (e.g., upload filtering or assigned permissions);
