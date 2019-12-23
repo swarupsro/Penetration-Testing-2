@@ -145,11 +145,71 @@ net user fred /del
 
 Networking commands
 --------------------
-change ip address
->netsh int ip set address "Local area connection" static 192.168.10.10 255.255.255.0 192.168.10.1
+Change ip address
+netsh int ip set address "Local area connection" static 192.168.10.10 255.255.255.0 192.168.10.1
 
-show firewall settings
->netsh firewall show config
+Displays IP address
+ipconfig
+
+Displays the system's local DNS cache.
+ipconfig /displaydns
+
+Displays the full information about the system's network interface cards (NICs).
+ipconfig /all
+
+Lists all the systems currently in the machine's ARP table.
+arp -a
+
+Show firewall settings
+netsh firewall show config
+
+Retrieve information about Domain and Domain Controller.
+wmic ntdomain list
+
+Prints the password policy for the local system. Pass it the /domain option to query the domain for the domain password policy.
+net accounts [/domain | /domain:OTHERDOMAINNAME]
+
+Prints the members of the Administrators local group. The /domain switch can show you the list of current domain admins.
+net group "GROUPNAME" /domain
+
+Prints the members of the local group "GROUPNAME". The /domain switch can show you members of domain groups.
+net localgroup "GROUPNAME" [/domain]
+
+Queries NBNS/SMB (SAMBA) and tries to find all hosts in the system's current workgroup. Add the /domain option if the current system is joined to a domain. To query a different domain, use the /domain:OTHERDOMAINNAME option.
+net view [/domain | /domain:OTHERDOMAINNAME]
+
+Displays the system's currently shared SMB entries, and what path(s) they point to.
+net share
+
+Lists the local users or, if the /domain option is passed, users on the computer's domain.
+net user [/domain]
+
+Lists detailed information about the current local user or, if the /domain option is passed, the account on the computer's domain. If it is a local user then drop the /domain. Important things to note are login times, last time changed password, logon scripts, and group membership. You may wish to run this twice, once with and once without the /domain switch to find both local and domain accounts.
+net user %USERNAME% [/domain]
+
+Shows information on network services and adapters.
+netsh diag show all
+
+Shows all saved wireless profiles. You may then export the info for those profiles with the other netsh commands listed here.
+netsh wlan show profiles
+
+Exports a user wifi profile with the password in plaintext to an XML file in the current working directory.
+netsh wlan export profile folder=. key=clear
+
+Find Information about a specific Service
+netstat -nabo | findstr /I (SERVICE|PROCESS|PORT)
+
+Find all listening ports and connections on port 80 (replace 80 with your target such as 445 or 3389).
+netstat -na | findstr :80
+
+Find all listening ports and their associated PIDs (Process IDs). The findstr /I switch makes the search case insensitive. This could be important if you are looking for a buMPy service (example: svchost vs. SVChost) or don't know the case of it.
+netstat -nao | findstr /I listening
+
+List Ports and Connections
+netstat -nabo
+
+Displays the system's routing table.
+netstat -r
 
 Proccess/Service commands
 --------------------------
