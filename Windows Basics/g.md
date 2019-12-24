@@ -202,17 +202,24 @@
 ```Bash
  > net user UserName /del
   ```
-   #### 
+  ## Proccess/Service commands
+   #### Show running process
 ```Bash
- > 
+ > tasklist
+ > tasklist /src
+ > tasklist /fi "imagename eq cms.exe" /m
+ > tasklist /m ntdll.dll
   ```
-   #### 
+   #### Kill process
 ```Bash
- > 
+ > taskkill /PID [pid]
+ > taskkill /PID [pid] /PID [pid2]
+ > taskkill /IM cmd.exe
   ```
-   #### 
+   #### Stop services
 ```Bash
- > 
+ > sc query dhcp
+ > sc stop dhcp
   ```
    #### 
 ```Bash
