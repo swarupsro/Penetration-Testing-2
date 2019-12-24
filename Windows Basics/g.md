@@ -337,6 +337,8 @@
    #### Device manager
 ```Bash
  > devmgmt.msc
+ or
+ > hdwwiz.cpl
   ```
    #### Disk management
 ```Bash
