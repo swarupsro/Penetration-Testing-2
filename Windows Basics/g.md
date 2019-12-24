@@ -1,4 +1,112 @@
-   ## WMIC commands
+   ## Networking Commands
+   
+   #### Displays IP address
+```Bash
+ > ipconfig
+  ```
+  #### Change ip address
+```Bash
+ > netsh int ip set address "Local area connection" static 192.168.10.10 255.255.255.0 192.168.10.1
+  ```
+   #### Displays the system's local DNS cache
+```Bash
+ > ipconfig /displaydns
+  ```
+   #### Displays the full information about the system's network interface cards (NICs).
+```Bash
+ > ipconfig /all
+  ```
+ #### Lists all the systems currently in the machine's ARP table.
+```Bash
+ > arp -a
+  ```
+   #### Show firewall settings
+```Bash
+ > netsh firewall show config
+  ```
+   #### Retrieve information about Domain and Domain Controller
+```Bash
+ > wmic ntdomain list
+  ```
+   #### Prints the password policy for the local system. Pass it the /domain option to query the domain for the domain password policy
+```Bash
+ > net accounts [/domain | /domain:OTHERDOMAINNAME]
+  ```
+   #### Prints the members of the Administrators local group. The /domain switch can show you the list of current domain admins
+```Bash
+ > net group "GROUPNAME" /domain
+  ```
+   #### Prints the members of the local group "GROUPNAME". The /domain switch can show you members of domain groups
+```Bash
+ > net localgroup "GROUPNAME" [/domain]
+  ```
+   #### Queries NBNS/SMB (SAMBA) and tries to find all hosts in the system's current workgroup. Add the /domain option if the current system is joined to a domain. To query a different domain, use the /domain:OTHERDOMAINNAME option
+```Bash
+ > net view [/domain | /domain:OTHERDOMAINNAME]
+  ```
+   #### Displays the system's currently shared SMB entries, and what path(s) they point to
+```Bash
+ > net share
+  ```
+   #### Lists the local users or, if the /domain option is passed, users on the computer's domain
+```Bash
+ > net user [/domain]
+  ```
+   #### Lists detailed information about the current local user or, if the /domain option is passed, the account on the computer's domain. If it is a local user then drop the /domain. Important things to note are login times, last time changed password, logon scripts, and group membership. You may wish to run this twice, once with and once without the /domain switch to find both local and domain accounts
+```Bash
+ > net user %USERNAME% [/domain]
+  ```
+   #### Shows information on network services and adapters
+```Bash
+ > netsh diag show all
+  ```
+   #### Shows all saved wireless profiles. You may then export the info for those profiles with the other netsh commands listed here
+```Bash
+ > netsh wlan show profiles
+  ```
+   #### Shows saved wireless profile with password
+```Bash
+ > netsh wlan show profile name="SSID" key=clear
+  ```
+   #### Find Information about a specific Service
+```Bash
+ > netstat -nabo | findstr /I (SERVICE|PROCESS|PORT)
+  ```
+   #### Find all listening ports and connections on port 80 (replace 80 with your target such as 445 or 3389)
+```Bash
+ > netstat -na | findstr :80
+  ```
+   #### Find all listening ports and their associated PIDs (Process IDs). The findstr /I switch makes the search case insensitive. This could be important if you are looking for a buMPy service (example: svchost vs. SVChost) or don't know the case of it
+```Bash
+ > netstat -nao | findstr /I listening
+  ```
+   #### List Ports and Connections
+```Bash
+ > netstat -nabo
+  ```
+   #### Displays the system's routing table
+```Bash
+ > netstat -r
+  ```
+   #### Another handy thing you can do with ipconfig is flush the DNS resolver cache. This can be helpful when a system is resolving DNS addresses incorrectly. You can flush the DNS cache by using this command:
+```Bash
+ > ipconfig /flushdns
+  ```
+   #### Assuming that the system has acquired its IP address from a DHCP server, you can use the ipconfig command to release and then renew the IP address. Doing so involves using the following commands:
+```Bash
+ > ipconfig /release
+ > ipconfig /renew
+  ```
+   #### Traces the route it takes for a packet to reach a destination.
+```Bash
+ > tracert google.com
+  ```
+   #### Type ping google.com and Windows will send packets to Google.com
+```Bash
+ > ping google.com
+  ```
+  
+  ## WMIC commands
    
    #### Get System Roles, User Name, and Manufacturer
 ```Bash
