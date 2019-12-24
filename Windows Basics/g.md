@@ -110,6 +110,10 @@
   ```
   ## File commands
   
+   #### Show contents
+```Bash
+ > dir
+  ```
    #### Dir creation
 ```Bash
  > mkdir c:\temp
@@ -130,7 +134,7 @@
 ```Bash
  > cls
   ```
-   #### Current working directory
+   #### Change directory
 ```Bash
  > cd 
   ```
