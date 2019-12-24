@@ -108,85 +108,95 @@
 ```Bash
  > wmic nteventlog where filename='system' call cleareventlog
   ```
-   #### 
+  ## File commands
+  
+   #### Dir creation
 ```Bash
- > 
+ > mkdir c:\temp
   ```
-   #### 
+   #### Fie creation
 ```Bash
- > 
+ > echo hey > cmd.exe
   ```
-   #### 
+   #### Delete a file
 ```Bash
- > 
+ > del cmd.exe
   ```
-   #### 
+   #### Open text file
 ```Bash
- > 
+ > notepad file.txt
   ```
-   #### 
+   #### Clear the screen
 ```Bash
- > 
+ > cls
   ```
-   #### 
+   #### Current working directory
 ```Bash
- > 
+ > cd 
   ```
-   #### 
+   #### Find particular string in output
 ```Bash
- > 
+ > sc query | find "Event"
   ```
-   #### 
+   #### Show contents of a file
 ```Bash
- > 
+ > type c:\windows\win.ini
   ```
-   #### 
+   #### Command history
 ```Bash
- > 
+ > Alt+F7
   ```
-   #### 
+   #### How many files are in system32
 ```Bash
- > 
+ > dir /b c:\windows\system32 | find /c /v ""
   ```
-   #### 
+   #### What is the length of ini file
 ```Bash
- > 
+ > type c:\windows\win.ini | find /c /v ""
   ```
-   #### 
+   #### Find hidden directory
 ```Bash
- > 
+ > dir /aHD
   ```
-   #### 
+   #### Searching file
 ```Bash
- > 
+ > dir /b /s c:\ | find /i "wmic.exe"
+ > dir /b /s wmic.exe
+ > dir /b /s *wmic*
+ > dir /b /s c:\wmic.exe
   ```
-   #### 
+   #### Searching file conents
 ```Bash
- > 
+ > findstr /d:c:\windows/system32 "Admin" *
+ > findstr "Admin" *.ini
   ```
-   #### 
+  
+  ## User account commands
+  
+   #### To view a list of user accounts on the system
 ```Bash
- > 
+ > net user
   ```
-   #### 
+   #### Create a user account with a specific privilege
 ```Bash
- > 
+ > net user Username Password /add
   ```
-   #### 
+   #### Add the user to a particular group such as Administrator, Power User or Limited User
 ```Bash
- > 
+ > net localgroup GroupPrivilege UserName /add
   ```
-   #### 
+   #### To enable the built-in Administrator account, which you can use to manage all the resources of your computer.
 ```Bash
- > 
+ > net user administrator /active:yes
+ > net user administrator /active:no
   ```
-   #### 
+   #### Account details
 ```Bash
- > 
+ > net user UserName
   ```
-   #### 
+   #### Account deletion
 ```Bash
- > 
+ > net user UserName /del
   ```
    #### 
 ```Bash
