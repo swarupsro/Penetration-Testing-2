@@ -1,6 +1,1410 @@
-   ## Networking Commands
+   ## WMIC commands
    
-   #### Displays IP address
+   #### Get System Roles, User Name, and Manufacturer
 ```Bash
- > ipconfig
+ > wmic computersystem get Name, domain, Manufacturer, Model, Username, Roles /format:list
+  ```
+   #### Get the SIDs
+```Bash
+ > wmic group get Caption, InstallDate, LocalAccount, Domain, SID, Status
+  ```
+   #### Create a process
+```Bash
+ > wmic process call create "taskmgr.exe"
+  ```
+   #### Change Priority of a Process
+```Bash
+ > wmic process where name="explorer.exe" call setpriority 64
+  ```
+   #### Terminate a process 
+```Bash
+ > wmic process where name="explorer.exe" call terminate
+  ```
+   #### Get a list of Executable Files
+```Bash
+ > wmic PROCESS WHERE "NOT ExecutablePath LIKE ‘%Windows%’" GET ExecutablePath
+  ```
+   #### Get Folder Properties
+```Bash
+ > wmic FSDIR where "drive='c:' and filename='test" get /format:list
+  ```
+   #### Get File Properties
+```Bash
+ > wmic datafile where name='c:\\windows\\system32\\demo\\demo.txt' get /format:list
+  ```
+   #### Locate System Files
+```Bash
+ > wmic environment get Description, VariableValue
+  ```
+   #### Get a list of Installed Applications 
+```Bash
+ > wmic product get name
+  ```
+   #### Get a list of Running Services
+```Bash
+ > wmic service where (state="running") get caption, name, startmode, state
+  ```
+   #### Get Startup Services
+```Bash
+ > wmic startup get Caption, Command
+  ```
+   #### Get System Driver Details
+```Bash
+ > wmic sysdriver get Caption, Name, PathName, ServiceType, State, Status /format:list
+  ```
+   #### Get OS Details
+```Bash
+ > wmic os get CurrentTimeZone, FreePhysicalMemory, FreeVirtualMemory, LastBootUpdate, NumberofProcesses, NumberofUsers,
+  ```
+   #### Organization, Registereduser, Status /format:listGet the Motherboard Details
+```Bash
+ > wmic baseboard get Manufacturer, Product, SerialNumber, Version
+  ```
+   #### Get BIOS Serial Number
+```Bash
+ > wmic bios, get serialNumber
+  ```
+   #### Get Hard Disk Details
+```Bash
+ > wmic diskdrive get Name, Manufacturer, Model, InterfaceType, MediaLoaded, MediaType /format:list
+  ```
+   #### Get Hard Disk Partitions Details
+```Bash
+ > wmic logicaldisk where drivetype=3 get Name, Compressed, Description, FileSystem, FreeSpace, SupportsDiskQuotas, VolumeDirty
+  ```
+   #### Get Memory Cache Details
+```Bash
+ > wmic memcache get Name, BlockSize, Purpose, MaxCacheSize, Status
+  ```
+   #### Get Memory Chip Details
+```Bash
+ > wmic MEMORYCHIP get PartNumber, SerialNumber
+  ```
+   #### Detect If victim system is a host OS or installed via VMware
+```Bash
+ > wmic onboarddevice get Desciption, DeviceType, Enabled, Status /format:list
+  ```
+   #### Lock a User Account
+```Bash
+ > wmic useraccount where name='demo' set disabled=false
+  ```
+   #### Remove Password requirement for logging
+```Bash
+ > wmic useraccount where name='demo' set PasswordRequired=false
+  ```
+   #### Rename a user account
+```Bash
+ > wmic useraccount where name='demo' rename hacker
+  ```
+   #### Restrict user from changing a password
+```Bash
+ > wmic useraccount where name='hacker' set passwordchangeable=false
+  ```
+   #### Get Antivirus Details
+```Bash
+ > wmic /namespace:\\root\securitycenter2 path antivirusproduct GET displayName, productState, pathToSignedProductExe
+  ```
+   #### Clear System Logs
+```Bash
+ > wmic nteventlog where filename='system' call cleareventlog
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+     #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
+  ```
+   #### 
+```Bash
+ > 
   ```
