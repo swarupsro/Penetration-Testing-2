@@ -221,125 +221,127 @@
  > sc query dhcp
  > sc stop dhcp
   ```
-   #### 
+  ## Run Commands
+   #### Computer management
 ```Bash
- > 
+ > compmgmt.msc
   ```
-   #### 
+   #### Device manager
 ```Bash
- > 
+ > devmgmt.msc
   ```
-   #### 
+   #### Disk management
 ```Bash
- > 
+ > diskmgmt.msc
   ```
-   #### 
+   #### Disk defrag
 ```Bash
- > 
+ > dfrg.msc
   ```
-   #### 
+   #### Event viewer
 ```Bash
- > 
+ > eventvwr.msc
   ```
-   #### 
+   #### Shared folders
 ```Bash
- > 
+ > fsmgmt.msc
   ```
-   #### 
+   #### Group policies
 ```Bash
- > 
+ > gpedit.msc
   ```
-   #### 
+   #### Local users and groups
 ```Bash
- > 
+ > lusrmgr.msc
   ```
-   #### 
+   #### Performance monitor
 ```Bash
- > 
+ > perfmon.msc
   ```
-   #### 
+   #### Resultant set of policies
 ```Bash
- > 
+ > rsop.msc
   ```
-   #### 
+   #### Local security settings
 ```Bash
- > 
+ > secpol.msc
   ```
-   #### 
+   #### System Configuration Utility
 ```Bash
- > 
+ > msconfig
   ```
-   #### 
+   #### Registry Editor
 ```Bash
- > 
+ > regedit
   ```
-   #### 
+   #### System Information
 ```Bash
- > 
+ > msinfo32
   ```
-   #### 
+   #### System Edit
 ```Bash
- > 
+ > sysedit
   ```
-   #### 
+   #### windows loading information(also system.ini)
 ```Bash
- > 
+ > win.ini
   ```
-   #### 
+   #### Shows current version of windows
 ```Bash
- > 
+ > winver
   ```
-   #### 
+   #### Opens default email client
 ```Bash
- > 
+ > mailto:
   ```
-   #### 
+   #### Opens command prompt
 ```Bash
- > 
+ > command
   ```
-   #### 
+  ## Run Commands to access the control panel
+   #### Add/Remove Programs control
 ```Bash
- > 
+ > appwiz.cplrc
   ```
-   #### 
+   #### Date/Time Properties control
 ```Bash
- > 
+ > timedate.cpl
   ```
-   #### 
+   #### Display Properties control
 ```Bash
- > 
+ > desk.cpl
   ```
-   #### 
+   #### FindFast control
 ```Bash
- > 
+ > findfast.cpl
   ```
-   #### 
+   #### Internet Properties control
 ```Bash
- > 
+ > inetcpl.cpl
   ```
-   #### 
+   #### Keyboard Properties control
 ```Bash
- > 
+ > main.cpl
   ```
-   #### 
+   #### Mouse Properties control
 ```Bash
- > 
+ > main.cpl
   ```
-   #### 
+   #### Network Properties control
 ```Bash
- > 
+ > netcpl.cpl
   ```
-   #### 
+   #### Password Properties control
 ```Bash
- > 
+ > password.cpl
   ```
-   #### 
+   #### Sound Properties control
 ```Bash
- > 
+ > mmsys.cpl
   ```
-   #### 
+   #### System Properties control
 ```Bash
- > 
+ > sysdm.cpl
   ```
    #### 
 ```Bash
