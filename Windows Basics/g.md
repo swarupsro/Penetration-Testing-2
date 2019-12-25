@@ -453,37 +453,37 @@
 ```Bash
  > sysdm.cpl
   ```
-   #### 
+   #### Task Manager
 ```Bash
- > 
+ > taskmgr
   ```
-   #### 
+   #### TCP Tester
 ```Bash
- > 
+ > tcptest
   ```
-   #### 
+   #### Telnet Client
 ```Bash
- > 
+ > telnet
   ```
-   #### 
+   #### User Account Management
 ```Bash
- > 
+ > nusrmgr.cpl
   ```
-   #### 
+   #### Utility Manager
 ```Bash
- > 
+ > utilman
   ```
-   #### 
+   #### Windows Address Book
 ```Bash
- > 
+ > wab
   ```
-   #### 
+   #### Windows Address Book Import Utility
 ```Bash
- > 
+ > wabmig
   ```
-   #### 
+   #### Windows Explorer
 ```Bash
- > 
+ > explorer
   ```
    #### 
 ```Bash
