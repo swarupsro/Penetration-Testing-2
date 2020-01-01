@@ -1,1 +1,38 @@
+OpenVAS
+The Open Vulnerability Assessment System (OpenVAS) is a framework of several services and tools offering a comprehensive and powerful vulnerability scanning and vulnerability management solution. 
+The actual security scanner is accompanied with a daily updated feed of Network Vulnerability Tests (NVTs), over 35,000 in total 
+All OpenVAS products are Free Software. Most components are licensed under the GNU General Public License
+OpenVAS is similar to Nessus and can be used to carry out a vulnerability assessment against different target and give a perfect results
+You can download OpenVAS from the following URL http://www.openvas.org/download.html
+If you are using kali Linux there is no need to download OpenVAS package as it is already installed 
+ 
+ 
+ 
+Setup and Start OpenVAS
+•	The OpenVAS developers provide a handy tool called openvas-check-setup to check the state of your OpenVAS installation. To use this tool simply follow these three steps: 
+1.	Download the latest version of openvas-check-setup.
+2.	Ensure that the script is executable
+chmod +x openvas-check-setup
+ 
+3.	Execute the script: 
+./openvas-check-setup
+for current stable release or 
+./openvas-check-setup [ –v4 | –v5 | –v6 | … ] for other respective OpenVAS releases. 
+ 
+•	Openvas-check-setup will now analyze the state of your OpenVAS installation and propose fixes should it detect any errors or misconfigurations. It will also check if all required OpenVAS services are running and listening on the correct ports. 
+•	If you want to install the OpenVAS services on a server and you do not need clients like OpenVAS CLI or GSD in your installation you can skip the checks for these modules by starting openvas-check-setup with the –server parameter instead: 
+./openvas-check-setup –server
+ 
+•	After downloading and installing OpenVAS let’s use it
+Example
+•	We will start by launching Greenbone Security Desktop and log in to OpenVAS
+ 
+ 
+•	Once logged in, you will be presented with the Greenbone Security Desktop interface, where you can configure targets, create tasks, and manage vulnerability scan results
+ 
+•	Before running our first vulnerability scan with OpenVAS, we need to configure a Target. The target can either be a single IP address, or a range of hosts, as shown below
+ 
+•	With our target configured, we can proceed to create a new scan task, as shown below, using one of the built-in scan configurations.
+ 
+•	New tasks do not start automatically, so we manually run our task, and wait for the vulnerability scan to complete. Depending on your system resources, a vulnerability scan can take a very long time to complete. 
 
