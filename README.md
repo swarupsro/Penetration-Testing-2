@@ -3,3 +3,6 @@
 # 3.Scanning
 # 4.Vulnerability Identification 
 # 5.Attacks and Exploits 
+# Powerful Plugins
+
+- [BurpSuite](Anti-virus Evasion/Anti-virus Evasion Tools.md)
