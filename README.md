@@ -1,8 +1,8 @@
 # 1.Planning and Scoping 
 # 2.Information Gathering
-# 3.Scanning
-# 4.Vulnerability Identification 
-# 5.Attacks and Exploits 
+[# 3.Windows exploitaion](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion)
+# 4.Linux exploiatation
+# 5.Web hacking 
 # Powerful Plugins
 
-- [BurpSuite](https://github.com/sarathlalup/Cyber-security/blob/master/Anti-virus%20Evasion/)
+- [# BurpSuite](https://github.com/sarathlalup/Cyber-security/blob/master/Anti-virus%20Evasion/)
