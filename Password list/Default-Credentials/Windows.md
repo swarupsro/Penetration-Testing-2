@@ -1,0 +1,27 @@
+# Windows Default Password List
+* abc123
+* letmein
+* enter
+* admin
+* pass
+* access
+* secret
+* Welcome
+* welcome123
+* monkey
+* monkey123
+* password1
+* welcome1
+* password
+* password123
+* Welcome123
+* qwerty
+* passw0rd
+* p@ssword
+* login
+* PASSWORD
+* Password123
+* 123456
+* 111111
+* shadow
+* master
