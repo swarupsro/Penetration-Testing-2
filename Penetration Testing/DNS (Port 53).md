@@ -7,6 +7,7 @@
 4. http://tools.kali.org/information-gathering/dnsrecon
 5. https://github.com/nixawk/ig/
 6. https://www.hackingarticles.in/4-ways-dns-enumeration/
+7.https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 ----
 
 # How to gather dns information ?
