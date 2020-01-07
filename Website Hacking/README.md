@@ -1,4 +1,6 @@
 #  Web Penetration Testing
+* ##  [  Information gathering](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
+
 * ##  [  Scanning & Enumeration](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
    #### + [     Port Scanning & Service Detection](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection)
    
@@ -6,3 +8,6 @@
    #### + [     Other ports](https://github.com/sarathlalup/Cyber-security/tree/master/Penetration%20Testing)
 
 
+* ##  [ Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/03.Vulnerability%20Finding)
+
+* ##  [ Exploitaion](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/Initial%20Access)
