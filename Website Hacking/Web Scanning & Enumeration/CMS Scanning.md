@@ -1,6 +1,4 @@
-#### :rocket: Web Hacking
-
-Exploit popular CMSs that are hosted online.
+#### Content Management System
 
 | Tool        | Language           | Support  | Description    |
 | ----------- |-------------------------|----------|----------------|
