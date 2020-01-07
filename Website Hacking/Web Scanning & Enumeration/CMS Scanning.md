@@ -4,6 +4,9 @@ Exploit popular CMSs that are hosted online.
 
 | Tool        | Language           | Support  | Description    |
 | ----------- |-------------------------|----------|----------------|
+| [CMS-Hunter](https://github.com/SecWiki/CMS-Hunter)      | **Ruby** | `Linux/Windows/macOS` | Content Management System Vulnerability Hunter. |
+| [CMSMap](https://github.com/Dionach/CMSmap)      | **Ruby** | `Linux/Windows/macOS` | CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs. . |
+| [WhatWeb](http://www.morningstarsecurity.com/research/whatweb)      | **Ruby** | `Linux/Windows/macOS` |  Identify the technology stack that powers a website and explore the Web of Things.. |
 | [WPScan](https://github.com/wpscanteam/wpscan)      | **Ruby** | `Linux/Windows/macOS` | WPScan is a black box WordPress vulnerability scanner. |
 | [Droopescan](https://github.com/droope/droopescan)      | **Python** | `Linux/Windows/macOS` | A plugin-based scanner to identify issues with several CMSs, mainly Drupal & Silverstripe. |
 | [Joomscan](https://github.com/rezasp/joomscan)      | **Perl** | `Linux/Windows/macOS` | Joomla Vulnerability Scanner. |
@@ -13,7 +16,3 @@ Exploit popular CMSs that are hosted online.
 
 
 
-tool
-https://github.com/SecWiki/CMS-Hunter
-CMSMap - https://github.com/Dionach/CMSmap
-WhatWeb - http://www.morningstarsecurity.com/research/whatweb
