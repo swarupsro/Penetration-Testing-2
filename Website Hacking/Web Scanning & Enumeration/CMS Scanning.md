@@ -2,7 +2,7 @@
 
 
 | Tool        |  Description    |
-| ----------- ----------------|
+| ----------- |----------------|
 | [CMS-Hunter](https://github.com/SecWiki/CMS-Hunter)      | Content Management System Vulnerability Hunter. |
 | [CMSMap](https://github.com/Dionach/CMSmap)      | CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs. . |
 | [WhatWeb](http://www.morningstarsecurity.com/research/whatweb)      |  Identify the technology stack that powers a website and explore the Web of Things.. |
