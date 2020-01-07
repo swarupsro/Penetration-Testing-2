@@ -1,3 +1,5 @@
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection
+
 https://www.kitploit.com/2019/11/xml-external-entity-xxe-injection.html
 
 https://medium.com/@ismailtasdelen/xml-external-entity-xxe-injection-payload-list-937d33e5e116
