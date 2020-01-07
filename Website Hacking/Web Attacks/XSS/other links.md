@@ -1,3 +1,5 @@
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection
+
 https://medium.com/bugbountywriteup/xss-reflected-xss-bypass-filter-de41d35239a3?
 
 https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html
