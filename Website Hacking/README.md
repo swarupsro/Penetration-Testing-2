@@ -2,9 +2,12 @@
 * ##  [  Information gathering](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
 
 * ##  [  Scanning & Enumeration](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
-   #### + [     Port Scanning & Service Detection](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection)
+   #### + [      	CMS Scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/CMS%20Scanning)
    
-   #### + [     SMB Enumeration](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/Penetration%20Testing/SMB%20Penetration%20Testing)
+   #### + [     Content discovery](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Content%20discovery)
+   #### + [     Identifying technology used](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Identifying%20technology%20used)
+   #### + [     Sub domain Enumeration](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Sub%20domain%20Enumeration)
+   #### + [     ]()
    #### + [     ]()
 
 
