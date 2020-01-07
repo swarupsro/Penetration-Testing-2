@@ -8,6 +8,7 @@
    #### + [     Identifying technology used](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Identifying%20technology%20used)
    #### + [     Sub domain Enumeration](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Sub%20domain%20Enumeration)
    #### + [     DNS Services](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/DNS%20Services.md)
+   #### + [     Discovering ‘hidden’ GET or POST parameters](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Discovering%20%E2%80%98hidden%E2%80%99%20GET%20or%20POST%20parameters)
    #### + [     ]()
 
 
