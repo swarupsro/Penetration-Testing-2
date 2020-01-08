@@ -3,24 +3,22 @@ Still updating... : )
 
 * ##  [  Information gathering](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
    #### + [     Whois Information]()
-   #### + [     Subdomains]()
-   #### + [     Dir info]()
    #### + [     S3 Buckets]()
    #### + [     social accounts]()
    #### + [     API Endpoints]()
    #### + [     emails]()
    #### + [     Vhosts]()
    #### + [     Backend IP address]()
-   #### + [     Open Ports / Services running]()
-   #### + [     Service version info]()
    #### + [     server banners]()
-   #### + [     directory listings]()
    #### + [     presence security headers]()
    #### + [     ]()
 
    
 
 * ##  [  Scanning & Enumeration](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
+   
+   #### + [     Open Ports / Services running]()
+   #### + [     Service version info]()
    #### + [      	CMS Scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/CMS%20Scanning.md)
    
    #### + [     Content discovery](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Content%20discovery)
