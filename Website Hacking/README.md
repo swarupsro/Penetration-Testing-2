@@ -9,7 +9,7 @@ Still updating... : )
    #### + [     Emails]()
    #### + [     Vhosts]()
    #### + [     Backend IP address]()
-   #### + [     Srver banners]()
+   #### + [     Server banners]()
    #### + [     Presence security headers]()
    #### + [     ]()
 
