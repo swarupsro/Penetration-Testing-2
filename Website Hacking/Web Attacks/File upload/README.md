@@ -71,23 +71,30 @@ Filter Bypassing Techniques -
 
 10. upload the file using SQL command ‘sleep(10).jpg you may achieve SQL if image directly saves to DB.
 Advance Bypassing techniques —
-1. Imagetragick aka ImageMagick:
+
+##### 1. Imagetragick aka ImageMagick:
 ImageTragick Exploitation — CVE-2016–3714 — Mukarram Khalid
 One of the many talents of the Infosec community is the ability to come up with a cool name for a critical…
 mukarramkhalid.com
-2. LFI using video upload:
+#### 2. LFI using video upload:
 
 https://github.com/FFmpeg/FFmpeg
+
 https://hackerone.com/reports/226756
+
 https://hackerone.com/reports/237381
+
 https://docs.google.com/presentation/d/1yqWy_aE3dQNXAhW8kxMxRqtP7qMHaIfMzUDpEqFneos/edit
+
 Exploit — https://github.com/neex/ffmpeg-avi-m3u-xbin
-3. Cross Content Hijacking:
+
+##### 3. Cross Content Hijacking:
 
 https://github.com/nccgroup/CrossSiteContentHijacking
 https://soroush.secproject.com/blog/2014/05/even-uploading-a-jpg-file-can-lead-to-cross-domain-data-hijacking-client-side-attack/
 Exploit = http://50.56.33.56/blog/?p=242
-4. Encoding scripts in PNG IDAT chunk:
+
+##### 4. Encoding scripts in PNG IDAT chunk:
 
 https://yqh.at/scripts_in_pngs.php
 Remediation: File upload functionality
