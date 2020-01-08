@@ -9,6 +9,7 @@ Still updating... : )
 
 * ##  [  What we can achieve by uploading the unrestricted files into the server?]()
 * ##  [  Types of filters]()
+* ##  [  Bypassing Developers validation]()
 * ##  [  Filter evasion techniques]()
 * ##  [  File upload functionality]()
 * ##  [  File Upload Testing Labs]()
