@@ -87,13 +87,13 @@ https://docs.google.com/presentation/d/1yqWy_aE3dQNXAhW8kxMxRqtP7qMHaIfMzUDpEqFn
 
 Exploit — https://github.com/neex/ffmpeg-avi-m3u-xbin
 
-##### 3. Cross Content Hijacking:
+#### 3. Cross Content Hijacking:
 
 https://github.com/nccgroup/CrossSiteContentHijacking
 https://soroush.secproject.com/blog/2014/05/even-uploading-a-jpg-file-can-lead-to-cross-domain-data-hijacking-client-side-attack/
 Exploit = http://50.56.33.56/blog/?p=242
 
-##### 4. Encoding scripts in PNG IDAT chunk:
+#### 4. Encoding scripts in PNG IDAT chunk:
 
 https://yqh.at/scripts_in_pngs.php
 Remediation: File upload functionality
