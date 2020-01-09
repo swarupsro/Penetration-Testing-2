@@ -3,10 +3,11 @@ Still updating... : )
 
 * ##  [  What we can achieve by uploading the unrestricted files into the server?]()
 * ##  [  Types of filters]()
-* ##  [  Bypassing Developers validation]()
-* ##  [  Filter evasion techniques]() 
+* ##  [  Filter Bypassing Techniques ]()
+* ##  [  Advance Bypassing techniques]() 
 * ##  [  File upload Extentions](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/File%20upload/file-upload)
 * ##  [  File Upload Testing Labs]()
+
 
 ### What we can achieve by uploading the unrestricted files into the server?
 
