@@ -147,8 +147,6 @@ https://medium.com/@519udhaya/unrestricted-file-upload-vulnerability-bba4491a08d
 
 https://www.hackingarticles.in/5-ways-file-upload-vulnerability-exploitation/
 
-https://medium.com/@satboy.fb/art-of-unrestricted-file-upload-exploitation-92ed28796d0
-
 https://anotherhackerblog.com/exploiting-file-uploads-pt1/
 
 https://anotherhackerblog.com/exploiting-file-uploads-pt-2/
