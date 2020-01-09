@@ -1,4 +1,0 @@
-fuxploider - Fuxploider is an open source penetration testing tool that automates the process of detecting and exploiting file upload forms flaws. This tool is able to detect the file types allowed to be uploaded and is able to detect which technique will work best to upload web shells or any malicious file on the desired web server.
-https://github.com/almandin/fuxploider
-gen_xbin_avi- https://github.com/neex/ffmpeg-avi-m3u-xbin/
-XSS FIle upload- https://brutelogic.com.br/blog/file-upload-xss/ 
