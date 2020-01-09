@@ -5,7 +5,7 @@ Still updating... : )
 * ##  [  Types of filters]()
 * ##  [  Filter Bypassing Techniques ]()
 * ##  [  Advance Bypassing techniques]() 
-* ##  [  File upload Extentions](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/File%20upload/file-upload)
+* ##  [  File upload Extentions](https://github.com/fuzzdb-project/fuzzdb/tree/master/attack/file-upload)
 * ##  [  File Upload Testing Labs]()
 
 
