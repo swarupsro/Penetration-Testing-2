@@ -111,7 +111,7 @@ Let’s practice in Lab —
 3. Bwapp
 4. rootme
 
-### Helps
+### Other links
 
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files
