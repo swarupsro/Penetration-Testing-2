@@ -11,6 +11,22 @@ Still updating... : )
 * ##  [  File upload Extentions](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/File%20upload/file-upload)
 * ##  [  File Upload Testing Labs]()
 
+### What we can achieve by uploading the unrestricted files into the server?
+
+I’ll not show you the demonstration of every attack here. You have to search for it on Google. If you don’t know how to do this then you should learn this first.
+
+    Remote code execution
+    XSS
+    LFI
+    XXE
+    Phishing
+    Parameter pollution
+    uploaders may disclose internal paths
+    SQL injection
+    DoS attack
+    Add if you know more…
+
+
 ### Types of filters?
 
 I hope you have learned file upload working carefully then you should know what is the filter.
