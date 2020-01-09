@@ -1,42 +1,18 @@
 common-http-ports
 
-66
-80
-81
-443
-445
-457
-1080
-1100
-1241
-1352
-1433
-1434
-1521
-1944
-2301
-3128
-3306
-4000
-4001
-4002
-4100
-5000
-5432
-5800
-5801
-5802
-6346
-6347
-7001
-7002
-8080
-8888
-30821
-
-
+66,80,81,443,445,457,1080,1100,1241,1352,1433,1434,1521,1944,2301,3128,3306,4000,4001,4002,4100,5000,5432,5800,5801,5802,6346,6347,7001,7002,8080,8888,30821
 
 Web Enumeration (80/443):
 
     dirbuster (GUI)
     nikto –h 10.0.0.1
+
+HTTP response status codes
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+    Informational responses (100–199),
+    Successful responses (200–299),
+    Redirects (300–399),
+    Client errors (400–499),
+    and Server errors (500–599).
