@@ -5,7 +5,6 @@ Still updating... : )
 * ##  [  Types of filters]()
 * ##  [  Bypassing Developers validation]()
 * ##  [  Filter evasion techniques]() 
-* ##  [  File upload functionality]()
 * ##  [  File upload Extentions](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/File%20upload/file-upload)
 * ##  [  File Upload Testing Labs]()
 
