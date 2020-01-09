@@ -10,6 +10,7 @@ Web Enumeration (80/443):
 HTTP response status codes
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+https://www.tutorialspoint.com/security_testing/http_protocol_basics.htm
 
     Informational responses (100–199),
     Successful responses (200–299),
