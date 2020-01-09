@@ -68,9 +68,10 @@ Filter Bypassing Techniques -
 9. If web app allows for zip upload then rename the file to pwd.jpg bcoz developer handle it via command
 
 10. upload the file using SQL command ‘sleep(10).jpg you may achieve SQL if image directly saves to DB.
-Advance Bypassing techniques —
 
-##### 1. Imagetragick aka ImageMagick:
+### Advance Bypassing techniques 
+
+#### 1. Imagetragick aka ImageMagick:
 ImageTragick Exploitation — CVE-2016–3714 — Mukarram Khalid
 One of the many talents of the Infosec community is the ability to come up with a cool name for a critical…
 mukarramkhalid.com
