@@ -111,6 +111,15 @@ Let’s practice in Lab —
 3. Bwapp
 4. rootme
 ________________________________________________________________________________________________________________________________
+### Tools
+
+fuxploider - https://github.com/almandin/fuxploider
+
+gen_xbin_avi- https://github.com/neex/ffmpeg-avi-m3u-xbin/
+
+XSS FIle upload- https://brutelogic.com.br/blog/file-upload-xss/ 
+
+________________________________________________________________________________________________________________________________
 ### Other links
 
 
