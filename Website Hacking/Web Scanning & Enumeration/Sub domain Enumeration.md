@@ -17,6 +17,8 @@ Tools
     
     https://github.com/michenriksen/aquatone
     
+    https://github.com/haccer/subjack
+    
     https://github.com/aboul3la/Sublist3r
     
     https://github.com/rbsec/dnscan
