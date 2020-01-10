@@ -1,7 +1,3 @@
-nmap - https://nmap.org
-masscan - https://github.com/robertdavidgraham/masscan
-unicornscan - https://github.com/dneufeld/unicornscan
-
 Port Scanning & Service Detection
 
     • unicornscan -mT -I 10.11.1.252:a -v 
@@ -28,3 +24,13 @@ Port Scanning & Service Detection
     • nmap -sS -T4 -Pn -p 0-65535 -oN FullTCP -iL LiveHosts.txt
     • nmap -sU -T4 -Pn -p 0-65535 -oN FullUDP -iL LiveHosts.txt
 
+___________________________________________________________________________________________________________________________________
+Tools
+
+nmap - https://nmap.org
+
+masscan - https://github.com/robertdavidgraham/masscan
+
+unicornscan - https://github.com/dneufeld/unicornscan
+________________________________________________________________________________________________________________________________
+Other links
