@@ -1,4 +1,4 @@
-Port Scanning & Service Detection
+### Port Scanning & Service Detection
 
     • unicornscan -mT -I 10.11.1.252:a -v 
     • unicornscan -mU -I 10.11.1.252:p -v 
@@ -12,20 +12,20 @@ Port Scanning & Service Detection
     • nmap -sU -sV --top-ports 20 IP_ADDRESS
     • nmap --script vuln IP_ADDRESS
     
-   Detect the service version
+   ### Detect the service version
    
     • nmap -sV -T4 -Pn -oG ServiceDetect -iL LiveHosts.txt
     • nmap -O -T4 -Pn -oG OSDetect -iL LiveHosts.txt
     • nmap -O -sV -T4 -Pn -p U:53,111,137,T:21-25,80,139,8080 -oG OS_Service_Detect -iL LiveHosts.txt
     
-   Port found, found all the ports, but UDP port scanning will be very slow
+   ### Port found, found all the ports, but UDP port scanning will be very slow
    
     • nmap -sS -T4 -Pn –top-ports 3674 -oG 3674 -iL LiveHosts.txt
     • nmap -sS -T4 -Pn -p 0-65535 -oN FullTCP -iL LiveHosts.txt
     • nmap -sU -T4 -Pn -p 0-65535 -oN FullUDP -iL LiveHosts.txt
 
 ___________________________________________________________________________________________________________________________________
-Tools
+## Tools
 
 nmap - https://nmap.org
 
