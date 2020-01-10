@@ -23,6 +23,7 @@ Still updating... : )
    
    #### + [     Open Ports / Services running](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection.md)
    #### + [     Service version info](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection.md)
+   #### + [     Web application Firewall scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection.md)
    #### + [      	CMS Scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/CMS%20Scanning.md)
    
    #### + [     Content discovery](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Content%20discovery.md)
