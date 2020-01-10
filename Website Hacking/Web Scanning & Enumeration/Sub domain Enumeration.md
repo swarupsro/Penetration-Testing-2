@@ -10,13 +10,20 @@ Tools
 - altdns - https://github.com/infosec-au/altdns
 - subfinder - https://github.com/subfinder/subfinder
 - DNS-Discovery - https://github.com/m0nad/DNS-Discovery
+________________________________________________________________________________________________________________________________________
+Tools
 
     https://bitbucket.org/LaNMaSteR53/recon-ng
+    
     https://github.com/michenriksen/aquatone
+    
     https://github.com/aboul3la/Sublist3r
+    
     https://github.com/rbsec/dnscan
+    
     https://github.com/Cleveridge/cleveridge-subdomain-scanner
-
+    
+Websites
 1. https://pentest-tools.com/
 
 2. https://virustotal.com/
