@@ -41,9 +41,15 @@ Websites
 7. http://dnsgoodies.com
 
 Subdomains wordlist:
+
 https://github.com/danielmiessler/SecLists
+
 https://github.com/Tim1512/subdomain_scanner/tree/master/wordlist
+
 https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056
+
 https://github.com/assetnote/commonspeak2-wordlists/blob/master/subdomains/subdomains.txt
+
 https://github.com/pentester-io/commonspeak/blob/master/stackoverflow/output/compiled/stackoverflow_2017_10_22.urls_subdomains.txt
+
 https://github.com/rbsec/dnscan
