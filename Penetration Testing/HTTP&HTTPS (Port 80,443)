@@ -19,3 +19,39 @@ https://www.tutorialspoint.com/security_testing/http_protocol_basics.htm
     Redirects (300–399),
     Client errors (400–499),
     and Server errors (500–599).
+
+HTTP general testing / fingerprinting
+
+  52. http://hping.org/wbox/
+  53. http://htcheck.sourceforge.net/
+  54. http://www.lurhq.com/tools/mumsie.html
+  55. http://www.webinject.org/
+  56. http://stein.cshl.org/~lstein/torture/
+  57. http://www.joedog.org/JoeDog/Siege/
+  58. http://www.open-labs.org/
+  59. http://ge.mine.nu/lbd.html
+  60. http://ujeni.murkyroc.com/hmap/
+  61. http://net-square.com/httprint/
+  62. http://wpoison.sourceforge.net/
+  63. http://net-square.com/msnpawn/index.shtml
+  64. http://druid.caughq.org/projects/hcraft/
+  65. http://www.wiretrip.net/rfp/lw.asp
+  66. http://www.cirt.net/code/nikto.shtml
+  67. http://twill.idyll.org/
+  68. http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+  69. http://security-net.biz/files/dff/DFF.zip
+  70. http://packetstormsecurity.org/web/elza-1.4.7-beta.zip
+  71. http://www.stoev.org/elza.html
+  72. http://sf.net/projects/hackfox
+
+Browser-based HTTP tampering / editing / replaying
+
+  73. http://www.bayden.com/Other/
+  74. http://www.infobyte.com.ar/developments.html
+  75. http://modifyheaders.mozdev.org/
+  76. http://tamperdata.mozdev.org/
+  77. https://addons.mozilla.org/en-US/firefox/addon/1290/
+  78. https://addons.mozilla.org/en-US/firefox/addon/1385/
+  79. https://addons.mozilla.org/en-US/firefox/addon/1806/
+  80. https://addons.mozilla.org/en-US/firefox/addon/1913/
+  81. http://livehttpheaders.mozdev.org/
