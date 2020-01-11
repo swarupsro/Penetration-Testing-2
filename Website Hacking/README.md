@@ -47,7 +47,7 @@ Still updating... : )
 
 
 
-* ##  [ Authentication Testin]( )  
+* ##  [ Authentication Testing]( )  
    #### + [     Username Enumeration]()
    #### + [     Testing for Credentials Transported over an Encrypted Channel ]( )
    #### + [     Testing for default credentials]( )
