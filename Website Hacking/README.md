@@ -44,9 +44,10 @@ Still updating... : )
    #### + [     Testing for HEAD access control bypass]()
    #### + [     Arbitrary HTTP Methods]()
    #### + [     Testing cross domain policy]()
-
-
-
+   #### + [     Test File Extensions Handling for Sensitive Information ]( )
+   #### + [     Review Old, Backup and Unreferenced Files for Sensitive Information ]( )
+   #### + [     Test RIA cross domain policy]( )
+ 
 * ##  [ Authentication Testing]( )  
    #### + [     Username Enumeration]()
    #### + [     Testing for Credentials Transported over an Encrypted Channel ]( )
