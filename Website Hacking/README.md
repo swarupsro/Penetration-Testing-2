@@ -65,7 +65,8 @@ Still updating... : )
  * ##  [ Testing for weak Cryptography ]( )
    #### + [     SSL/TLS Testing]( )
    #### + [     Testing for Padding Oracle ]( )
- 
+   
+ * ##  [ Encoding Schemes]( )
 
 * ##  [ Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
 
