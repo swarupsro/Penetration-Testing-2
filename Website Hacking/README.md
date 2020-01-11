@@ -7,9 +7,10 @@ Still updating... : )
 
 * ##  [  Information gathering](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
    #### + [     Whois Information]()
-   #### + [     Identifying technology used](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration
+   #### + [     Identifying technology used](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Identifying%20technology%20used)
    #### + [     Content discovery](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Content%20discovery.md)
-   /Identifying%20technology%20used)
+   
+   
    #### + [     Sub domain Enumeration](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Sub%20domain%20Enumeration.md)
    #### + [     S3 Buckets]()
    #### + [     Social accounts]()
