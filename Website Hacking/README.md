@@ -61,6 +61,11 @@ Still updating... : )
    #### + [     Testing for weak password change or reset function]( )
    #### + [     Testing for user registration and provisioning]()
    #### + [     Testing log out functionality]()
+   
+ * ##  [ Testing for weak Cryptography ]( )
+   #### + [     SSL/TLS Testing]( )
+   #### + [     Testing for Padding Oracle ]( )
+ 
 
 * ##  [ Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
 
