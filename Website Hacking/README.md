@@ -44,16 +44,22 @@ Still updating... : )
    #### + [     Testing for HEAD access control bypass]()
    #### + [     Arbitrary HTTP Methods]()
    #### + [     Testing cross domain policy]()
-   #### + [     Username Enumeration]()
-   #### + [     Testing for user registration and provisioning]()
-   #### + [     Testing for Weak lock out mechanism]()
-   #### + [     Testing for Vulnerable Remember Password]()
-   #### + [     Testing for weak passwords]()
-   #### + [     Testing log out functionality]()
-   #### + [     Testing for Weak security question]()
-   #### + [     Testing Password Reset Functionality]()
 
-   
+
+
+* ##  [ Authentication Testin]( )  
+   #### + [     Username Enumeration]()
+   #### + [     Testing for Credentials Transported over an Encrypted Channel ]( )
+   #### + [     Testing for default credentials]( )
+   #### + [     Testing for Weak lock out mechanism ]( )
+   #### + [     Testing for bypassing authentication schema ]( )
+   #### + [     Test remember password functionality ]( )
+   #### + [     Testing for Browser cache weakness ]( )
+   #### + [     Testing for Weak password policy ]( )
+   #### + [     Testing for weak security Question/Answer ]( )
+   #### + [     Testing for weak password change or reset function]( )
+   #### + [     Testing for user registration and provisioning]()
+   #### + [     Testing log out functionality]()
 
 * ##  [ Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
 
