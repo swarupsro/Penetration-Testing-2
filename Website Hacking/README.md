@@ -21,8 +21,13 @@ Still updating... : )
 
 * ##  [  Scanning & Enumeration](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
    
-   #### + [     Open Ports / Services running](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection.md)
-   #### + [     Service version info](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection.md)
+   #### + [     Fingerprint Web Server]( )
+   #### + [     Webserver Metafiles]( )
+   #### + [     Enumerate Applications on Webserver]( )
+   #### + [     Webpage Comments and Metadata]( )
+   #### + [     Identify Application Entry Points]( )
+   #### + [     Map execution paths through application]( )
+   #### + [     Fingerprint Web Application & Web Application Framework]( )
    #### + [     Web application Firewall scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection.md)
    #### + [      	CMS Scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/CMS%20Scanning.md)
    
