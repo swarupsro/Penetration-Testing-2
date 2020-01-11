@@ -7,6 +7,10 @@ Still updating... : )
 
 * ##  [  Information gathering](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
    #### + [     Whois Information]()
+   #### + [     Identifying technology used](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration
+   #### + [     Content discovery](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Content%20discovery.md)
+   /Identifying%20technology%20used)
+   #### + [     Sub domain Enumeration](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Sub%20domain%20Enumeration.md)
    #### + [     S3 Buckets]()
    #### + [     Social accounts]()
    #### + [     API Endpoints]()
@@ -31,9 +35,7 @@ Still updating... : )
    #### + [     Web application Firewall scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Scanning%26Enumeration/Port%20Scanning%20%26%20Service%20Detection.md)
    #### + [      	CMS Scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/CMS%20Scanning.md)
    
-   #### + [     Content discovery](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Content%20discovery.md)
-   #### + [     Identifying technology used](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Identifying%20technology%20used)
-   #### + [     Sub domain Enumeration](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Sub%20domain%20Enumeration.md)
+
    #### + [     Discovering ‘hidden’ GET or POST parameters](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Discovering%20%E2%80%98hidden%E2%80%99%20GET%20or%20POST%20parameters)
    #### + [     Finding admin panel](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Finding%20admin%20panel.md)
    #### + [     Identify Server Headers](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/Server%20Headers.md)
