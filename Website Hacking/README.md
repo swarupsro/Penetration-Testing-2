@@ -68,7 +68,7 @@ Still updating... : )
    
  * ##  [ Encoding Schemes]( )
 
-* ##  [ Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
+* ##  [Automatic Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
 
    #### + [     Nikto for Vulnerability Scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/Nikto%20for%20Vulnerability%20Scanning)
    #### + [     Nmap for vulnerability scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/Nmap%20for%20Web%20vulnerability%20scanning)
