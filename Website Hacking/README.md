@@ -75,7 +75,7 @@ Still updating... : )
 
 * ##  [Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
    
-   #### + [     Known Vulnerabilities & Vulnerability Database ]( )
+   #### + [     Known Vulnerabilities & Vulnerability Database ](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/Known%20Vulnerabilities%20%26%20Vulnerability%20Database%20.md)
    #### + [     Automatic Vulnerability scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/Nikto%20for%20Vulnerability%20Scanning)
    
 * ##  [ Web Backdoors](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Backdoors)
