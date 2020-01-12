@@ -18,3 +18,4 @@ https://brutelogic.com.br/blog/
 
 https://medium.com/@mastomi/xss-to-account-takeover-d5beddc5c704
 
+https://github.com/haroonawanofficial/XSS-Finder
