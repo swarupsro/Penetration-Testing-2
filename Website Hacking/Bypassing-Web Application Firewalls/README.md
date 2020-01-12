@@ -1,1 +1,12 @@
 # WAFs, WAF Bypassing and techniques 
+* ##  [ WAF Fingerprinting with Burp suite  ]( )
+* ##  [ WAF Fingerprinting with Nmap ]( )
+* ##  [ WAF Fingerprinting with WAFW00F ]( )
+* ##  [ WAF Bypassing ]( )
+* ##  [ ]( )
+* ##  [ ]( )
+* ##  [ ]( )
+* ##  [ ]( )
+* ##  [ ]( )
+* ##  [ ]( )
+* ##  [ ]( )
