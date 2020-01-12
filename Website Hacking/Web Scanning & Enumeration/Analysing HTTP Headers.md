@@ -2,3 +2,4 @@
 - Session Info
 - URL Info
 - HTTP Methods
+- HTTP Strict-Transport-Security (HSTS) header
