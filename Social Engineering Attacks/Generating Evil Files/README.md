@@ -1,4 +1,4 @@
-# Generating Evil Files
+# Generating Evil Files ( Windows,Mac OS,Linux,Android)
 
  - Create basic evil ﬁles for most common operating systems, this includes (but not limited to): 
   - Backdoors. 
