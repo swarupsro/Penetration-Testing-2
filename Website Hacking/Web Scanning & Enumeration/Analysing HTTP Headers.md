@@ -1,0 +1,4 @@
+- Server header & Technology used
+- Session Info
+- URL Info
+- HTTP Methods
