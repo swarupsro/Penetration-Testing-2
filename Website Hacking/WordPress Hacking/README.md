@@ -1,2 +1,4 @@
 WordPress Fingerprinting
- #### + [     WP version finding]( )
+ #### + [     WP version finding
+ 
+ 
