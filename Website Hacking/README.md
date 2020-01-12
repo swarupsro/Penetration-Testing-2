@@ -76,10 +76,8 @@ Still updating... : )
 * ##  [Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
    
    #### + [     Known Vulnerabilities & Vulnerability Database ]( )
-   #### + [     Nikto for Vulnerability Scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/Nikto%20for%20Vulnerability%20Scanning)
-   #### + [     Nmap for vulnerability scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/Nmap%20for%20Web%20vulnerability%20scanning)
-   #### + [     Other Tools]()
-
+   #### + [     Automatic Vulnerability scanning](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/Nikto%20for%20Vulnerability%20Scanning)
+   
 * ##  [ Web Backdoors](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Backdoors)
 
 * ##  [ Exploitaion](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/Initial%20Access)
