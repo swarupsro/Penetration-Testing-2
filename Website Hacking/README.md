@@ -70,6 +70,10 @@ Still updating... : )
    #### + [     Testing for Padding Oracle ]( )
    
  * ##  [ Encoding Schemes]( )
+   #### + [     URL encoding]( )
+   #### + [     HTML encoding]( )
+   #### + [     Base (32|64) encoding]( )
+   #### + [     Unicode encoding]( )
 
 * ##  [Automatic Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
 
