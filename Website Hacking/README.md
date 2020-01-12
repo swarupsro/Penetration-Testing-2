@@ -74,6 +74,7 @@ Still updating... : )
    #### + [     HTML encoding]( )
    #### + [     Base (32|64) encoding]( )
    #### + [     Unicode encoding]( )
+   #### + [     Encoding Evasion]( )
 
 * ##  [Automatic Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
 
