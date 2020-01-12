@@ -1,3 +1,10 @@
+# Backdoor Delivery Methods
+ ## Inside The Local Network
+     1.Using a Fake Update
+     2.Backdooring Downloads on The Fly
+ ## Outside The Local Network
+     
+
 # Delivery methods
  - Smart social engineering techniques to deliver evil ﬁles. 
  - Fake login pages. 
