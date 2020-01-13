@@ -1,3 +1,5 @@
+inurl:/wp-content/plugins/easy-comment-uploads/upload-form.php
+
 "index of" inurl:wp-content/"
 
 "inurl:"/wp-content/plugins/wp-shopping-cart/"
