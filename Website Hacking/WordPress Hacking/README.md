@@ -3,7 +3,7 @@ WordPress Fingerprinting
  #### + [     WP version enumeration]( )
  #### + [     Admin page finding]( )
  #### + [     User name Enumeration]( )
- #### + [     Bruteforce password Admin password]( )
+ #### + [     Bruteforce Admin password]( )
  #### + [     Vulnerable Plugins]( )
  #### + [     Vulnerable Themes]( )
  #### + [     ]( )
