@@ -5,10 +5,10 @@
     <img src="https://www.go2vanguard.com/wp-content/uploads/pentesting.png" alt="Logo" width="80" height="80">
    </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Journey of Penetration Testing</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+   This repository is intended just for supporting & helping me during my Penetration Testing : )
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -19,11 +19,9 @@
 
 
 
+
 > !     Still updating... 
  
-# Journey of Penetration Testing
-
-This repository is intended just for supporting & helping me during my Penetration Testing : )
 
 
 
