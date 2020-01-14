@@ -15,16 +15,8 @@
     </p>
 </p>
 
-
-
-
-
-
 > !     Still updating... 
  
-
-
-
 ### Contents
 
 ## + [ Android PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Android)
