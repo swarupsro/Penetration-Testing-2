@@ -11,7 +11,7 @@ An attacker may use malformed data in a request, using a query-field, a search-b
 ### Example
 For example, consider a simple login-form:
 
-![](login-form.png)
+![](https://raw.githubusercontent.com/brampat/security/master/techniques/sql-injection/login-form.png)
 
 Now consider the following code to validate the credentials:
 
