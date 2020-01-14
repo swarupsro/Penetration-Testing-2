@@ -8,15 +8,15 @@ This repository is intended just for supporting & helping me during my Penetrati
 ## Contents
 
 
-* [x] #  [ Android PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Android)
+* [x]  [ Android PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Android)
 
-#  [ Social Engineering](https://github.com/sarathlalup/Cyber-security/blob/master/Social%20Engineering%20Attacks/README.md)
+* [x]  [ Social Engineering](https://github.com/sarathlalup/Cyber-security/blob/master/Social%20Engineering%20Attacks/README.md)
 
-#  [ Network PenTest]()
+* [x]  [ Network PenTest]()
 
-#  [ Windows PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Windows%20Exploitaion/README.md)
+* [x]  [ Windows PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Windows%20Exploitaion/README.md)
 
-#  [ Linux PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Linux%20Exploitation)
+* [x]  [ Linux PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Linux%20Exploitation)
 
-#  [ Web PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
+* [x]  [ Web PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
