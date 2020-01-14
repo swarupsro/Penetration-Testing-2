@@ -11,6 +11,15 @@ Still updating.. : )
 #  [ Android PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Android)
 #  [ Social Engineering](https://github.com/sarathlalup/Cyber-security/blob/master/Social%20Engineering%20Attacks/README.md)
 #  [ Network PenTest]()
+#  [ Windows PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Windows%20Exploitaion/README.md)
+* [x] Scanning & Enumeration
+* [x] Vulnerability Finding
+* [x] Exploitaion
+* [x] Post Exploitation
+* [x] Privilege Escalation
+* [x] Propagation Attacks 
+* [x] Powershell
+* [x] Windows ActiveDirectory
 #  [ Linux PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Linux%20Exploitation)
 * [x] Module 1 : Architecture Fundamentals
 * [x] Module 2 : Assemblers, Debuggers and Tools Arsenal
