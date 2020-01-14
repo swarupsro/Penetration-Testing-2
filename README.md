@@ -9,7 +9,7 @@ Still updating.. : )
 
 
 * #  [ Android PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Android)
-* #  [ Social Engineering](ttps://github.com/sarathlalup/Cyber-security/blob/master/Social%20Engineering%20Attacks/README.md)
+* #  [ Social Engineering](https://github.com/sarathlalup/Cyber-security/blob/master/Social%20Engineering%20Attacks/README.md)
 * #  [ Network PenTest]()
 * #  [ Linux PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Linux%20Exploitation)
 * #  [ Web PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
