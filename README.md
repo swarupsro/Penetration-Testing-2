@@ -16,7 +16,7 @@
 </p>
 
 
-> !     Still updating...
+> Still updating...   !
  
 ### Contents
 
