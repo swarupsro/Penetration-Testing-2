@@ -20,12 +20,12 @@ Still updating.. : )
 * [x] Module 6 : Malware 
 #  [ Web PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 * [x] Information gathering
-* [x] 2 : Scanning & Enumeration
-* [x] Module 3 : Authentication Testing 
-* [x] Module 4 : Testing for weak Cryptography 
-* [x] Module 5 : Encoding Schemes 
-* [x] Module 6 : WAFs, WAF Bypassing and techniques 
-* [x] Module 6 : Vulnerability Finding
-* [x] Module 6 : Web Backdoors
-* [x] Module 6 : Exploitaion
+* [x] Scanning & Enumeration
+* [x] Authentication Testing 
+* [x] Testing for weak Cryptography 
+* [x] Encoding Schemes 
+* [x] WAFs, WAF Bypassing and techniques 
+* [x] Vulnerability Finding
+* [x] Web Backdoors
+* [x] Exploitaion
 
