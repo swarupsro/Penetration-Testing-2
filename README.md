@@ -19,8 +19,8 @@ Still updating.. : )
 * [x] Module 5 : Cryptography and Password Cracking 
 * [x] Module 6 : Malware 
 #  [ Web PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
-* [x] Module 1 : Information gathering
-* [x] Module 2 : Scanning & Enumeration
+* [x] 1 : Information gathering
+* [x] 2 : Scanning & Enumeration
 * [x] Module 3 : Authentication Testing 
 * [x] Module 4 : Testing for weak Cryptography 
 * [x] Module 5 : Encoding Schemes 
