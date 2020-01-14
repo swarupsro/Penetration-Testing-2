@@ -69,7 +69,7 @@
    #### + [     Data encoding]( )
    #### + [     Encoding Evasion]( )
    
- * ##  [ WAFs, WAF Bypassing and techniques ](https://github.com/0xInfection/Awesome-WAF/blob/master/README.md )
+ * ##  [ WAFs, WAF Bypassing and techniques ](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Bypassing-Web%20Application%20Firewalls/README.md )
 
 * ##  [Vulnerability Finding](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Vulnerability%20Scanning)
    
