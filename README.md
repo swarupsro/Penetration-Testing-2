@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://cdn.imgbin.com/19/18/2/imgbin-penetration-test-logo-software-testing-security-utensilios-SZ8xqj5sdtdV6vxkxXUKY0WuX.jpg" alt="Logo" width="80" height="80">
+    <img src="https://www.go2vanguard.com/wp-content/uploads/pentesting.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
