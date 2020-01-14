@@ -1,5 +1,3 @@
-Still updating... : )
-
 [Web Application Penetration Testing Checklist  ](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/checklist.md)
 
 #  Web Penetration Testing 
