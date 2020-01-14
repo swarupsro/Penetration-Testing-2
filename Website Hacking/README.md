@@ -101,7 +101,7 @@
    #### + [     Subdomain Takeover](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/Subdomain%20Takeover)
    #### + [     Unvalidated redirects and forwards](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/Unvalidated%20redirects%20and%20forwards)
    #### + [     XML External Entity](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/XML%20External%20Entity)
-   #### + [     XSS](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/XSS)
+   #### + [     XSS](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/XSS/README.md)
    #### + [     Directory Traversal](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Attacks/Directory%20Traversal)
    #### + [     ]()
    
