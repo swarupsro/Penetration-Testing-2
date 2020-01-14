@@ -1,8 +1,8 @@
 # Journey of Penetration Testing
 
-This repository is intended just for supporting & helping me during my Penetration Testing.
+This repository is intended just for supporting & helping me during my Penetration Testing. : )
 
-: ) Still updating.. !
+Still updating.. !
 
 
 ## Contents
