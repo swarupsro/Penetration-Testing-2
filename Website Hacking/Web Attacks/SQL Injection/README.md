@@ -12,7 +12,7 @@
 * ###  [ OracleSQL Injection]( )
 * ###  [ PostgreSQL Injection]( )
 * ###  [ SQLite Injection]( )
-* ###  [ Authentication bypass]( )
+* ###  [ Authentication bypass](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/SQL%20Injection/Authentication%20bypass.md )
 * ###  [ Polyglot injection]( )
 * ###  [ Routed injection]( )
 * ###  [ Insert Statement - ON DUPLICATE KEY UPDATE]( )
