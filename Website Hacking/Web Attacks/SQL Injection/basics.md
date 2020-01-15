@@ -32,9 +32,6 @@ In some situations, an attacker can escalate an SQL injection attack to compromi
    #### Voice Based Sql Injection : 
    It is a sql injection attack method that can be applied in applications that provide access to databases with voice command. An attacker could pull information from the database by sending sql queries with sound.
 
-## SQL injection basics
-This attack is mostly employed on insecure websites or systems that use databases to store data like credentials, forum-posts, messages, online catalogue-data etc.
-
 ### How it works
 An attacker may use malformed data in a request, using a query-field, a search-box or login-fields to abuse unsafe SQL-code and inject malicious SQL-code on the server. This can be abused to gain access to user accounts, retrieve data from or change data in the database of the application.
 
