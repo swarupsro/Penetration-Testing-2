@@ -1,5 +1,15 @@
 # Cross Site Scripting (XSS)
 
+* ##  [ Cross-site Scripting Fundamentals]( )
+* ##  [ The XSS Discovery Toolkit ]( )
+* ##  [ XSS Theory]( )
+* ##  [ XSS Attack Methods]( )
+* ##  [ Advanced XSS Attack Vectors ]( )
+* ##  [ XSS Exploited ]( )
+* ##  [ Exploit Frameworks ]( )
+* ##  [ XSS Worms ]( )
+* ##  [ ]( )
+
 ## Info
 * OWASP on [2017-A7 Cross-Site Scripting (XSS)](https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_%28XSS%29)
 * OWASP [XSS Prevention Cheat sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
