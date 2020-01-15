@@ -4,7 +4,7 @@
 * ###  [ The XSS Discovery Toolkit ]( )
 * ###  [ XSS Theory]( )
 * ###  [ XSS Vulneability Scanner Tool's]( )
-* ###  [ XSS Payload List]( )
+* ###  [ XSS Payload List](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/XSS/XSS%20Payload%20List.md )
 * ###  [ XSS Attack Methods]( )
 * ###  [ Advanced XSS Attack Vectors ]( )
 * ###  [ XSS Exploited ]( )
