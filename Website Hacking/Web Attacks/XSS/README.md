@@ -1,7 +1,6 @@
 ## Cross Site Scripting (XSS)
 
 * ###  [ Cross-site Scripting Fundamentals]( )
-* ###  [ The XSS Discovery Toolkit ]( )
 * ###  [ XSS Theory]( )
 * ###  [ XSS Vulneability Scanner Tool's]( )
 * ###  [ XSS Payload List](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/XSS/XSS%20Payload%20List.md )
@@ -10,7 +9,7 @@
 * ###  [ XSS Exploited ]( )
 * ###  [ Exploit Frameworks ]( )
 * ###  [ XSS Worms ]( )
-* ###  [ XSS Payload List]( )
+
 
 ## Info
 * OWASP on [2017-A7 Cross-Site Scripting (XSS)](https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_%28XSS%29)
