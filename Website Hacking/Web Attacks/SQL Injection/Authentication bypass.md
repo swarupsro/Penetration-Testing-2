@@ -1,7 +1,8 @@
 ## Authentication bypass
-  '-'
-' '
-'&'
+
+     '-'
+     ' '
+     '&'
 '^'
 '*'
 ' or 1=1 limit 1 -- -+
