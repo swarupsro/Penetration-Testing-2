@@ -1,3 +1,11 @@
+### Port 25 SMTP
+
+- Name:
+- Version:
+- VRFY:
+- EXPN:
+
+
 https://www.hackingarticles.in/4-ways-smtp-enumeration/
 
 
