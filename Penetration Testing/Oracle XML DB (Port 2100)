@@ -1,0 +1,13 @@
+### Port 2100 - Oracle XML DB
+
+Can be accessed through ftp.
+Some default passwords here: https://docs.oracle.com/cd/B10501_01/win.920/a95490/username.htm
+- Name:
+- Version:
+
+Default logins:
+
+```
+sys:sys
+scott:tiger
+```
