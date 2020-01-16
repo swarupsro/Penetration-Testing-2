@@ -24,6 +24,32 @@
     • nmap -sS -T4 -Pn -p 0-65535 -oN FullTCP -iL LiveHosts.txt
     • nmap -sU -T4 -Pn -p 0-65535 -oN FullUDP -iL LiveHosts.txt
 
+
+## Recon
+
+```
+Always start with a stealthy scan to avoid closing ports.
+
+# Syn-scan
+nmap -sS INSERTIPADDRESS
+
+# Service-version, default scripts, OS:
+nmap INSERTIPADDRESS -sV -sC -O
+
+# Scan all ports, might take a while.
+nmap INSERTIPADDRESS -p-
+
+# Scan for UDP
+nmap INSERTIPADDRESS -sU
+unicornscan -mU -v -I INSERTIPADDRESS
+
+# Connect to udp if one is open
+nc -u INSERTIPADDRESS 48772
+
+# Monster scan
+nmap INSERTIPADDRESS -p- -A -T4 -sC
+```
+
 ___________________________________________________________________________________________________________________________________
 ## Tools
 
