@@ -1,3 +1,19 @@
+### Port 161/162 UDP - SNMP
+
+
+```
+nmap -vv -sV -sU -Pn -p 161,162 --script=snmp-netstat,snmp-processes INSERTIPADDRESS
+snmp-check -t INSERTIPADDRESS -c public
+```
+
+```
+# Common community strings
+public
+private
+community
+```
+
+
 https://www.hackingarticles.in/6-ways-to-hack-snmp-password/
 
 
