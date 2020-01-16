@@ -1,4 +1,10 @@
-Pop3 (110):
+### Port 110 - Pop3
+
+- Name:
+- Version:
+
+INSERTPOP3CONNECT
+
 
     telnet INSERTIPADDRESS 110
 
