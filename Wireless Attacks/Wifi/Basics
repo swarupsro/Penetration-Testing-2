@@ -1,0 +1,29 @@
+Device 	             Kali Support Out the Box 	Driver Needed 	Injection Working 	2.4 GHz 	5 GHz
+Alfa AWUS052NH 	              Y 	                    N 	              Y 	           Y 	      Y
+Panda Wireless PAU09 	        Y 	                    N 	              Y 	           Y 	      Y
+Alfa AWUS036NEH 	            Y 	                    N 	              Y 	           Y 	      N
+Alfa AWUS051NH              	Y 	                    N 	              Y 	           Y 	      Y
+Alfa AWUS036H 	              Y 	                    N 	              Y 	           Y 	      N
+Alfa AWUS1900               	N 	                    Y 	              Y 	           Y 	      Y
+Alfa AWUS036ACH 	            N 	                    Y 	              Y 	           Y 	      Y
+Alfa AWUS036NH 	              N 	                    Y 	              Y 	           Y 	      N
+TL-WN722N (Atheros Chipset) 	N 	                    Y 	              Y 	           Y 	      N
+
+
+Troubleshooting Monitor Mode# rfkill unblock all 
+# airmon-ng check kill
+
+Injection Test
+# aireplay-ng -i wlan0mon -9 -D
+
+Test Frequency Band and Capture Ability
+airodump-ng wlan1 --band ag -M -U --wps --beacons -w captureallthewireless
+
+Power Related
+# iw wlan0mon set txpower 30
+# iwconfig wlan0mon txpower 30
+# bccmd psget 0x0017
+
+Channel Related
+# iwconfig wlan1 channel 149Driver Related
+# apt install realtek-rtl88xxau-dkms
