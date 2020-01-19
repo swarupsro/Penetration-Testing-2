@@ -10,7 +10,7 @@
   <p align="center">
    This repository is intended just for supporting & helping me during my Penetration Testing : )
     <br />
-    <a href="https://github.com/sarathlalup"><strong>Explore other resources  »</strong></a>
+    <a href="https://github.com/sarathlalup"><strong>Explore other Repositories  »</strong></a>
     <br />
     </p>
 </p>
