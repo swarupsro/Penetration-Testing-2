@@ -21,7 +21,6 @@
    #### + [     DNS records](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Information%20Gathering/DNS%20records.md )
    
    #### + [     Sub domain Enumeration](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Scanning%20&%20Enumeration/Sub%20domain%20Enumeration.md)
-   #### + [     S3 Buckets]()
    #### + [     Social accounts]()
    #### + [     API Endpoints]()
    #### + [     Emails]()
@@ -29,7 +28,7 @@
    #### + [     Backend IP address]()
    #### + [     Server banners]()
    #### + [     Presence security headers]()
-   #### + [     ]()
+
 
    
 
