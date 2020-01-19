@@ -25,7 +25,7 @@
 
 ## + [ Windows PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Windows%20Exploitaion/README.md)
 
-## + [ Linux PenTest](https://github.com/sarathlalup/Cyber-security/tree/master/Linux%20Exploitation)
+
 
 ## + [ Web PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
