@@ -3,6 +3,7 @@
 * ###  [ SQL injection Basics](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/SQL%20Injection/basics.md )
 * ###  [ Injection Detection]( )
 * ###  [ DBMS Identification]( )
+* ###  [ Injection Types]()
 * ###  [ SQL Injection Vulnerability Scanner Tool’s](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/SQL%20Injection/SQL%20Injection%20Vulnerability%20Scanner%20Tool%E2%80%99s.md )
 * ###  [ SQL injection using SQLmap]( )
 * ###  [ Cassandra Injection]( )
