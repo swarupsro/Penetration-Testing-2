@@ -1,3 +1,5 @@
+https://sqlwiki.netspi.com/#mysql
+
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 
 https://medium.com/bugbountywriteup/sqlmaps-os-shell-backdooring-website-with-weevely-8cb6dcf17fa4?
