@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/sarathlalup">
-    <img src="https://www.cyberage.com.tr/en/img/content_icons/social_engineering_services.png" alt="Logo" width="40" height="40">
+    <img src="https://www.cyberage.com.tr/en/img/content_icons/social_engineering_services.png" alt="Logo" width="600" height="600">
   <h2 align="center">Social Engineering </h2>
     
    </a>
