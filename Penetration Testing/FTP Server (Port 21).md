@@ -1,5 +1,22 @@
 ### Port 21 - FTP
 
+    Fingerprint server
+        telnet ip_address 21 (Banner grab)
+        Run command ftp ip_address
+        ftp@example.com
+        Check for anonymous access
+            ftp ip_addressUsername: anonymous OR anonPassword: any@email.com
+    Password guessing
+        Hydra brute force
+        medusa
+        Brutus
+    Examine configuration files
+        ftpusers
+        ftp.conf
+        proftpd.conf
+    MiTM
+        pasvagg.pl 
+
 - Name:
 - Version:
 - Anonymous login:
