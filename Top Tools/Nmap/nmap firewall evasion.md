@@ -5,3 +5,5 @@
 - [Nmap Techniques for Avoiding Firewalls ](https://pentestlab.blog/2012/04/02/nmap-techniques-for-avoiding-firewalls/)
 - [Nmap Firewall Evasion Techniques](http://www.dimz-it.com/berkas/Nmap_Firewall_Evasion_Techniques.pdf)
 - [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+
+https://teckk2.github.io/misc/2018/01/10/Infosec-Interview_Questions_Part-2.html
