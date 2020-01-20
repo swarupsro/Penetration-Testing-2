@@ -19,9 +19,7 @@
     MiTM
         pasvagg.pl 
 
-- Name:
-- Version:
-- Anonymous login:
+
 
 ```
 nmap –script=ftp-anon,ftp-bounce,ftp-libopie,ftp-proftpd-backdoor,ftp-vsftpd-backdoor,ftp-vuln-cve2010-4221,tftp-enum -p 21 10.0.0.1
