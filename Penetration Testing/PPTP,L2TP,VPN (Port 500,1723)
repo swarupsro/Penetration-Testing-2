@@ -1,0 +1,11 @@
+PPTP/L2TP/VPN port 500/1723 open
+
+    Enumeration
+        ike-scan
+        ike-probe
+    Brute-Force
+        ike-crack
+    Reference Material
+        PSK cracking paper
+        SecurityFocus Infocus
+        Scanning a VPN Implementation 
