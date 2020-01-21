@@ -9,21 +9,21 @@
 |15|tcp|netstat|
 |17|tcp|quote of the day|
 |19|tcp|character generator|
-|21|tcp|ftp|
+|21|tcp|[FTP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/FTP%20Server%20(Port%2021).md)|
 |22|tcp|ssh|
 |23|tcp|telnet|
 |25|tcp|smtp|
 |26|tcp|ssh|
 |37|tcp|rdate|
 |49|tcp|TACACS+|
-|53|tcp|dns|
+|53|tcp|[DNS](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/DNS%20(Port%2053).md)|
 |53|udp|dns|
-|67|tcp|DHCP|
+|67|tcp|[DHCP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/DHCP%20Server%20(Port%2067).md)|
 |68|tcp|dhclient|
 |69|udp|TFTP,BitTorrent|
 |70|tcp|Gopher|
-|79|tcp|Finger|
-|80|tcp|HTTP,malware|
+|79|tcp|[Finger](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Finger%20(Port%2079).md)|
+|80|tcp|[HTTP,malware](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/HTTP&HTTPS%20(Port%2080,443).md)|
 |81|tcp|HTTP,malware|
 |82|tcp|HTTP,malware|
 |83|tcp|HTTP|
@@ -42,7 +42,7 @@
 |179|tcp|BGP|
 |195|tcp|TA14-353a|
 |311|tcp|OS X Server Manager|
-|389|tcp|ldap|
+|389|tcp|[LDAP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/LDAP%20(Port%20389).md)|
 |443|tcp|https|
 |445|tcp|
 |465|tcp|smtps|
@@ -64,33 +64,34 @@
 |771|tcp|Realport|
 |789|tcp|Redlion Crimson3||
 |873|tcp|rsync|
-|902|tcp|VMware authentication||
-|992|tcp|Telnet(secure)||
-|993|tcp|IMAPs||
-|995|tcp|POP3s||
-|1023|tcp|telnet||
-|1025|tcp|Kamstrup||
-|1099|tcp|
-|1194|tcp|openvpn||
-|1200|tcp|Codesys||
-|1234|udp|udpxy||
-|1202|tcp|linknat||
-|1434|udp|MS-SQL monitor||
-|1604||Citrix, malware||
+|902|tcp|VMware authentication|
+|992|tcp|Telnet(secure)|
+|993|tcp|[IMAPs](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/IMAPS%20(Port%20993).md)|
+|995|tcp|POP3s|
+|1023|tcp|telnet|
+|1025|tcp|Kamstrup|
+|1099|tcp||
+|1194|tcp|openvpn|
+|1200|tcp|Codesys|
+|1234|udp|udpxy|
+|1202|tcp|linknat|
+|1433|udp|[MS-SQL](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/MS-SQL%20(Port%201433).md)|
+|1494||[Citrix](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Citrix%20(Port%201494).md)|
+|1604||Citrix, malware|
 |1723|tcp|pptp|
-|1741||CiscoWorks||
-|1833||MQTT||
-|1900|tcp|bes,UPnP||
-|1911||Niagara Fox||
-|1962||PCworx||
-|2000||iKettle,MikroTik bandwidth test||
+|1741||CiscoWorks|
+|1833||MQTT|
+|1900|tcp|bes,UPnP|
+|1911||Niagara Fox|
+|1962||PCworx|
+|2000||iKettle,MikroTik bandwidth test|
 |2049|tcp|nfs|
 |2121|tcp|ftp|
-|2082|tcp|cpanel||
-|2083|tcp|cpanel||
-|2086||WHM||
-|2087||WHM||
-|2123||GTPv1||
+|2082|tcp|cpanel|
+|2083|tcp|cpanel|
+|2086||WHM|
+|2087||WHM|
+|2123||GTPv1|
 |2152||GTPv1||
 |2182||Apache Zookeeper||
 |2222|tcp|SSH, PLC5, EtherNet/IP||
