@@ -1,0 +1,14 @@
+Sybase Enumeration
+
+    sybase-version ip_address from NGS
+
+Sybase Vulnerability Assessment
+
+    Use DBVisualiser
+        Sybase Security checksheet
+            Copy output into excel spreadsheet
+            Evaluate mis-configured parameters
+        Manual sql input of previously reported vulnerabilties
+            Advanced SQL Injection in SQL Server
+            More Advanced SQL Injection
+    NGS Squirrel for Sybase 
