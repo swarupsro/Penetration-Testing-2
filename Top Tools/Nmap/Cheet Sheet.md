@@ -5,8 +5,8 @@
  - Operating system detection
  - Firewall detection
  - Detect and bypass network protection systems 
- - Vulnerability assessment
- - Bruteforce attack
+ - Vulnerability / exploit detection, using Nmap scripts (NSE)
+ - Hardware (MAC) address detection
  - Exloitation
 ### Basic Scanning Techniques
 
