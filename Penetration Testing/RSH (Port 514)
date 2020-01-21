@@ -1,0 +1,8 @@
+rsh port 514 open
+
+    Rsh Enumeration
+        rsh host [-l username] [-n] [-d] [-k realm] [-f | -F] [-x] [-PN | -PO] command
+    Rsh Brute Force
+        rsh-grind
+        Hydra
+        medusa 
