@@ -1,0 +1,50 @@
+### Port 25 SMTP
+
+- Name:
+- Version:
+- VRFY:
+- EXPN:
+
+
+    Fingerprint server
+        telnet ip_address 25 (banner grab)
+    Mail Server Testing
+        Enumerate users
+            VRFY username (verifies if username exists - enumeration of accounts)
+            EXPN username (verifies if username is valid - enumeration of accounts)
+        Mail Spoof Test
+            HELO anything MAIL FROM: spoofed_address RCPT TO:valid_mail_account DATA . QUIT
+        Mail Relay Test
+
+            HELO anything
+                Identical to/from - mail from: <nobody@domain> rcpt to: <nobody@domain>
+                Unknown domain - mail from: <user@unknown_domain>
+                Domain not present - mail from: <user@localhost>
+                Domain not supplied - mail from: <user>
+
+                Source address omission - mail from: <> rcpt to: <nobody@recipient_domain>
+                Use IP address of target server - mail from: <user@IP_Address> rcpt to: <nobody@recipient_domain>
+
+                Use double quotes - mail from: <user@domain> rcpt to: <"user@recipent-domain">
+
+                User IP address of the target server - mail from: <user@domain> rcpt to: <nobody@recipient_domain@[IP Address]>
+
+                Disparate formatting - mail from: <user@[IP Address]> rcpt to: <@domain:nobody@recipient-domain>
+
+                Disparate formatting2 - mail from: <user@[IP Address]> rcpt to: <recipient_domain!nobody@[IP Address]>
+    Examine Configuration Files
+        sendmail.cf
+        submit.cf
+
+
+
+
+
+https://www.hackingarticles.in/4-ways-smtp-enumeration/
+
+
+SMTP Enumeration (25):
+
+    nmap –script=smtp-commands,smtp-enum-users,smtp-vuln-cve2010-4344,smtp-vuln-cve2011-1720,smtp-vuln-cve2011-1764 -p 25 10.0.0.1
+    nc -nvv INSERTIPADDRESS 25
+    telnet INSERTIPADDRESS 25
