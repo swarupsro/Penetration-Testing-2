@@ -1,3 +1,32 @@
+
+    VNC Enumeration
+        Scans
+            5900^ for direct access.5800 for HTTP access.
+    VNC Brute Force
+        Password Attacks
+            Remote
+                Password Guess
+                    vncrack
+                Password Crack
+                    vncrack
+                    Packet Capture
+                        Phosshttp://www.phenoelit.de/phoss
+            Local
+                Registry Locations
+                    \HKEY_CURRENT_USER\Software\ORL\WinVNC3
+                    \HKEY_USERS\.DEFAULT\Software\ORL\WinVNC3
+                Decryption Key
+                    0x238210763578887
+    Exmine Configuration Files
+        .vnc
+        /etc/vnc/config
+        $HOME/.vnc/config
+        /etc/sysconfig/vncservers
+        /etc/vnc.conf
+
+
+
+
 http://www.hackingarticles.in/vnc-penetration-testing
 
 https://www.hackingarticles.in/6-ways-to-hack-vnc-login-password/
