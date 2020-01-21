@@ -3,65 +3,65 @@
 |**Port Number**|**Protocol**|**Service & Application**|
 |:--------------|:-----------|:------------------------|
 |1|tcp|blackice||
-|7|tcp|echo||
-|11|tcp|systat||
-|13|tcp|daytime||
-|15|tcp|netstat||
-|17|tcp|quote of the day||
-|19|tcp|character generator||
-|21|tcp|ftp|||
-|22|tcp|ssh||
-|23|tcp|telnet||
-|25|tcp|smtp||
-|26|tcp|ssh||
-|37|tcp|rdate||
-|49|tcp|TACACS+||
-|53|tcp|dns||
-|53|udp|dns||
-|67|tcp|DHCP||
-|68|tcp|dhclient||
-|69|udp|TFTP,BitTorrent||
-|70|tcp|Gopher||
-|79|tcp|Finger||
-|80|tcp|HTTP,malware||
-|81|tcp|HTTP,malware||
-|82|tcp|HTTP,malware||
-|83|tcp|HTTP||
-|84|tcp|HTTP||
-|88|tcp|Kerberos|\
-|102|tcp|Siemens S7||
-|110|tcp|pop3||
+|7|tcp|echo|
+|11|tcp|systat|
+|13|tcp|daytime|
+|15|tcp|netstat|
+|17|tcp|quote of the day|
+|19|tcp|character generator|
+|21|tcp|ftp|
+|22|tcp|ssh|
+|23|tcp|telnet|
+|25|tcp|smtp|
+|26|tcp|ssh|
+|37|tcp|rdate|
+|49|tcp|TACACS+|
+|53|tcp|dns|
+|53|udp|dns|
+|67|tcp|DHCP|
+|68|tcp|dhclient|
+|69|udp|TFTP,BitTorrent|
+|70|tcp|Gopher|
+|79|tcp|Finger|
+|80|tcp|HTTP,malware|
+|81|tcp|HTTP,malware|
+|82|tcp|HTTP,malware|
+|83|tcp|HTTP|
+|84|tcp|HTTP|
+|88|tcp|Kerberos|
+|102|tcp|Siemens S7|
+|110|tcp|pop3|
 |111|tcp|RPC|
 |119|tcp|NNTP||
 |123|tcp|NTP||
 |123|udp|ntp|
 |137|tcp|NetBIOS|nbtscan -A `target`|
-|143|tcp|IMAP||
+|143|tcp|IMAP|
 |161|udp|snmp|
-|175|tcp|IBM Network Job Entry||
-|179|tcp|BGP||
-|195|tcp|TA14-353a||
-|311|tcp|OS X Server Manager||
-|389|tcp|ldap|ldap://`target`/dc=com|
+|175|tcp|IBM Network Job Entry|
+|179|tcp|BGP|
+|195|tcp|TA14-353a|
+|311|tcp|OS X Server Manager|
+|389|tcp|ldap|
 |443|tcp|https|
 |445|tcp|
-|465|tcp|smtps||
-|500|udp|ike||
-|502|tcp|modbus||
-|503|tcp|modbus||
-|512|tcp|||
-|513|tcp|||
-|514|tcp|||
-|515|tcp|Line Printer Daemon||
-|520|tcp|RIP||
-|523|tcp|IBM DB2||
-|554|tcp|RTSP||
-|587|tcp|SMTP mail submission||
-|623|tcp|IPMI||
-|626|tcp|OS X serialnumbered||
-|631|tcp|CUPS Service error||
-|636|tcp|ldaps||
-|771|tcp|Realport||
+|465|tcp|smtps|
+|500|udp|ike|
+|502|tcp|modbus|
+|503|tcp|modbus|
+|512|tcp||
+|513|tcp||
+|514|tcp||
+|515|tcp|Line Printer Daemon|
+|520|tcp|RIP|
+|523|tcp|IBM DB2|
+|554|tcp|RTSP|
+|587|tcp|SMTP mail submission|
+|623|tcp|IPMI|
+|626|tcp|OS X serialnumbered|
+|631|tcp|CUPS Service error|
+|636|tcp|ldaps|
+|771|tcp|Realport|
 |789|tcp|Redlion Crimson3||
 |873|tcp|rsync|
 |902|tcp|VMware authentication||
