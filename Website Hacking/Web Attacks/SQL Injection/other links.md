@@ -129,5 +129,14 @@ https://medium.com/techloop/sql-injection-e70131a1f881
 
 
 
+    http://www.sqlinjection.net/category/attacks/
+    http://sechow.com/bricks/docs/login-1.html
+    https://www.exploit-db.com/papers/12975/
+    https://websec.wordpress.com/2010/12/04/sqli-filter-evasion-cheat-sheet-mysql/
+    https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/
+    https://github.com/cr0hn/nosqlinjection_wordlists
+    https://blog.scrt.ch/2013/03/24/mongodb-0-day-ssji-to-rce/
+    https://websec.ca/kb/sql_injection#MSSQL_Default_Databases
+
 
 
