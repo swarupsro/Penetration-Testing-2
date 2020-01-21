@@ -1,0 +1,21 @@
+SQL Enumeration
+
+    piggy
+    SQLPing
+        sqlping ip_address/hostname
+    SQLPing2
+    SQLPing3
+    SQLpoke
+    SQL Recon
+    SQLver
+
+SQL Brute Force
+
+    SQLPAT
+        sqlbf -u hashes.txt -d dictionary.dic -r out.rep - Dictionary Attack
+        sqlbf -u hashes.txt -c default.cm -r out.rep - Brute-Force Attack
+    SQL Dict
+    SQLAT
+    Hydra
+    SQLlhf
+    ForceSQL 
