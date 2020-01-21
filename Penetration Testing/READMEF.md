@@ -32,11 +32,12 @@
 |102|tcp|Siemens S7|
 |110|tcp|pop3|
 |111|tcp|RPC|
-|119|tcp|NNTP||
-|123|tcp|NTP|
+|119|tcp|[NNTP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NNTP%20(Port%20119).md)||
+|123|tcp|[NTP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NTP%20(Port%20123).md)|
 |123|udp|ntp|
 |135|tcp|[Microsoft RPC](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Microsoft%20RPC%20(Port%20135).md)|
 |137|tcp|NetBIOS|nbtscan -A `target`|
+|138|tcp|[NetBIOS](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NetBIOS%20Datagram%20Service%20(Port%20138).md)|
 |143|tcp|IMAP|
 |161|udp|snmp|
 |175|tcp|IBM Network Job Entry|
@@ -78,6 +79,7 @@
 |1202|tcp|linknat|
 |1433|udp|[MS-SQL](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/MS-SQL%20(Port%201433).md)|
 |1494||[Citrix](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Citrix%20(Port%201494).md)|
+|1521||[Oracle](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Oracle%20(Port%201521).md)|
 |1604||Citrix, malware|
 |1723|tcp|pptp|
 |1741||CiscoWorks|
@@ -86,7 +88,7 @@
 |1911||Niagara Fox|
 |1962||PCworx|
 |2000||iKettle,MikroTik bandwidth test|
-|2049|tcp|nfs|
+|2049|tcp|[NFS](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NFS%20(Port%202049).md)|
 |2121|tcp|ftp|
 |2082|tcp|cpanel|
 |2083|tcp|cpanel|
