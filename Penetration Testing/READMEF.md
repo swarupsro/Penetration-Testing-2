@@ -33,8 +33,9 @@
 |110|tcp|pop3|
 |111|tcp|RPC|
 |119|tcp|NNTP||
-|123|tcp|NTP||
+|123|tcp|NTP|
 |123|udp|ntp|
+|135|tcp|[Microsoft RPC](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Microsoft%20RPC%20(Port%20135).md)|
 |137|tcp|NetBIOS|nbtscan -A `target`|
 |143|tcp|IMAP|
 |161|udp|snmp|
@@ -47,7 +48,7 @@
 |445|tcp|
 |465|tcp|smtps|
 |500|udp|ike|
-|502|tcp|modbus|
+|502|tcp|[modbus](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Modbus%20(Port%20502).md)|
 |503|tcp|modbus|
 |512|tcp||
 |513|tcp||
@@ -106,6 +107,7 @@
 |3000||ntop||
 |3128|tcp|squid||
 |3299|tcp|sap|
+|3306|tcp|[MYSQL](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/MYSQL%20(Port%203306).md)|
 |3310|tcp|ClamAV||
 |3386||GTPv1||
 |3388||RDP||
