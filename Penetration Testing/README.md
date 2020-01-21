@@ -7,7 +7,7 @@
 |  5	|15|tcp|netstat|
 |  6	|17|tcp|quote of the day|
 |  7	|19|tcp|character generator|
-|  8	|21|tcp|ftp|
+|  8	|21|tcp|[FTP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/FTP%20Server%20(Port%2021).md)|
 |  9	|22|tcp|ssh|
 | 10	|23|tcp|telnet|
 | 11	|25|tcp|smtp|
