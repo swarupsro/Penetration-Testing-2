@@ -1,6 +1,6 @@
 # Ports
 
-|**Port Number**|**Protocol**|**Service & Application       (Enumeration & Exploits)**|
+|**Port Number**|**Protocol**|**Service & Application(Enumeration&Exploits)**|
 |:--------------|:-----------|:------------------------|
 |1|tcp|blackice||
 |7|tcp|echo|
