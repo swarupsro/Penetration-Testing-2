@@ -1,3 +1,14 @@
 | No. | Port NO | Protocol | Service & Application |
 |-----|--------------|------------------|------------------|
-| 1.	| |Windows|[Access](https://www.hackingarticles.in/hack-the-box-access-walkthrough/)|
+| 1	| ||[]()|
+| 2	| ||[]()|
+| 3	| ||[]()|
+| 4	| ||[]()|
+| 5	| ||[]()|
+| 6	| ||[]()|
+| 7	| ||[]()|
+| 8	| ||[]()|
+| 9	| ||[]()|
+| 10	| ||[]()|
+| 11	| ||[]()|
+
