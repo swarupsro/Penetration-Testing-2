@@ -1,5 +1,15 @@
 ### Port 3389 - Remote desktop
 
+Rdesktop Enumeration
+
+    Remote Desktop Connection
+
+Rdestop Bruteforce
+
+    TSGrinder
+        tsgrinder.exe -w dictionary_file -l leet -d workgroup -u administrator -b -n 2 IP_Address
+    Tscrack 
+
 Test logging in to see what OS is running
 
 ```
