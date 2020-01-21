@@ -14,7 +14,7 @@
 | 12	|26|tcp|ssh|
 | 13	|37|tcp|rdate|
 | 14	|49|tcp|TACACS+|
-| 15	|53|tcp|[dns](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/DNS%20(Port%2053).md)|
+| 15	|53|tcp|[DNS](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/DNS%20(Port%2053).md)|
 | 16	|53|udp|dns|
 | 17	|67|tcp|[DHCP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/DHCP%20Server%20(Port%2067).md)|
 | 18	|68|tcp|dhclient|
