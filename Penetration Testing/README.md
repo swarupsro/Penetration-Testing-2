@@ -4,24 +4,24 @@
 |  2	|7|tcp|echo|
 |  3	|11|tcp|systat|
 |  4	|13|tcp|daytime|
-|  5	| ||[]()|
-|  6	| ||[]()|
-|  7	| ||[]()|
-|  8	| ||[]()|
-|  9	| ||[]()|
-| 10	| ||[]()|
-| 11	| ||[]()|
-| 12	| ||[]()|
-| 13	| ||[]()|
-| 14	| ||[]()|
-| 15	| ||[]()|
-| 16	| ||[]()|
-| 17	| ||[]()|
-| 18	| ||[]()|
-| 19	| ||[]()|
-| 20	| ||[]()|
-| 21	| ||[]()|
-| 22	| ||[]()|
+|  5	|15|tcp|netstat|
+|  6	|17|tcp|quote of the day|
+|  7	|19|tcp|character generator|
+|  8	|21|tcp|ftp|
+|  9	|22|tcp|ssh|
+| 10	|23|tcp|telnet|
+| 11	|25|tcp|smtp|
+| 12	|26|tcp|ssh|
+| 13	|37|tcp|rdate|
+| 14	|49|tcp|TACACS+|
+| 15	|53|tcp|dns|
+| 16	|53|udp|dns|
+| 17	|67|tcp|DHCP|
+| 18	|68|tcp|dhclient|
+| 19	|69|udp|TFTP,BitTorrent|
+| 20	|70|tcp|Gopher|
+| 21	|79|tcp|Finger|
+| 22	|80|tcp|HTTP,malware|
 | 23	| ||[]()|
 | 24	| ||[]()|
 | 25	| ||[]()|
