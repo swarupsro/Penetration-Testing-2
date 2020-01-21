@@ -1,9 +1,9 @@
-| No. | Port NO | Protocol | Service & Application |
+| No. | Port No | Protocol | Service & Application |
 |-----|--------------|------------------|------------------|
 |  1	|1|tcp|blackice|
-|  2	| ||[]()|
-|  3	| ||[]()|
-|  4	| ||[]()|
+|  2	|7|tcp|echo|
+|  3	|11|tcp|systat|
+|  4	|13|tcp|daytime|
 |  5	| ||[]()|
 |  6	| ||[]()|
 |  7	| ||[]()|
