@@ -10,6 +10,34 @@
 7.https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 ----
 
+    Fingerprint server/ service
+        host
+            host [-aCdlnrTwv ] [-c class ] [-N ndots ] [-R number ] [-t type ] [-W wait ] name [server ] -v verbose format -t (query type) Allows a user to specify a record type i.e. A, NS, or PTR. -a Same as –t ANY. -l Zone transfer (if allowed). -f Save to a specified filename.
+        nslookup
+            nslookup [ -option ... ] [ host-to-find | - [ server ]]
+        dig
+            dig [ @server ] [-b address ] [-c class ] [-f filename ] [-k filename ] [-p port# ] [-t type ] [-x addr ] [-y name:key ] [-4 ] [-6 ] [name ] [type ] [class ] [queryopt... ]
+        whois-h Use the named host to resolve the query -a Use ARIN to resolve the query -r Use RIPE to resolve the query -p Use APNIC to resolve the query -Q Perform a quick lookup
+    DNS Enumeration
+        Bile Suite
+            perl BiLE.pl [website] [project_name]
+            perl BiLE-weigh.pl [website] [input file]
+            perl vet-IPrange.pl [input file] [true domain file] [output file] <range>
+            perl vet-mx.pl [input file] [true domain file] [output file]
+            perl exp-tld.pl [input file] [output file]
+            perl jarf-dnsbrute [domain_name] (brutelevel) [file_with_names]
+            perl qtrace.pl [ip_address_file] [output_file]
+            perl jarf-rev [subnetblock] [nameserver]
+        txdns
+            txdns -rt -t domain_name
+            txdns -x 50 -bb domain_name
+            txdns --verbose -fm wordlist.dic --server ip_address -rr SOA domain_name -h c: \hostlist.txt
+    Examine Configuration Files
+        host.conf
+        resolv.conf
+        named.conf
+
+
 # How to gather dns information ?
 
 - Passive mode
