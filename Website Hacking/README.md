@@ -16,23 +16,12 @@
 
 * ##  [  Information gathering](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Web%20Information%20Gathering/README.md)
 
-* ##  [  Scanning & Enumeration](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/02.Scanning%20%26%20Enumeration)
+
+* ##  [  Scanning & Enumeration](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/README.md)
    
    
- 
-* ##  [ Authentication Testing]( )  
-   #### + [     Username Enumeration]()
-   #### + [     Testing for Credentials Transported over an Encrypted Channel ]( )
-   #### + [     Testing for default credentials]( )
-   #### + [     Testing for Weak lock out mechanism ]( )
-   #### + [     Testing for bypassing authentication schema ]( )
-   #### + [     Test remember password functionality ]( )
-   #### + [     Testing for Browser cache weakness ]( )
-   #### + [     Testing for Weak password policy ]( )
-   #### + [     Testing for weak security Question/Answer ]( )
-   #### + [     Testing for weak password change or reset function]( )
-   #### + [     Testing for user registration and provisioning]()
-   #### + [     Testing log out functionality]()
+* ##  [ Authentication Testing](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Authentication%20Testing/README.md )  
+
    
  * ##  [ Testing for weak Cryptography ]( )
    #### + [     SSL/TLS Testing]( )
@@ -51,7 +40,7 @@
    
 * ##  [ Web Backdoors](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Backdoors)
 
-* ##  [ Exploitaion](https://github.com/sarathlalup/Cyber-security/tree/master/Windows%20Exploitaion/Initial%20Access)
+* ##  [ Exploitaion](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Web%20Attacks/README.md)
 
  
 
