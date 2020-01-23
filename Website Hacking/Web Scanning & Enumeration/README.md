@@ -22,3 +22,4 @@
    #### + [     Test File Extensions Handling for Sensitive Information ]( )
    #### + [     Review Old, Backup and Unreferenced Files for Sensitive Information ]( )
    #### + [     Test RIA cross domain policy]( )
+   #### + [Nmap cheetsheet](https://github.com/sarathlalup/Penetration-Testing/blob/master/Top%20Tools/Nmap/Cheet%20Sheet.md)
