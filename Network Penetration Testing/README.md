@@ -2,7 +2,7 @@
 <p align="center">
   <a href="https://github.com/sarathlalup">
     <img src="https://www.vumetric.com/wp-content/uploads/network-penetration-testing.png" alt="Logo" width="40" height="40">
-  <h2 align="center">Network Penetration Testing </h2>
+  <h1 align="center">Network Penetration Testing </h1>
     
    </a>
   
