@@ -1,5 +1,5 @@
 
-### Contents:
+## WAFs, WAF Bypassing and techniques 
 - [Introduction](#introduction)
     - [How WAFs Work](#how-wafs-work)
     - [Operation Modes](#operation-modes)
