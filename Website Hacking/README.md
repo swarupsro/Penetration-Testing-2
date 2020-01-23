@@ -2,7 +2,7 @@
 <p align="center">
   <a href="https://github.com/sarathlalup">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9GTygKCfb-y1CpR9-kO6KFxuFsPaot6O3JD7OMMf8xWLOh_57DA&s" alt="Logo" width="40" height="40">
-  <h2 align="center">Web Penetration Testing </h2>
+  <h1 align="center">Web Penetration Testing </h1>
     
    </a>
   
