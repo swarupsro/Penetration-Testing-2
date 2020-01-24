@@ -26,3 +26,4 @@
    
    Phantom-Evasion - https://github.com/oddcod3/Phantom-Evasion
 
+NXcrypt - https://github.com/Hadi999/NXcrypt
