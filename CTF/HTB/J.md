@@ -19,11 +19,16 @@
 | 46.	| [Jeeves](https://www.hackingarticles.in/hack-the-box-challenge-jeeves-walkthrough/)|Windows|Medium|
 | 68.	| [SecNotes](https://www.hackingarticles.in/hack-the-box-secnotes-walkthrough/)|Windows|Medium|
 | 72.	| [Silo](https://www.hackingarticles.in/hack-the-box-silo-walkthrough/)|Windows|Medium|
+| 21.	| [Crimestoppers](https://www.hackingarticles.in/hack-the-box-challenge-crimestoppers-walkthrough/)|Windows|Hard|
+| 27.	| [Dropzone](https://www.hackingarticles.in/hack-the-box-dropzone-walkthrough/)|Windows|Hard|
+| 54.	| [Mantis](https://www.hackingarticles.in/hack-the-box-challenge-mantis-walkthrough/)|Windows|Hard|
+| 77.	| [Tally](https://www.hackingarticles.in/hack-the-box-challenge-tally-walkthrough/)|Windows|Hard|
+| 31.	| [Fighter](https://www.hackingarticles.in/hack-the-box-fighter-walkthrough/)|Windows|Insane|
+| 55.	| [Minion](https://www.hackingarticles.in/hack-the-box-minion-walkthrough/)|Windows|Insane|
 | 3.	| [Apocalyst](https://www.hackingarticles.in/hack-the-box-challenge-apocalyst-walkthrough/)|Linux|Medium|
 | 4.	| [Aragog](https://www.hackingarticles.in/hack-the-box-aragog-walkthrough/)|Linux|Medium|
 | 6.	| [Ariekei](https://www.hackingarticles.in/hack-the-box-challenge-ariekei-walkthrough/)|Linux|Insane|
 | 7.	| [Bank](https://www.hackingarticles.in/hack-the-box-challenge-bank-walkthrough/)|Linux|Easy|
-
 | 9.	| [Bashed](https://www.hackingarticles.in/hack-the-box-challenge-bashed-walkthrough/)|Linux|Easy|
 | 10.	| [Beep](https://www.hackingarticles.in/hack-the-box-challenge-beep-walkthrough/)|Linux|Easy|
 | 11.	| [Blocky](https://www.hackingarticles.in/hack-the-box-challenge-blocky-walkthrough/)|Linux|Easy|
@@ -33,22 +38,17 @@
 | 17.	| [Carrier](https://www.hackingarticles.in/hack-the-box-carrier-walkthrough/)|Linux|Medium|
 | 18.	| [Celestial](https://www.hackingarticles.in/hack-the-box-celestial-walkthrough/)|Linux|Medium|
 | 19.	| [Charon](https://www.hackingarticles.in/hack-the-box-challenge-charon-walkthrough/)|Linux|Hard|
-
-| 21.	| [Crimestoppers](https://www.hackingarticles.in/hack-the-box-challenge-crimestoppers-walkthrough/)|Windows|Hard|
 | 22.	| [Cronos](https://www.hackingarticles.in/hack-the-box-challenge-cronos-walkthrough/)|Linux|Hard|
 | 23.	| [Curling](https://www.hackingarticles.in/hack-the-box-curling-walkthrough/)|Linux|Easy|
 | 24.	| [Dab](https://www.hackingarticles.in/hack-the-box-dab-walkthrough/)|Linux|Hard|
 | 26.	| [DevOops](https://www.hackingarticles.in/hack-the-box-devoops-walkthrough/)|Linux|Medium|
-| 27.	| [Dropzone](https://www.hackingarticles.in/hack-the-box-dropzone-walkthrough/)|Windows|Hard|
 | 28.	| [Enterprise](https://www.hackingarticles.in/hack-the-box-challenge-enterprises-walkthrough/)|Linux|Medium|
 | 29.	| [Europa](https://www.hackingarticles.in/hack-the-box-challenge-europa-walkthrough/)|Linux|Medium|
 | 30.	| [Falafel](https://www.hackingarticles.in/hack-the-box-challenge-falafel-walkthrough/)|Linux|Hard|
-| 31.	| [Fighter](https://www.hackingarticles.in/hack-the-box-fighter-walkthrough/)|Windows|Insane|
 | 32.	| [Fluxcapacitor](https://www.hackingarticles.in/hack-the-box-challenge-fluxcapacitor-walkthrough/)|Linux|Medium|
 | 33.	| [FriendZone](https://www.hackingarticles.in/hack-the-box-friendzone-walkthrough/)|Linux|Easy|
 | 34.	| [Frolic](https://www.hackingarticles.in/hack-the-box-frolic-walkthrough/)|Linux|Easy|
 | 35.	| [Fulcurm](https://www.hackingarticles.in/hack-the-box-fulcrum-walkthrough/)|Linux|Easy|
-
 | 39.	| [Haircut](https://www.hackingarticles.in/hack-the-box-challenge-haircut-walkthrough/)|Linux|Medium|
 | 40.	| [Hawk](https://www.hackingarticles.in/hack-the-box-hawk-walkthrough/)|Linux|Medium|
 | 41.	| [Help](https://www.hackingarticles.in/hack-the-box-help-walkthrough/)|Linux|Easy|
@@ -56,14 +56,11 @@
 | 43.	| [Inception](https://www.hackingarticles.in/hack-the-box-challenge-inception-walkthrough/)|Linux|Medium|
 | 44.	| [Irked](https://www.hackingarticles.in/hack-the-box-irked-walkthrough/)|Linux|Easy|
 | 45.	| [Jail](https://www.hackingarticles.in/hack-the-box-challenge-jail-walkthrough/)|Linux|Insane|
-
 | 48.	| [Joker](https://www.hackingarticles.in/hack-the-box-challenge-joker-walkthrough/)|Linux|Hard|
 | 49.	| [Kotarak](https://www.hackingarticles.in/hack-the-box-challenge-kotarak-walkthrough/)|Linux|Hard|
 | 50.	| [Lame](https://www.hackingarticles.in/hack-the-box-challenge-lame-walkthrough/)|Linux|Easy|
 | 51. | [Lazy](https://www.hackingarticles.in/hack-the-box-challenge-lazy-walkthrough/)|Linux|Medium|
 | 53.	| [Lightweight](https://www.hackingarticles.in/lightweight-hack-the-box-walkthrough/)|Linux|Medium|
-| 54.	| [Mantis](https://www.hackingarticles.in/hack-the-box-challenge-mantis-walkthrough/)|Windows|Hard|
-| 55.	| [Minion](https://www.hackingarticles.in/hack-the-box-minion-walkthrough/)|Windows|Insane|
 | 56.	| [Mirai](https://www.hackingarticles.in/hack-the-box-challenge-mirai-walkthrough/)|Linux|Easy|
 | 57.	| [Mischief](https://www.hackingarticles.in/hack-the-box-mischief-walkthrough/)|Linux|Insane|
 | 59.	| [Nibble](https://www.hackingarticles.in/hack-the-box-challenge-nibble-walkthrough/)|Linux|Easy|
@@ -74,16 +71,13 @@
 | 64.	| [Olympus](https://www.hackingarticles.in/hack-the-box-olympus-walkthrough/)|Linux|Medium|
 | 66.	| [Poison](https://www.hackingarticles.in/hack-the-box-poison-walkthrough/)|FreeBSD|Medium|
 | 67.	| [Popcorn](https://www.hackingarticles.in/hack-the-box-challenge-popcorn-walkthrough/)|Linux|Medium|
-
 | 69.	| [Sense](https://www.hackingarticles.in/hack-the-box-challenge-sense-walkthrough/)|FreeBSD|Easy|
 | 70.	| [Shocker](https://www.hackingarticles.in/hack-the-box-challenge-shocker-walkthrough/)|Linux|Easy|
 | 71.	| [Shrek](https://www.hackingarticles.in/hack-the-box-challenge-shrek-walkthrough/)|Linux|Hard|
-
 | 73.	| [Sneaky](https://www.hackingarticles.in/hack-the-box-challenge-sneaky-walkthrough/)|Linux|Medium|
 | 74.	| [Solid State](https://www.hackingarticles.in/hack-the-box-challenge-solid-state-walkthrough/)|Linux|Medium|
 | 75.	| [Stratosphere](https://www.hackingarticles.in/hack-the-box-stratospherewalkthrough/)|Linux|Medium|
 | 76.	| [Sunday](https://www.hackingarticles.in/hack-the-box-sunday-walkthrough/)|Solaris|Easy|
-| 77.	| [Tally](https://www.hackingarticles.in/hack-the-box-challenge-tally-walkthrough/)|Windows|Hard|
 | 78.	| [TartarSauce](https://www.hackingarticles.in/hack-the-box-tartarsauce-walkthrough/)|Linux|Medium|
 | 79.	| [Teacher](https://www.hackingarticles.in/hack-the-box-teacher-walkthrough/)|Linux|Easy|
 | 80.	| [Tenten](https://www.hackingarticles.in/hack-the-box-challenge-tenten-walkthrough/)|Linux|Medium|
