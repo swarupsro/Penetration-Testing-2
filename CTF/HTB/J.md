@@ -1,18 +1,18 @@
 | No. | Machine Name | Operating System | Difficulty |
 |-----|--------------|------------------|------------------|
-| 5.	| [Arctic](https://www.hackingarticles.in/hack-the-box-challenge-arctic-walkthrough/)|Windows|Easy|
-| 12.	| [Blue](https://www.hackingarticles.in/hack-the-box-challenge-blue-walkthrough/)|Windows|Easy|
-| 13.	| [Bounty](https://www.hackingarticles.in/hack-the-box-bounty-walkthrough/)|Windows|Easy|
-| 25.	| [Devel](https://www.hackingarticles.in/hack-the-box-challenge-devel-walkthrough/)|Windows|Easy|
-| 37.	| [Grandpa](https://www.hackingarticles.in/hack-the-box-challenge-grandpa-walkthrough/)|Windows|Easy|
-| 38.	| [Granny](https://www.hackingarticles.in/hack-the-box-challenge-granny-walkthrough/)|Windows|Easy|
-| 47.	| [Jerry](https://www.hackingarticles.in/hack-the-box-jerry-walkthrough/)|Windows|Easy|
-| 52.	| [Legacy](https://www.hackingarticles.in/hack-the-box-challenge-legacy-walkthrough/)|Windows|Easy|
-| 58.	| [Netmon](https://www.hackingarticles.in/hack-the-box-netmon-walkthrough/)|Windows|Easy|
-| 65.	| [Optimum](https://www.hackingarticles.in/hack-the-box-challenge-optimum-walkthrough/)|Windows|Easy|
-|87.  | [Baniston](https://www.hackingarticles.in/hack-the-box-challenge-baniston-walkthrough/)|Windows|Easy|
-| 1.	| [Access](https://www.hackingarticles.in/hack-the-box-access-walkthrough/)|Windows|Easy|
-| 2.	| [Active](https://www.hackingarticles.in/hack-the-box-active-walkthrough/)|Windows|Easy|
+| 1.	| [Arctic](https://www.hackingarticles.in/hack-the-box-challenge-arctic-walkthrough/)|Windows|Easy|
+| 2.	| [Blue](https://www.hackingarticles.in/hack-the-box-challenge-blue-walkthrough/)|Windows|Easy|
+| 3.	| [Bounty](https://www.hackingarticles.in/hack-the-box-bounty-walkthrough/)|Windows|Easy|
+| 4.	| [Devel](https://www.hackingarticles.in/hack-the-box-challenge-devel-walkthrough/)|Windows|Easy|
+| 5.	| [Grandpa](https://www.hackingarticles.in/hack-the-box-challenge-grandpa-walkthrough/)|Windows|Easy|
+| 6.	| [Granny](https://www.hackingarticles.in/hack-the-box-challenge-granny-walkthrough/)|Windows|Easy|
+| 7.	| [Jerry](https://www.hackingarticles.in/hack-the-box-jerry-walkthrough/)|Windows|Easy|
+| 8.	| [Legacy](https://www.hackingarticles.in/hack-the-box-challenge-legacy-walkthrough/)|Windows|Easy|
+| 9.	| [Netmon](https://www.hackingarticles.in/hack-the-box-netmon-walkthrough/)|Windows|Easy|
+| 10.	| [Optimum](https://www.hackingarticles.in/hack-the-box-challenge-optimum-walkthrough/)|Windows|Easy|
+|11.  | [Baniston](https://www.hackingarticles.in/hack-the-box-challenge-baniston-walkthrough/)|Windows|Easy|
+| 12.	| [Access](https://www.hackingarticles.in/hack-the-box-access-walkthrough/)|Windows|Easy|
+| 13.	| [Active](https://www.hackingarticles.in/hack-the-box-active-walkthrough/)|Windows|Easy|
 | 3.	| [Apocalyst](https://www.hackingarticles.in/hack-the-box-challenge-apocalyst-walkthrough/)|Linux|Medium|
 | 4.	| [Aragog](https://www.hackingarticles.in/hack-the-box-aragog-walkthrough/)|Linux|Medium|
 | 6.	| [Ariekei](https://www.hackingarticles.in/hack-the-box-challenge-ariekei-walkthrough/)|Linux|Insane|
