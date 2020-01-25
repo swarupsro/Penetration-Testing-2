@@ -1,3 +1,10 @@
+-Browse the website
+-check robot.txt
+-check directories
+-check sw version
+-check admin panel
+
+
 https://github.com/tomnomnom/httprobe
 https://www.hackingarticles.in/multiple-ways-to-exploiting-http-authentication/
 https://www.hackingarticles.in/understanding-http-protocol/
