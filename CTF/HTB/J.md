@@ -13,8 +13,6 @@
 |11.  | [Baniston](https://www.hackingarticles.in/hack-the-box-challenge-baniston-walkthrough/)|Windows|Easy|
 | 12.	| [Access](https://www.hackingarticles.in/hack-the-box-access-walkthrough/)|Windows|Easy|
 | 13.	| [Active](https://www.hackingarticles.in/hack-the-box-active-walkthrough/)|Windows|Easy|
-
-
 | 8.	| [Bart](https://www.hackingarticles.in/hack-the-box-bart-walkthrough/)|Windows|Medium|
 | 20.	| [Chatterbox](https://www.hackingarticles.in/hack-the-box-challenge-chatterbox-walkthrough/)|Windows|Medium|
 | 36.	| [Giddy](https://www.hackingarticles.in/hack-the-box-giddy-walkthrough/)|Windows|Medium|
@@ -24,7 +22,6 @@
 | 72.	| [Querier](https://0xrick.github.io/hack-the-box/querier/)|Windows|Medium|
 | 72.	| [Arkham](https://0xrick.github.io/hack-the-box/arkham/)|Windows|Medium|
 | 72.	| [Bastard](https://0xdf.gitlab.io/2019/03/12/htb-bastard.html)|Windows|Medium|
-
 | 21.	| [Crimestoppers](https://www.hackingarticles.in/hack-the-box-challenge-crimestoppers-walkthrough/)|Windows|Hard|
 | 27.	| [Dropzone](https://www.hackingarticles.in/hack-the-box-dropzone-walkthrough/)|Windows|Hard|
 | 54.	| [Mantis](https://www.hackingarticles.in/hack-the-box-challenge-mantis-walkthrough/)|Windows|Hard|
