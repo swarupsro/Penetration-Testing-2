@@ -1,6 +1,5 @@
 | No. | Machine Name | Operating System | Difficulty |
 |-----|--------------|------------------|------------------|
-
 | 5.	| [Arctic](https://www.hackingarticles.in/hack-the-box-challenge-arctic-walkthrough/)|Windows|Easy|
 | 12.	| [Blue](https://www.hackingarticles.in/hack-the-box-challenge-blue-walkthrough/)|Windows|Easy|
 | 13.	| [Bounty](https://www.hackingarticles.in/hack-the-box-bounty-walkthrough/)|Windows|Easy|
