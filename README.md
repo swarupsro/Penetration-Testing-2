@@ -40,7 +40,9 @@
 
 ## + [ Stenography](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
+## + [ Cryptograhpy](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
+## + [ Forensics](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
 
 
