@@ -18,7 +18,6 @@
 > Still updating...   !
 ### Contents
 
-## + [ CTF Challenges](https://github.com/sarathlalup/Penetration-Testing/blob/master/CTF/README.md)
 
 ## + [ Windows PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Windows%20Exploitaion/README.md)
 
@@ -43,6 +42,8 @@
 ## + [ Cryptograhpy](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
 ## + [ Forensics](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
+
+## + [ CTF Challenges](https://github.com/sarathlalup/Penetration-Testing/blob/master/CTF/README.md)
 
 ## + [Learning the Skills](https://github.com/sarathlalup/Penetration-Testing/blob/master/helps/README.md)
 
