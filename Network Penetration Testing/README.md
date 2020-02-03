@@ -5,11 +5,6 @@
   <h1 align="center">Network Penetration Testing </h1>
     
    </a>
-    <a href="https://github.com/sarathlalup">
-    <img src="https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/pen-testing.jpg" >
-
-    
-   </a>
     
   
 
