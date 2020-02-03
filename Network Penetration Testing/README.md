@@ -18,7 +18,7 @@
 
 * ###  [ Wireless Penetration Testing](https://github.com/sarathlalup/Penetration-Testing/blob/master/Wireless%20Attacks/Wifi/Attack.md )
 * ###  [ Information Gathering]( )
-    #### + [     Host Discovery]( )
+    #### + [     Host Discovery](https://github.com/sarathlalup/Penetration-Testing/blob/master/Scanning&Enumeration/Host%20Discovery.md )
     #### + [     Ping & Ping Sweep]( )
 * ###  [ Scanning]( )
     #### + [     Sniffing with tcpdump]( )
