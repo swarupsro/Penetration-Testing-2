@@ -5,12 +5,9 @@
   <h1 align="center">Network Penetration Testing </h1>
     
    </a>
-  
-<p align="left">
-  <a href="https://github.com/sarathlalup">
-    <img src="https://raw.githubusercontent.com/sarathlalup/Penetration-Testing/master/Network%20Penetration%20Testing/e.png?token=ANOTXTG673JWCZ6WCFYIHSS6G7C32">
+
     
-   </a>
+  
 
   
 
