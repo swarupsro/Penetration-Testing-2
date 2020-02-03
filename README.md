@@ -13,11 +13,7 @@
     <a href="https://github.com/sarathlalup"><strong>Explore other Repositories  »</strong></a>
     <br />
     </p>
-     <a href="https://github.com/sarathlalup">
-    <img src="https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/pen-testing.jpg" >
-
     
-   </a>
 </p>
 
 > Still updating...   !
