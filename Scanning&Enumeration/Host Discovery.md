@@ -1,34 +1,34 @@
 
-nmap -sP 10.0.0.0/24 
-nmap -sn 10.0.0.0/24
-nmap -sn  10.11.1.1-254 -vv -oA hosts
-nmap 10.0.0.0/24
-nmap -F 10.0.0.0/24
-nmap -p 22 10.0.0.0/24
-nmap -p 22-53 10.0.0.0/24
-nmap -T1 10.0.0.1
+* nmap -sP 10.0.0.0/24 
+* nmap -sn 10.0.0.0/24
+* nmap -sn  10.11.1.1-254 -vv -oA hosts
+* nmap 10.0.0.0/24
+* nmap -F 10.0.0.0/24
+* nmap -p 22 10.0.0.0/24
+* nmap -p 22-53 10.0.0.0/24
+* nmap -T1 10.0.0.1
 
 Customise ICMP
 ------------------
-nmap -sP -PP 10.0.0.0/24
+* nmap -sP -PP 10.0.0.0/24
 
 Customise TCP Ping
 -----------------------
-nmap -sP -PS 10.0.0.0/24
-nmap -sP -PS 10.0.0.0/24 -g22
+* nmap -sP -PS 10.0.0.0/24
+* nmap -sP -PS 10.0.0.0/24 -g22
 
 TCP Ping +ARP
 -----------------
-nmap -PA google.com
-nmap -PR 10.0.0.0/24
+* nmap -PA google.com
+* nmap -PR 10.0.0.0/24
 
 ARP Table
 -----------
-nmap -PR nmap -PR 10.0.0.0/24
+* nmap -PR nmap -PR 10.0.0.0/24
 
 max RTT Timeout
 -------------------
-nmap --max-rtt-timeout 250ms --initial-rtt-timeout 150ms google.com
+* nmap --max-rtt-timeout 250ms --initial-rtt-timeout 150ms google.com
    
    
    
