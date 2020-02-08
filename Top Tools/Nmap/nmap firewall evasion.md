@@ -1,4 +1,4 @@
-## Evading fierwall
+## Evading firewall
 * nmap -D 10.0.0.1 10.0.0.38
 * nmap -D RND:5 10.0.0.1
 * nmap -g 53 10.0.0.1
