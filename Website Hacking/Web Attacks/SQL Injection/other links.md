@@ -1,3 +1,5 @@
+https://medium.com/@ismailtasdelen/sql-injection-payload-list-b97656cfd66b
+
 https://sqlwiki.netspi.com/#mysql
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
