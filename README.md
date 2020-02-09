@@ -22,7 +22,7 @@
 
 ## + [ Windows PenTest](https://github.com/sarathlalup/Cyber-security/blob/master/Windows%20Exploitaion/README.md)
 
-## + [ Linux PenTest](https://github.com/sarathlalup/Penetration-Testing/blob/master/Windows%20Exploitaion/README.md)
+## + [ Linux PenTest](https://github.com/sarathlalup/Penetration-Testing/blob/master/Linux%20Exploitation/README.md)
 
 ## + [ Network PenTest](https://github.com/sarathlalup/Penetration-Testing/blob/master/Network%20Penetration%20Testing/README.md)
 
