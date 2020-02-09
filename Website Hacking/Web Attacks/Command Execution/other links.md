@@ -2,6 +2,7 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Inject
 
 https://github.com/commixproject/commix-testbed
 
+https://medium.com/@corneacristian/top-25-rce-bug-bounty-reports-bc9555cca7bc
 
 https://github.com/fuzzdb-project/fuzzdb/tree/master/attack/os-cmd-execution
 
