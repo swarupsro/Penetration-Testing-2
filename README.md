@@ -34,7 +34,7 @@
 
 ## + [ Reverse Engineering](https://github.com/sarathlalup/Penetration-Testing/blob/master/Reverse%20Engineering/README.md)
 
-## + [ Exploit Development](https://github.com/sarathlalup/Cyber-security/blob/master/Windows%20Exploitaion/README.md)
+## + [ Exploit Development](https://github.com/sarathlalup/Penetration-Testing/blob/master/Exploit%20Development/README.md)
 
 ## + [ Password Attacks](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
