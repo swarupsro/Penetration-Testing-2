@@ -41,6 +41,13 @@ SSH Client programs
 
 nc INSERTIPADDRESS 22
 ### Other links
+
+https://www.ssh-audit.com/hardening_guides.html
+
+https://www.ssh.com/ssh/keygen
+
+https://github.com/arthepsy/ssh-audit
+
 https://www.hackingarticles.in/6-ways-to-hack-ssh-login-password/
 
 https://community.turgensec.com/ssh-hacking-guide
