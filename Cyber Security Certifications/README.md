@@ -1,7 +1,7 @@
 
 # Certifications
 
-* [PWK](https://www.offensive-security.com/information-security-training/penetration-testing-training-kali-linux/) - Penetration Testing with Kali Linux - $800,- including 30-day lab access & exam.
+* [PWK](https://github.com/sarathlalup/Penetration-Testing/blob/master/Cyber%20Security%20Certifications/OSCP/README.md) - Penetration Testing with Kali Linux - $800,- including 30-day lab access & exam.
 * [CCISP](http://www.firebrandtraining.co.uk/uk/cissp.asp#fast-metro) - Certified Information Systems Security Professional
 
 
