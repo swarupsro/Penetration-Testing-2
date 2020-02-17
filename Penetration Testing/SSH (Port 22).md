@@ -87,3 +87,5 @@ https://www.hackingarticles.in/ssh-penetration-testing-port-22/
 https://community.turgensec.com/ssh-hacking-guide/
 
 https://0xrick.github.io/hack-the-box/chainsaw/
+
+http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet
