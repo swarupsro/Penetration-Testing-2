@@ -100,3 +100,5 @@ http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet
 https://www.offensive-security.com/metasploit-unleashed/scanner-ssh-auxiliary-modules/
 
 https://sshcheck.com/
+
+https://medium.com/bugbountywriteup/chainsaw-hackthebox-6b882d6ef5d1
