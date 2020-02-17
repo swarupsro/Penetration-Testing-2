@@ -70,6 +70,12 @@ SSH Client programs
 
 
 nc INSERTIPADDRESS 22
+
+### Tools
+
+https://github.com/blacknbunny/CVE-2018-10933
+https://github.com/koboi137/john
+
 ### Other links
 
 https://www.ssh-audit.com/hardening_guides.html
