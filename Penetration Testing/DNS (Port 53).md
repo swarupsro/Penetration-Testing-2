@@ -1,13 +1,4 @@
 
-# Links
-
-1. https://en.wikipedia.org/wiki/List_of_DNS_record_types
-2. https://www.exploit-db.com/docs/12389.pdf
-3. https://pentestlab.blog/tag/dns-enumeration/
-4. http://tools.kali.org/information-gathering/dnsrecon
-5. https://github.com/nixawk/ig/
-6. https://www.hackingarticles.in/4-ways-dns-enumeration/
-7.https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 ----
 
     Fingerprint server/ service
@@ -210,3 +201,14 @@ dnsrecon -d megacorpone.com -t axfr @ns2.megacorpone.com
 dnsenum domain.com
 nslookup -> set type=any -> ls -d domain.com
 for sub in $(cat subdomains.txt);do host $sub.domain.com|grep "has.address";done
+
+
+# Reference
+
+1. https://en.wikipedia.org/wiki/List_of_DNS_record_types
+2. https://www.exploit-db.com/docs/12389.pdf
+3. https://pentestlab.blog/tag/dns-enumeration/
+4. http://tools.kali.org/information-gathering/dnsrecon
+5. https://github.com/nixawk/ig/
+6. https://www.hackingarticles.in/4-ways-dns-enumeration/
+7.https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
