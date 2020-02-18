@@ -6,10 +6,15 @@
 
 
 https://github.com/tomnomnom/httprobe
+
 https://www.hackingarticles.in/multiple-ways-to-exploiting-http-authentication/
+
 https://www.hackingarticles.in/understanding-http-protocol/
+
 https://www.hackingarticles.in/multiple-ways-to-detect-http-options/
+
 https://www.hackingarticles.in/understanding-http-authentication-basic-digest/
+
 https://www.hackingarticles.in/hack-basic-http-authentication-using-burpsuite/
 
 Web Ports 80, 8080 etc. open
