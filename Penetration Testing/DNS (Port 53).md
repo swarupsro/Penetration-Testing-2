@@ -198,3 +198,15 @@ nslookup www.nsa.gov <nameserver IP>
 # Spoofed request amplification DDoS
 
 for i in `cat 53.txt`; do dig @"$i" . NS; done > AmpDDoS.txt
+
+### DNS lookups, Zone Transfers & Brute-Force
+whois domain.com
+dig {a|txt|ns|mx} domain.com
+dig {a|txt|ns|mx} domain.com @ns1.domain.com
+host -t {a|txt|ns|mx} megacorpone.com
+host -a megacorpone.com
+host -l megacorpone.com ns1.megacorpone.com
+dnsrecon -d megacorpone.com -t axfr @ns2.megacorpone.com
+dnsenum domain.com
+nslookup -> set type=any -> ls -d domain.com
+for sub in $(cat subdomains.txt);do host $sub.domain.com|grep "has.address";done
