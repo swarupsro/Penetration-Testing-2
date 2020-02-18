@@ -38,7 +38,7 @@
 
 ## + [ Password Attacks](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
-## + [ Stenography](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
+## + [ Stenography](https://github.com/sarathlalup/Penetration-Testing/blob/master/Stenography/README.md)
 
 ## + [ Cryptograhpy](https://github.com/sarathlalup/Penetration-Testing/blob/master/Cryptography/README.md)
 
