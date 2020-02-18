@@ -3,6 +3,21 @@
 - check directories
 - check sw version
 - check admin panel
+- banner inspection
+- review source code
+- bruteforce with cewl-based dictionary
+- searchsploit look at versions properly
+- test all the paths with the exploits, mangle it
+- nmap --script vuln
+- nmap --script safe (ssl-cert, virtual hosts)
+- always incercept with Burp
+- nikto -h
+- LFI, RFI, SQL, RCE, XXE, SSRF injections
+- PUT method all directories
+- Change POST body encoding with Burp
+- Bruteforce parameter names
+- dirsearch with cookie once authenticated
+- download vulnerable application from exploit-db and examine it
 
 
 https://github.com/tomnomnom/httprobe
