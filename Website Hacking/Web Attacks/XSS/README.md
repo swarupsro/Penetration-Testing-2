@@ -9,6 +9,9 @@
 * ###  [ XSS Exploited ]( )
 * ###  [ Exploit Frameworks ]( )
 * ###  [ XSS Worms ]( )
+* ###  [ XSS cheat sheet  ](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet )
+
+---------------------------------------------------------------------------------------------------------------------------------
 
 
 ## Info
