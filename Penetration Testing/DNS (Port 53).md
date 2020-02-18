@@ -202,7 +202,7 @@ dnsenum domain.com
 nslookup -> set type=any -> ls -d domain.com
 for sub in $(cat subdomains.txt);do host $sub.domain.com|grep "has.address";done
 
-
+-----------
 # Reference
 
 1. https://en.wikipedia.org/wiki/List_of_DNS_record_types
