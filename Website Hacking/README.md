@@ -34,3 +34,7 @@
 
 * ###  [ WordPress Hacking](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/WordPress%20Hacking/README.md )
 * ###  [ Learn Burp Suite Tool](https://github.com/sarathlalup/Penetration-Testing/blob/master/Top%20Tools/Burp%20Suite/README.md )
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+ * ###  [ Pentests MindMap](https://www.amanhardikar.com/mindmaps/Practice.html )
