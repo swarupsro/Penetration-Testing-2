@@ -1,8 +1,8 @@
--Browse the website
--check robot.txt
--check directories
--check sw version
--check admin panel
+- Browse the website
+- check robot.txt
+- check directories
+- check sw version
+- check admin panel
 
 
 https://github.com/tomnomnom/httprobe
