@@ -42,7 +42,7 @@
 
 ## + [ Cryptograhpy](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
 
-## + [ Forensics](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/README.md)
+## + [ Forensics](https://github.com/sarathlalup/Penetration-Testing/tree/master/Forensics)
 --------------------------------------------------------------------------------------------------------------------------------
 ## + [ CTF Challenges](https://github.com/sarathlalup/Penetration-Testing/blob/master/CTF/README.md)
 
