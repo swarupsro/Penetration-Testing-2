@@ -30,6 +30,13 @@ A couple of caveats:
 
 
 
+
+    
+    
+- shellshock
+- bruteforce
+- user_enum
+- Debian OpenSSL Predictable PRNG
 - Name:
 - Version:
 - Protocol:
