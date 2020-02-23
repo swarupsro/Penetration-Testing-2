@@ -1,41 +1,24 @@
+# LDAP Enumeration
+An LDAP server can be used to glean information about users and the target system itself if not configured properly. This cheat sheet will prived the basic syntax of tools that can be used to attempt to gather information from LDAP on a LINUX host.
+## NMAP (ldap-rootdse) NSE Script
+This script should be ran first, as this will provide the basic information for the next NSE script that we will use.
+```
+root@attacker:~# nmap -p 389 --script ldap-rootdse (TARGET IP ADDRESS) -vv
+PORT    STATE SERVICE REASON
+389/tcp open  ldap    syn-ack ttl 63
+| ldap-rootdse: 
+| LDAP Results
+|   <ROOT>
+|       supportedLDAPVersion: 3
+|       namingContexts: dc=targetbox,dc=target
+|       supportedExtension: 1.3.6.1.4.1.1466.20037
+|_      subschemaSubentry: cn=schema
 
-    ldap enumeration
-        ldapminer
-            ldapminer -h ip_address -p port (not required if default) -d
-        luma
-            Gui based tool
-        ldp
-            Gui based tool
-        openldap
-            ldapsearch [-n] [-u] [-v] [-k] [-K] [-t] [-A] [-L[L[L]]] [-M[M]] [-d debuglevel] [-f file] [-D binddn] [-W] [-w passwd] [-y passwdfile] [-H ldapuri] [-h ldaphost] [-p ldapport] [-P 2|3] [-b searchbase] [-s base|one|sub] [-a never|always|search|find] [-l timelimit] [-z sizelimit] [-O security-properties] [-I] [-U authcid] [-R realm] [-x] [-X authzid] [-Y mech] [-Z[Z]] filter [attrs...]
-            ldapadd [-c][-S file][-n][-v][-k][-K][-M[M]][-d debuglevel][-D binddn][-W][-w passwd][-y passwdfile][-h ldaphost][-p ldap-port][-P 2|3][-O security-properties][-I][-Q][-U authcid][-R realm][-x][-X authzid][-Y mech][-Z[Z]][-f file]
-            ldapdelete [-n][-v][-k][-K][-c][-M[M]][-d debuglevel][-f file][-D binddn][-W][-w passwd][-y passwdfile][-H ldapuri][-h ldaphost][-P 2|3][-p ldapport][-O security-properties][-U authcid][-R realm][-x][-I][-Q] [-X authzid][-Y mech][-Z[Z]][dn]
-            ldapmodify [-a][-c][-S file][-n][-v][-k][-K][-M[M]][-d debuglevel][-D binddn][-W][-w passwd][-y passwdfile][-H ldapuri][-h ldaphost][-p ldapport][-P 2|3][-O security-properties][-I][-Q][-U authcid][-R realm][-x][-X authzid][-Y mech][-Z[Z]][-f file]
-            ldapmodrdn [-r][-n][-v][-k][-K][-c][-M[M]][-d debuglevel][-D binddn][-W][-w passwd][-y passwdfile] [-H ldapuri][-h ldaphost][-p ldapport][-P 2|3][-O security-properties][-I][-Q][-U authcid][-R realm][-x] [-X authzid][-Y mech][-Z[Z]][-f file][dn rdn]
-    ldap brute force
-        bf_ldap
-            bf_ldap -s server -d domain name -u|-U username | users list file name -L|-l passwords list | length of passwords to generate optional: -p port (default 389) -v (verbose mode) -P Ldap user path (default ,CN=Users,)
-        K0ldS
-        LDAP_Brute.pl
-    Examine Configuration Files
-        General
-            containers.ldif
-            ldap.cfg
-            ldap.conf
-            ldap.xml
-            ldap-config.xml
-            ldap-realm.xml
-            slapd.conf
-        IBM SecureWay V3 server
-            V3.sas.oc
-        Microsoft Active Directory server
-            msadClassesAttrs.ldif
-        Netscape Directory Server 4
-            nsslapd.sas_at.conf
-            nsslapd.sas_oc.conf
-        OpenLDAP directory server
-            slapd.sas_at.conf
-            slapd.sas_oc.conf
-        Sun ONE Directory Server 5.1
-            75sas.ldif
-
+```
+## NMAP (ldap-brute) NSE Script
+Now, we can use the dc and cn values in our brute force attempt as so,
+```
+root@attacker-machine:~# nmap -p 389 --script ldap-brute --script-args \
+ldap.base='"cn=schema,dc=targetbox,dc=target"' (TARGET IP ADDRESS) -vv
+```
+You can change the Common Name, `cn`, attribute to attempt to get more data from the target system.
