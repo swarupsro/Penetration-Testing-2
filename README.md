@@ -44,6 +44,9 @@
 
 ## + [ Forensics](https://github.com/sarathlalup/Penetration-Testing/blob/master/Forensics/README.md)
 --------------------------------------------------------------------------------------------------------------------------------
+
+## + [ OSCP Preparation](https://github.com/sarathlalsrl/Penetration-Testing/blob/master/Cyber%20Security%20Certifications/OSCP/README.md)
+
 ## + [ CTF Challenges - Writeups](https://github.com/sarathlalup/Penetration-Testing/blob/master/CTF/README.md)
 
 ## + [Penetration Testing Labs](https://github.com/sarathlalup/Penetration-Testing/blob/master/CTF/Labs.md)
