@@ -34,6 +34,8 @@
 
 ## + [ Social Engineering](https://github.com/sarathlalup/Cyber-security/blob/master/Social%20Engineering%20Attacks/README.md)
 
+## + [Browser Exploitation](https://github.com/m1ghtym0/browser-pwn#chromium-pwn)
+
 ## + [ Reverse Engineering](https://github.com/sarathlalup/Penetration-Testing/blob/master/Reverse%20Engineering/README.md)
 
 ## + [ Exploit Development](https://github.com/sarathlalup/Penetration-Testing/blob/master/Exploit%20Development/README.md)
