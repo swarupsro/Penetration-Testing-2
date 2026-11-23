@@ -9,21 +9,21 @@
 |15|tcp|netstat|
 |17|tcp|quote of the day|
 |19|tcp|character generator|
-|21|tcp|[FTP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/FTP%20Server%20(Port%2021).md)|
+|21|tcp|[FTP](FTP%20Server%20%28Port%2021%29.md)|
 |22|tcp|ssh|
 |23|tcp|telnet|
 |25|tcp|smtp|
 |26|tcp|ssh|
 |37|tcp|rdate|
 |49|tcp|TACACS+|
-|53|tcp|[DNS](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/DNS%20(Port%2053).md)|
+|53|tcp|[DNS](DNS%20%28Port%2053%29.md)|
 |53|udp|dns|
-|67|tcp|[DHCP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/DHCP%20Server%20(Port%2067).md)|
+|67|tcp|[DHCP](DHCP%20Server%20%28Port%2067%29.md)|
 |68|tcp|dhclient|
 |69|udp|TFTP,BitTorrent|
 |70|tcp|Gopher|
-|79|tcp|[Finger](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Finger%20(Port%2079).md)|
-|80|tcp|[HTTP,malware](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/HTTP&HTTPS%20(Port%2080,443).md)|
+|79|tcp|[Finger](Finger%20%28Port%2079%29.md)|
+|80|tcp|[HTTP,malware](HTTP%26HTTPS%20%28Port%2080%2C443%29.md)|
 |81|tcp|HTTP,malware|
 |82|tcp|HTTP,malware|
 |83|tcp|HTTP|
@@ -32,24 +32,24 @@
 |102|tcp|Siemens S7|
 |110|tcp|pop3|
 |111|tcp|RPC|
-|119|tcp|[NNTP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NNTP%20(Port%20119).md)||
-|123|tcp|[NTP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NTP%20(Port%20123).md)|
+|119|tcp|[NNTP](NNTP%20%28Port%20119%29.md)||
+|123|tcp|[NTP](NTP%20%28Port%20123%29.md)|
 |123|udp|ntp|
-|135|tcp|[Microsoft RPC](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Microsoft%20RPC%20(Port%20135).md)|
+|135|tcp|[Microsoft RPC](Microsoft%20RPC%20%28Port%20135%29.md)|
 |137|tcp|NetBIOS|nbtscan -A `target`|
-|138|tcp|[NetBIOS](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NetBIOS%20Datagram%20Service%20(Port%20138).md)|
+|138|tcp|[NetBIOS](NetBIOS%20Datagram%20Service%20%28Port%20138%29.md)|
 |143|tcp|IMAP|
 |161|udp|snmp|
 |175|tcp|IBM Network Job Entry|
 |179|tcp|BGP|
 |195|tcp|TA14-353a|
 |311|tcp|OS X Server Manager|
-|389|tcp|[LDAP](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/LDAP%20(Port%20389).md)|
+|389|tcp|[LDAP](LDAP%20%28Port%20389%29.md)|
 |443|tcp|https|
 |445|tcp|
 |465|tcp|smtps|
 |500|udp|ike|
-|502|tcp|[modbus](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Modbus%20(Port%20502).md)|
+|502|tcp|[modbus](Modbus%20%28Port%20502%29.md)|
 |503|tcp|modbus|
 |512|tcp||
 |513|tcp||
@@ -68,7 +68,7 @@
 |873|tcp|rsync|
 |902|tcp|VMware authentication|
 |992|tcp|Telnet(secure)|
-|993|tcp|[IMAPs](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/IMAPS%20(Port%20993).md)|
+|993|tcp|[IMAPs](IMAPS%20%28Port%20993%29.md)|
 |995|tcp|POP3s|
 |1023|tcp|telnet|
 |1025|tcp|Kamstrup|
@@ -77,9 +77,9 @@
 |1200|tcp|Codesys|
 |1234|udp|udpxy|
 |1202|tcp|linknat|
-|1433|udp|[MS-SQL](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/MS-SQL%20(Port%201433).md)|
-|1494||[Citrix](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Citrix%20(Port%201494).md)|
-|1521||[Oracle](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/Oracle%20(Port%201521).md)|
+|1433|udp|[MS-SQL](MS-SQL%20%28Port%201433%29.md)|
+|1494||[Citrix](Citrix%20%28Port%201494%29.md)|
+|1521||[Oracle](Oracle%20%28Port%201521%29.md)|
 |1604||Citrix, malware|
 |1723|tcp|pptp|
 |1741||CiscoWorks|
@@ -88,7 +88,7 @@
 |1911||Niagara Fox|
 |1962||PCworx|
 |2000||iKettle,MikroTik bandwidth test|
-|2049|tcp|[NFS](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/NFS%20(Port%202049).md)|
+|2049|tcp|[NFS](NFS%20%28Port%202049%29.md)|
 |2121|tcp|ftp|
 |2082|tcp|cpanel|
 |2083|tcp|cpanel|
@@ -109,7 +109,7 @@
 |3000||ntop||
 |3128|tcp|squid||
 |3299|tcp|sap|
-|3306|tcp|[MYSQL](https://github.com/sarathlalup/Penetration-Testing/blob/master/Penetration%20Testing/MYSQL%20(Port%203306).md)|
+|3306|tcp|[MYSQL](MYSQL%20%28Port%203306%29.md)|
 |3310|tcp|ClamAV||
 |3386||GTPv1||
 |3388||RDP||

@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/sarathlalup">
+  <a href="../README.md">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9GTygKCfb-y1CpR9-kO6KFxuFsPaot6O3JD7OMMf8xWLOh_57DA&s" alt="Logo" width="40" height="40">
   <h1 align="center">Web Penetration Testing </h1>
     
@@ -14,26 +14,26 @@
 
 > Still updating...   !
 
-* ###  [  Information gathering](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Web%20Information%20Gathering/README.md)
+* ###  [  Information gathering](Web%20Information%20Gathering/README.md)
 
- * ###  [  Scanning & Enumeration](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Web%20Scanning%20%26%20Enumeration/README.md)
+ * ###  [  Scanning & Enumeration](Web%20Scanning%20%26%20Enumeration/README.md)
    
- * ###  [ Authentication Testing](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Authentication%20Testing/README.md )  
+ * ###  [ Authentication Testing](Authentication%20Testing/README.md )  
 
- * ###  [ Testing for weak Cryptography ](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/SSL%20%26%20TLS/README.md )
+ * ###  [ Testing for weak Cryptography ](SSL%20%26%20TLS/README.md )
    
- * ###  [ Encoding Schemes](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Encoding%20Schemes/README.md )
+ * ###  [ Encoding Schemes](Encoding%20Schemes/README.md )
    
- * ###  [ WAFs, WAF Bypassing and techniques ](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Bypassing-Web%20Application%20Firewalls/README.md )
+ * ###  [ WAFs, WAF Bypassing and techniques ](Bypassing-Web%20Application%20Firewalls/README.md )
 
-* ###  [Vulnerability Identification](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Web%20Vulnerability%20Scanning/README.md)
+* ###  [Vulnerability Identification](Web%20Vulnerability%20Scanning/README.md)
       
-* ###  [ Web Backdoors](https://github.com/sarathlalup/Cyber-security/tree/master/Website%20Hacking/Web%20Backdoors)
+* ###  [ Web Backdoors](Web%20Backdoors)
 
-* ###  [ Exploitaion](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/Web%20Attacks/README.md)
+* ###  [ Exploitaion](Web%20Attacks/README.md)
 
-* ###  [ WordPress Hacking](https://github.com/sarathlalup/Penetration-Testing/blob/master/Website%20Hacking/WordPress%20Hacking/README.md )
-* ###  [ Learn Burp Suite Tool](https://github.com/sarathlalup/Penetration-Testing/blob/master/Top%20Tools/Burp%20Suite/README.md )
+* ###  [ WordPress Hacking](WordPress%20Hacking/README.md )
+* ###  [ Learn Burp Suite Tool](../Top%20Tools/Burp%20Suite/README.md )
 
 ---------------------------------------------------------------------------------------------------------------------------------
 

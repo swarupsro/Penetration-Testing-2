@@ -2,8 +2,8 @@
 
 * ###  [ Cross-site Scripting Fundamentals]( )
 * ###  [ XSS Theory]( )
-* ###  [ XSS Vulneability Scanner Tool's](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/XSS/XSS%20Vulneability%20Scanner%20Tool's.md )
-* ###  [ XSS Payload List](https://github.com/sarathlalup/Cyber-security/blob/master/Website%20Hacking/Web%20Attacks/XSS/XSS%20Payload%20List.md )
+* ###  [ XSS Vulneability Scanner Tool's](XSS%20Vulneability%20Scanner%20Tool%27s.md )
+* ###  [ XSS Payload List](XSS%20Payload%20List.md )
 * ###  [ XSS Attack Methods]( )
 * ###  [ Advanced XSS Attack Vectors ]( )
 * ###  [ XSS Exploited ]( )

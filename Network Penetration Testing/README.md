@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/sarathlalup">
+  <a href="../README.md">
     <img src="https://www.vumetric.com/wp-content/uploads/network-penetration-testing.png" alt="Logo" width="40" height="40">
   <h1 align="center">Network Penetration Testing </h1>
     
@@ -16,9 +16,9 @@
 > Still updating...   !
 
 * ###  [ Network Penetration Testing Process]()
-* ###  [ Wireless Penetration Testing](https://github.com/sarathlalup/Penetration-Testing/blob/master/Wireless%20Attacks/Wifi/Attack.md )
+* ###  [ Wireless Penetration Testing](../Wireless%20Attacks/Wifi/Attack.md )
 * ###  [ Information Gathering]( )
-    #### + [     Host Discovery](https://github.com/sarathlalup/Penetration-Testing/blob/master/Scanning&Enumeration/Host%20Discovery.md )
+    #### + [     Host Discovery](../Scanning%26Enumeration/Host%20Discovery.md )
     #### + [     Ping & Ping Sweep]( )
 * ###  [ Scanning]( )
     #### + [     Sniffing with tcpdump]( )
@@ -37,9 +37,9 @@
    #### + [     Pentesting Routers]( )
    #### + [     Attacking Ports]( )
    #### + [ Password Attacks]( )
-   #### + [     Attacking Windows](https://github.com/sarathlalup/Penetration-Testing/blob/master/Windows%20Exploitaion/README.md)
+   #### + [     Attacking Windows](../Windows%20Exploitaion/README.md)
    #### + [     Attacking Linux]( )
-   #### + [     Social Engineering](https://github.com/sarathlalup/Cyber-security/blob/master/Social%20Engineering%20Attacks/README.md)
+   #### + [     Social Engineering](../Social%20Engineering%20Attacks/README.md)
    #### + [     Other Network Attacks]( )
 
 * ###  [ Post Exploitation]( )
